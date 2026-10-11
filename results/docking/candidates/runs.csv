@@ -1,0 +1,253 @@
+compound,receptor,seed,cpu,top1_score,top1_zinc_contacts,reused_saved_pose
+CUDC-101,4LXZ,1,4,-7.962,1,True
+CUDC-101,4LXZ,2,4,-8.089,1,True
+CUDC-101,4LXZ,3,4,-8.23,1,True
+CUDC-101,4LY1,1,4,-7.903,1,True
+CUDC-101,4LY1,2,4,-7.77,1,True
+CUDC-101,4LY1,3,4,-7.961,1,True
+Trichostatin A (TSA),4LXZ,1,4,-8.108,1,True
+Trichostatin A (TSA),4LXZ,2,4,-8.142,1,True
+Trichostatin A (TSA),4LXZ,3,4,-8.19,1,True
+Trichostatin A (TSA),4LY1,1,4,-8.143,1,True
+Trichostatin A (TSA),4LY1,2,4,-8.09,1,True
+Trichostatin A (TSA),4LY1,3,4,-8.167,1,True
+Tacedinaline (CI994),4LXZ,1,4,-7.917,1,True
+Tacedinaline (CI994),4LXZ,2,4,-7.884,1,True
+Tacedinaline (CI994),4LXZ,3,4,-7.909,1,True
+Tacedinaline (CI994),4LY1,1,4,-8.106,1,True
+Tacedinaline (CI994),4LY1,2,4,-8.07,1,True
+Tacedinaline (CI994),4LY1,3,4,-8.079,1,True
+AR-42,4LXZ,1,4,-7.6,0,True
+AR-42,4LXZ,2,4,-7.571,0,True
+AR-42,4LXZ,3,4,-7.581,0,True
+AR-42,4LY1,1,4,-7.829,1,True
+AR-42,4LY1,2,4,-7.756,1,True
+AR-42,4LY1,3,4,-7.825,1,True
+Pracinostat (SB939),4LXZ,1,4,-8.013,1,True
+Pracinostat (SB939),4LXZ,2,4,-7.678,1,True
+Pracinostat (SB939),4LXZ,3,4,-8.127,1,True
+Pracinostat (SB939),4LY1,1,4,-7.665,1,True
+Pracinostat (SB939),4LY1,2,4,-7.637,1,True
+Pracinostat (SB939),4LY1,3,4,-7.5,1,True
+Givinostat (ITF2357),4LXZ,1,4,-8.155,1,True
+Givinostat (ITF2357),4LXZ,2,4,-8.18,1,True
+Givinostat (ITF2357),4LXZ,3,4,-7.935,1,True
+Givinostat (ITF2357),4LY1,1,4,-9.27,1,True
+Givinostat (ITF2357),4LY1,2,4,-9.498,1,True
+Givinostat (ITF2357),4LY1,3,4,-9.27,1,True
+Abexinostat (PCI-24781),4LXZ,1,4,-8.124,1,True
+Abexinostat (PCI-24781),4LXZ,2,4,-7.874,1,True
+Abexinostat (PCI-24781),4LXZ,3,4,-8.195,1,True
+Abexinostat (PCI-24781),4LY1,1,4,-8.691,0,True
+Abexinostat (PCI-24781),4LY1,2,4,-8.782,0,True
+Abexinostat (PCI-24781),4LY1,3,4,-8.461,0,True
+Resminostat,4LXZ,1,4,-8.663,1,True
+Resminostat,4LXZ,2,4,-8.632,1,True
+Resminostat,4LXZ,3,4,-8.609,1,True
+Resminostat,4LY1,1,4,-8.439,1,True
+Resminostat,4LY1,2,4,-8.158,1,True
+Resminostat,4LY1,3,4,-8.105,1,True
+M344,4LXZ,1,4,-7.408,1,True
+M344,4LXZ,2,4,-7.608,1,True
+M344,4LXZ,3,4,-7.5,1,True
+M344,4LY1,1,4,-8.183,1,True
+M344,4LY1,2,4,-8.465,1,True
+M344,4LY1,3,4,-8.194,1,True
+Tubastatin A HCl,4LXZ,1,4,-9.218,0,True
+Tubastatin A HCl,4LXZ,2,4,-9.256,0,True
+Tubastatin A HCl,4LXZ,3,4,-9.352,1,True
+Tubastatin A HCl,4LY1,1,4,-9.045,1,True
+Tubastatin A HCl,4LY1,2,4,-9.155,1,True
+Tubastatin A HCl,4LY1,3,4,-9.091,1,True
+CUDC-907,4LXZ,1,4,-8.962,1,True
+CUDC-907,4LXZ,2,4,-8.611,0,True
+CUDC-907,4LXZ,3,4,-8.357,0,True
+CUDC-907,4LY1,1,4,-8.131,1,True
+CUDC-907,4LY1,2,4,-7.993,1,True
+CUDC-907,4LY1,3,4,-8.077,1,True
+PCI-34051,4LXZ,1,4,-8.643,1,True
+PCI-34051,4LXZ,2,4,-8.867,1,True
+PCI-34051,4LXZ,3,4,-8.831,1,True
+PCI-34051,4LY1,1,4,-7.917,1,True
+PCI-34051,4LY1,2,4,-8.043,1,True
+PCI-34051,4LY1,3,4,-8.068,1,True
+Panobinostat (LBH589),4LXZ,1,4,-9.69,1,True
+Panobinostat (LBH589),4LXZ,2,4,-9.784,1,True
+Panobinostat (LBH589),4LXZ,3,4,-9.81,1,True
+Panobinostat (LBH589),4LY1,1,4,-9.159,1,True
+Panobinostat (LBH589),4LY1,2,4,-9.008,1,True
+Panobinostat (LBH589),4LY1,3,4,-9.055,1,True
+Droxinostat,4LXZ,1,4,-7.485,1,True
+Droxinostat,4LXZ,2,4,-7.514,1,True
+Droxinostat,4LXZ,3,4,-7.564,1,True
+Droxinostat,4LY1,1,4,-7.372,1,True
+Droxinostat,4LY1,2,4,-7.486,1,True
+Droxinostat,4LY1,3,4,-7.266,1,True
+MC1568,4LXZ,1,4,-8.373,1,True
+MC1568,4LXZ,2,4,-8.244,1,True
+MC1568,4LXZ,3,4,-8.469,1,True
+MC1568,4LY1,1,4,-8.923,1,True
+MC1568,4LY1,2,4,-9.221,1,True
+MC1568,4LY1,3,4,-8.827,1,True
+Quisinostat (JNJ-26481585) 2HCl,4LXZ,1,4,-7.995,0,True
+Quisinostat (JNJ-26481585) 2HCl,4LXZ,2,4,-8.137,0,True
+Quisinostat (JNJ-26481585) 2HCl,4LXZ,3,4,-8.187,0,True
+Quisinostat (JNJ-26481585) 2HCl,4LY1,1,4,-7.107,1,True
+Quisinostat (JNJ-26481585) 2HCl,4LY1,2,4,-8.142,0,True
+Quisinostat (JNJ-26481585) 2HCl,4LY1,3,4,-7.958,0,True
+Tucidinostat (Chidamide),4LXZ,1,4,-7.445,0,True
+Tucidinostat (Chidamide),4LXZ,2,4,-8.064,1,True
+Tucidinostat (Chidamide),4LXZ,3,4,-7.324,1,True
+Tucidinostat (Chidamide),4LY1,1,4,-9.794,0,True
+Tucidinostat (Chidamide),4LY1,2,4,-9.988,0,True
+Tucidinostat (Chidamide),4LY1,3,4,-9.682,0,True
+Entinostat (MS-275),4LXZ,1,4,-8.276,0,True
+Entinostat (MS-275),4LXZ,2,4,-7.959,0,True
+Entinostat (MS-275),4LXZ,3,4,-8.416,0,True
+Entinostat (MS-275),4LY1,1,4,-9.645,0,True
+Entinostat (MS-275),4LY1,2,4,-9.697,0,True
+Entinostat (MS-275),4LY1,3,4,-9.75,0,True
+Mocetinostat (MGCD0103),4LXZ,1,4,-8.785,0,True
+Mocetinostat (MGCD0103),4LXZ,2,4,-8.834,0,True
+Mocetinostat (MGCD0103),4LXZ,3,4,-8.85,0,True
+Mocetinostat (MGCD0103),4LY1,1,4,-10.993,0,True
+Mocetinostat (MGCD0103),4LY1,2,4,-11.173,0,True
+Mocetinostat (MGCD0103),4LY1,3,4,-10.89,0,True
+Dacinostat (LAQ824),4LXZ,1,4,-9.238,1,True
+Dacinostat (LAQ824),4LXZ,2,4,-9.094,1,True
+Dacinostat (LAQ824),4LXZ,3,4,-9.025,1,True
+Dacinostat (LAQ824),4LY1,1,4,-8.722,1,True
+Dacinostat (LAQ824),4LY1,2,4,-8.95,1,True
+Dacinostat (LAQ824),4LY1,3,4,-8.656,1,True
+Belinostat (PXD101),4LXZ,1,4,-9.535,1,True
+Belinostat (PXD101),4LXZ,2,4,-9.638,1,True
+Belinostat (PXD101),4LXZ,3,4,-9.475,1,True
+Belinostat (PXD101),4LY1,1,4,-9.203,1,True
+Belinostat (PXD101),4LY1,2,4,-9.233,1,True
+Belinostat (PXD101),4LY1,3,4,-9.11,1,True
+Tazemetostat (EPZ-6438),4LXZ,1,4,-8.038,0,True
+Tazemetostat (EPZ-6438),4LXZ,2,4,-8.116,0,True
+Tazemetostat (EPZ-6438),4LXZ,3,4,-7.954,0,True
+Tazemetostat (EPZ-6438),4LY1,1,4,-8.38,0,True
+Tazemetostat (EPZ-6438),4LY1,2,4,-8.046,0,True
+Tazemetostat (EPZ-6438),4LY1,3,4,-8.321,0,True
+Linifanib (ABT-869),4LXZ,1,4,-7.615,0,True
+Linifanib (ABT-869),4LXZ,2,4,-7.575,0,True
+Linifanib (ABT-869),4LXZ,3,4,-7.817,0,True
+Linifanib (ABT-869),4LY1,1,4,-9.112,1,True
+Linifanib (ABT-869),4LY1,2,4,-9.15,1,True
+Linifanib (ABT-869),4LY1,3,4,-9.337,1,True
+Mercaptopurine (6-MP),4LXZ,1,4,-4.455,0,True
+Mercaptopurine (6-MP),4LXZ,2,4,-4.44,0,True
+Mercaptopurine (6-MP),4LXZ,3,4,-4.44,0,True
+Mercaptopurine (6-MP),4LY1,1,4,-5.437,1,True
+Mercaptopurine (6-MP),4LY1,2,4,-5.413,1,True
+Mercaptopurine (6-MP),4LY1,3,4,-5.415,1,True
+Momelotinib (CYT387),4LXZ,1,4,-9.141,0,True
+Momelotinib (CYT387),4LXZ,2,4,-9.06,0,True
+Momelotinib (CYT387),4LXZ,3,4,-9.144,0,True
+Momelotinib (CYT387),4LY1,1,4,-9.531,1,True
+Momelotinib (CYT387),4LY1,2,4,-9.476,1,True
+Momelotinib (CYT387),4LY1,3,4,-9.515,1,True
+Disulfiram ,4LXZ,1,4,-3.814,0,True
+Disulfiram ,4LXZ,2,4,-4.089,0,True
+Disulfiram ,4LXZ,3,4,-4.015,0,True
+Disulfiram ,4LY1,1,4,-3.893,0,True
+Disulfiram ,4LY1,2,4,-3.988,0,True
+Disulfiram ,4LY1,3,4,-3.778,0,True
+Crizotinib (PF-02341066),4LXZ,1,4,-7.703,0,True
+Crizotinib (PF-02341066),4LXZ,2,4,-7.527,0,True
+Crizotinib (PF-02341066),4LXZ,3,4,-7.765,0,True
+Crizotinib (PF-02341066),4LY1,1,4,-7.612,0,True
+Crizotinib (PF-02341066),4LY1,2,4,-7.671,0,True
+Crizotinib (PF-02341066),4LY1,3,4,-7.503,0,True
+Flavopiridol HCl,4LXZ,1,4,-7.48,0,True
+Flavopiridol HCl,4LXZ,2,4,-7.365,0,True
+Flavopiridol HCl,4LXZ,3,4,-7.565,0,True
+Flavopiridol HCl,4LY1,1,4,-7.94,0,True
+Flavopiridol HCl,4LY1,2,4,-7.824,0,True
+Flavopiridol HCl,4LY1,3,4,-7.889,0,True
+SL-327,4LXZ,1,4,-6.559,0,True
+SL-327,4LXZ,2,4,-6.651,0,True
+SL-327,4LXZ,3,4,-6.591,0,True
+SL-327,4LY1,1,4,-7.327,0,True
+SL-327,4LY1,2,4,-7.223,0,True
+SL-327,4LY1,3,4,-7.178,0,True
+Curcumin,4LXZ,1,4,-6.423,0,True
+Curcumin,4LXZ,2,4,-6.628,0,True
+Curcumin,4LXZ,3,4,-6.45,0,True
+Curcumin,4LY1,1,4,-8.771,1,True
+Curcumin,4LY1,2,4,-8.914,1,True
+Curcumin,4LY1,3,4,-8.849,1,True
+Tranylcypromine (2-PCPA) HCl,4LXZ,1,4,-6.213,0,True
+Tranylcypromine (2-PCPA) HCl,4LXZ,2,4,-6.25,0,True
+Tranylcypromine (2-PCPA) HCl,4LXZ,3,4,-6.245,0,True
+Tranylcypromine (2-PCPA) HCl,4LY1,1,4,-6.064,0,True
+Tranylcypromine (2-PCPA) HCl,4LY1,2,4,-6.064,0,True
+Tranylcypromine (2-PCPA) HCl,4LY1,3,4,-6.029,0,True
+ITSA-1 (ITSA1),4LXZ,1,4,-7.596,0,True
+ITSA-1 (ITSA1),4LXZ,2,4,-7.572,0,True
+ITSA-1 (ITSA1),4LXZ,3,4,-7.597,0,True
+ITSA-1 (ITSA1),4LY1,1,4,-7.335,0,True
+ITSA-1 (ITSA1),4LY1,2,4,-7.381,0,True
+ITSA-1 (ITSA1),4LY1,3,4,-7.266,0,True
+"Tozasertib (VX-680, MK-0457)",4LXZ,1,4,-8.243,0,True
+"Tozasertib (VX-680, MK-0457)",4LXZ,2,4,-8.465,0,False
+"Tozasertib (VX-680, MK-0457)",4LXZ,3,4,-8.4,0,False
+"Tozasertib (VX-680, MK-0457)",4LY1,1,4,-8.25,1,False
+"Tozasertib (VX-680, MK-0457)",4LY1,2,4,-8.232,1,False
+"Tozasertib (VX-680, MK-0457)",4LY1,3,4,-8.195,1,False
+MK-5108 (VX-689),4LXZ,1,4,-7.732,0,False
+MK-5108 (VX-689),4LXZ,2,4,-7.719,0,False
+MK-5108 (VX-689),4LXZ,3,4,-7.279,0,False
+MK-5108 (VX-689),4LY1,1,4,-8.297,0,False
+MK-5108 (VX-689),4LY1,2,4,-7.815,0,False
+MK-5108 (VX-689),4LY1,3,4,-7.702,0,False
+YM155 (Sepantronium Bromide),4LXZ,1,4,-7.174,0,False
+YM155 (Sepantronium Bromide),4LXZ,2,4,-7.496,0,False
+YM155 (Sepantronium Bromide),4LXZ,3,4,-7.059,0,False
+YM155 (Sepantronium Bromide),4LY1,1,4,-7.234,0,False
+YM155 (Sepantronium Bromide),4LY1,2,4,-7.272,0,False
+YM155 (Sepantronium Bromide),4LY1,3,4,-7.118,0,False
+AG-490 (Tyrphostin B42),4LXZ,1,4,-7.515,0,False
+AG-490 (Tyrphostin B42),4LXZ,2,4,-7.509,0,False
+AG-490 (Tyrphostin B42),4LXZ,3,4,-7.431,0,False
+AG-490 (Tyrphostin B42),4LY1,1,4,-7.237,0,False
+AG-490 (Tyrphostin B42),4LY1,2,4,-8.091,1,False
+AG-490 (Tyrphostin B42),4LY1,3,4,-7.292,0,False
+AG-14361,4LXZ,1,4,-5.498,0,False
+AG-14361,4LXZ,2,4,-5.844,0,False
+AG-14361,4LXZ,3,4,-5.839,0,False
+AG-14361,4LY1,1,4,-5.884,0,False
+AG-14361,4LY1,2,4,-5.869,0,False
+AG-14361,4LY1,3,4,-5.93,0,False
+Hesperadin,4LXZ,1,4,-8.409,0,False
+Hesperadin,4LXZ,2,4,-8.314,0,False
+Hesperadin,4LXZ,3,4,-7.759,0,False
+Hesperadin,4LY1,1,4,-7.185,0,False
+Hesperadin,4LY1,2,4,-7.566,0,False
+Hesperadin,4LY1,3,4,-7.48,0,False
+GSK J1,4LXZ,1,4,-6.205,0,False
+GSK J1,4LXZ,2,4,-6.143,0,False
+GSK J1,4LXZ,3,4,-6.316,0,False
+GSK J1,4LY1,1,4,-5.826,0,False
+GSK J1,4LY1,2,4,-5.785,0,False
+GSK J1,4LY1,3,4,-5.828,0,False
+PFI-1 (PF-6405761),4LXZ,1,4,-7.089,0,False
+PFI-1 (PF-6405761),4LXZ,2,4,-7.05,0,False
+PFI-1 (PF-6405761),4LXZ,3,4,-7.399,0,False
+PFI-1 (PF-6405761),4LY1,1,4,-7.112,0,False
+PFI-1 (PF-6405761),4LY1,2,4,-7.115,0,False
+PFI-1 (PF-6405761),4LY1,3,4,-7.095,0,False
+Azacitidine ,4LXZ,1,4,-5.469,0,False
+Azacitidine ,4LXZ,2,4,-5.554,0,False
+Azacitidine ,4LXZ,3,4,-5.5,0,False
+Azacitidine ,4LY1,1,4,-5.819,0,False
+Azacitidine ,4LY1,2,4,-6.525,2,False
+Azacitidine ,4LY1,3,4,-5.969,0,False
+Roxadustat (FG-4592),4LXZ,1,4,-7.494,0,False
+Roxadustat (FG-4592),4LXZ,2,4,-7.896,2,False
+Roxadustat (FG-4592),4LXZ,3,4,-7.443,0,False
+Roxadustat (FG-4592),4LY1,1,4,-7.161,0,False
+Roxadustat (FG-4592),4LY1,2,4,-7.236,0,False
+Roxadustat (FG-4592),4LY1,3,4,-7.015,0,False

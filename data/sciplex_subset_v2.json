@@ -1,0 +1,20 @@
+{
+  "input": "data/raw/sciplex3.h5ad",
+  "output": "data/sciplex_subset_v2.h5ad",
+  "shape": [
+    28513,
+    110983
+  ],
+  "cell_key": "cell_line",
+  "cell_line": "A549",
+  "drug_key": "perturbation",
+  "dose_key": "dose_value",
+  "per_group_cap": 36,
+  "seed": 42,
+  "control": "control",
+  "control_cap": 1500,
+  "stratify_key": "replicate",
+  "control_cells": 1500,
+  "time_hours": 24.0,
+  "normalisation": "none; preserve input values pending count-scale inspection"
+}

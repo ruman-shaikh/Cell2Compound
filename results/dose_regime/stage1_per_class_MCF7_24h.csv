@@ -1,0 +1,27 @@
+mechanism_class,groups,snr_10nM,snr_100nM,snr_1000nM,snr_10000nM,snr_all
+HSP (e.g. HSP90),11,0.689,2.485,2.443,1.84,2.336
+Estrogen/progestogen Receptor,8,0.838,0.863,1.792,2.447,1.701
+Microtubule Associated,8,1.016,0.923,0.929,0.852,0.996
+CDK,10,0.44,0.931,0.711,1.438,0.971
+HDAC,92,0.0,0.896,1.832,3.397,0.953
+"Aurora Kinase,FLT3,VEGFR",8,0.085,0.489,1.132,1.441,0.806
+Glucocorticoid Receptor,8,0.555,0.651,0.676,0.635,0.632
+MEK,12,0.102,0.535,0.734,0.645,0.625
+Aurora Kinase,52,0.516,0.552,0.799,0.638,0.618
+VEGFR,8,0.0,0.15,0.988,1.8,0.536
+"EGFR,HER2",8,0.0,0.206,0.601,1.205,0.47
+EGFR,8,0.183,0.387,0.57,0.581,0.233
+Epigenetic Reader Domain,12,0.0,0.0,0.603,2.964,0.151
+"Beta Amyloid,Gamma-secretase",8,0.0,0.0,0.565,0.216,0.107
+HIF,12,0.0,0.0,0.153,0.0,0.0
+Histone Methyltransferase,28,0.0,0.0,0.0,0.0,0.0
+Bcl-2,12,0.0,0.0,0.723,1.063,0.0
+PARP,28,0.0,0.0,0.0,0.0,0.0
+JAK,64,0.0,0.0,0.0,0.573,0.0
+DNA Methyltransferase,12,0.0,0.0,0.0,0.225,0.0
+DNA alkylator,12,0.0,0.0,0.0,0.0,0.0
+Others,12,0.0,0.0,0.0,0.28,0.0
+DNA/RNA Synthesis,32,0.0,0.0,0.111,0.621,0.0
+Topoisomerase,12,0.0,0.0,0.0,0.0,0.0
+Histone Demethylase,8,0.0,0.148,0.0,0.0,0.0
+Sirtuin,20,0.0,0.0,0.0,0.0,0.0

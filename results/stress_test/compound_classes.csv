@@ -1,0 +1,189 @@
+compound,observed_name,parent_smiles,source_name,zinc_binding_group,mechanism_class
+(+)-JQ1,(+)-JQ1,Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)OC(C)(C)C)c1nnc(C)n1-2,JQ1,,Epigenetic Reader Domain
+2-Methoxyestradiol (2-MeOE2),2-Methoxyestradiol (2-MeOE2),COc1cc2c(cc1O)CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](O)CC[C@@H]12,2-Methoxyestradiol,,HIF
+A-366,A-366,COc1cc2c(cc1OCCCN1CCCC1)N=C(N)C21CCC1,A-366,,Histone Methyltransferase
+ABT-737,ABT-737,CN(C)CCC(CSc1ccccc1)Nc1ccc(S(=O)(=O)NC(=O)c2ccc(N3CCN(Cc4ccccc4-c4ccc(Cl)cc4)CC3)cc2)cc1[N+](=O)[O-],ABT-737,,Bcl-2
+AC480 (BMS-599626),AC480 (BMS-599626),Cc1c(NC(=O)OCC2COCCN2)cn2ncnc(Nc3ccc4c(cnn4Cc4cccc(F)c4)c3)c12,AC480,,"EGFR,HER2"
+AG-14361,AG-14361,CN(C)Cc1ccc(-c2nc3cccc4c3n2CCNC4=O)cc1,AG-14361,,PARP
+AG-490 (Tyrphostin B42),AG-490 (Tyrphostin B42),N#C/C(=C\c1ccc(O)c(O)c1)C(=O)NCc1ccccc1,AG-490,,EGFR
+AICAR (Acadesine),AICAR (Acadesine),NC(=O)c1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c1N,AICAR,,AMPK
+AMG-900,AMG-900,Cc1csc(-c2nnc(Nc3ccc(Oc4ncccc4-c4ccnc(N)n4)cc3)c3ccccc23)c1,AMG-900,,Aurora Kinase
+AR-42,AR-42,CC(C)[C@H](C(=O)Nc1ccc(C(=O)NO)cc1)c1ccccc1,AR-42,hydroxamate,HDAC
+AT9283,AT9283,O=C(Nc1c[nH]nc1-c1nc2cc(CN3CCOCC3)ccc2[nH]1)NC1CC1,AT9283,,"Aurora Kinase,Bcr-Abl,JAK"
+AZ 960,AZ 960,Cc1cc(Nc2nc(N[C@@H](C)c3ccc(F)cc3)c(C#N)cc2F)n[nH]1,AZ,,JAK
+AZD1480,AZD1480,Cc1cc(Nc2nc(N[C@@H](C)c3ncc(F)cn3)ncc2Cl)n[nH]1,AZD1480,,JAK
+Abexinostat (PCI-24781),Abexinostat (PCI-24781),CN(C)Cc1c(C(=O)NCCOc2ccc(C(=O)NO)cc2)oc2ccccc12,Abexinostat,hydroxamate,HDAC
+Alendronate sodium trihydrate,Alendronate sodium trihydrate,NCCCC(O)(P(=O)(O)O)P(=O)(O)O,Alendronate,,Others
+Alisertib (MLN8237),Alisertib (MLN8237),COc1cc(Nc2ncc3c(n2)-c2ccc(Cl)cc2C(c2c(F)cccc2OC)=NC3)ccc1C(=O)O,Alisertib,,Aurora Kinase
+Altretamine,Altretamine,CN(C)c1nc(N(C)C)nc(N(C)C)n1,Altretamine,,DNA alkylator
+Alvespimycin (17-DMAG) HCl,Alvespimycin (17-DMAG) HCl,COC1/C=C\C=C(/C)C(=O)NC2=CC(=O)C(NCCN(C)C)=C(CC(C)CC(OC)C(O)C(C)/C=C(\C)C1OC(N)=O)C2=O,Alvespimycin,,HSP (e.g. HSP90)
+Aminoglutethimide ,Aminoglutethimide ,CCC1(c2ccc(N)cc2)CCC(=O)NC1=O,Aminoglutethimide,,Aromatase
+Amisulpride,Amisulpride,CCN1CCCC1CNC(=O)c1cc(S(=O)(=O)CC)c(N)cc1OC,Amisulpride,,Dopamine Receptor
+Anacardic Acid,Anacardic Acid,CCCCCCCCCCCCCCCc1cccc(O)c1C(=O)O,Anacardic,,Histone Acetyltransferase
+Andarine,Andarine,CC(=O)Nc1ccc(OCC(C)(O)C(=O)Nc2ccc([N+](=O)[O-])c(C(F)(F)F)c2)cc1,Andarine,,Androgen Receptor
+Aurora A Inhibitor I,Aurora A Inhibitor I,CCN1CCN(C(=O)Cc2ccc(Nc3ncc(F)c(Nc4ccc(C(=O)Nc5ccccc5Cl)cc4)n3)cc2)CC1,Aurora,,Aurora Kinase
+Avagacestat (BMS-708163),Avagacestat (BMS-708163),NC(=O)C(CCC(F)(F)F)N(Cc1ccc(-c2ncon2)cc1F)S(=O)(=O)c1ccc(Cl)cc1,Avagacestat,,"Beta Amyloid,Gamma-secretase"
+Azacitidine ,Azacitidine ,Nc1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)n1,Azacitidine,,DNA Methyltransferase
+BMS-265246,BMS-265246,CCCCOc1c(C(=O)c2c(F)cc(C)cc2F)cnc2[nH]ncc12,BMS-265246,,CDK
+BMS-536924,BMS-536924,Cc1cc(N2CCOCC2)cc2[nH]c(-c3c(NCC(O)c4cccc(Cl)c4)cc[nH]c3=O)nc12,BMS-536924,,IGF-1R
+BMS-754807,BMS-754807,CC1(C(=O)Nc2ccc(F)nc2)CCCN1c1nc(Nc2cc(C3CC3)[nH]n2)c2cccn2n1,BMS-754807,,"c-Met,IGF-1R,Trk receptor"
+BMS-911543,BMS-911543,CCn1c(C(=O)N(C2CC2)C2CC2)cc2c3c(ncn3C)c(Nc3cc(C)n(C)n3)nc21,BMS-911543,,JAK
+BRD4770,BRD4770,COC(=O)c1ccc2c(c1)nc(NC(=O)c1ccccc1)n2CCCc1ccccc1,BRD4770,,Histone Methyltransferase
+Barasertib (AZD1152-HQPA),Barasertib (AZD1152-HQPA),CCN(CCO)CCCOc1ccc2c(Nc3cc(CC(=O)Nc4cccc(F)c4)n[nH]3)ncnc2c1,Barasertib,,Aurora Kinase
+"Baricitinib (LY3009104, INCB028050)","Baricitinib (LY3009104, INCB028050)",CCS(=O)(=O)N1CC(CC#N)(n2cc(-c3ncnc4[nH]ccc34)cn2)C1,Baricitinib,,JAK
+Belinostat (PXD101),Belinostat (PXD101),O=C(/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1)NO,Belinostat,hydroxamate,HDAC
+Bisindolylmaleimide IX (Ro 31-8220 Mesylate),Bisindolylmaleimide IX (Ro 31-8220 Mesylate),Cn1cc(C2=C(c3cn(CCCSC(=N)N)c4ccccc34)C(=O)NC2=O)c2ccccc21,Bisindolylmaleimide,,PKC
+Bosutinib (SKI-606),Bosutinib (SKI-606),COc1cc(Nc2c(C#N)cnc3cc(OCCCN4CCN(C)CC4)c(OC)cc23)c(Cl)cc1Cl,Bosutinib,,Src
+Busulfan ,Busulfan ,CS(=O)(=O)OCCCCOS(C)(=O)=O,Busulfan,,DNA alkylator
+CEP-33779,CEP-33779,CN1CCN(c2cccc(Nc3nc4c(-c5ccc(S(C)(=O)=O)cc5)cccn4n3)c2)CC1,CEP-33779,,JAK
+CUDC-101,CUDC-101,C#Cc1cccc(Nc2ncnc3cc(OC)c(OCCCCCCC(=O)NO)cc23)c1,CUDC-101,hydroxamate,"EGFR,HDAC,HER2"
+CUDC-907,CUDC-907,COc1ccc(-c2nc(N3CCOCC3)c3sc(CN(C)c4ncc(C(=O)NO)cn4)cc3n2)cn1,CUDC-907,hydroxamate,"HDAC,PI3K"
+CYC116,CYC116,Cc1nc(N)sc1-c1ccnc(Nc2ccc(N3CCOCC3)cc2)n1,CYC116,,"Aurora Kinase,VEGFR"
+Capecitabine ,Capecitabine ,CCCCCOC(=O)Nc1nc(=O)n(C2OC(C)C(O)C2O)cc1F,Capecitabine,,DNA/RNA Synthesis
+Carmofur,Carmofur,CCCCCCNC(=O)n1cc(F)c(=O)[nH]c1=O,Carmofur,,DNA/RNA Synthesis
+Cediranib (AZD2171),Cediranib (AZD2171),COc1cc2c(Oc3ccc4[nH]c(C)cc4c3F)ncnc2cc1OCCCN1CCCC1,Cediranib,,VEGFR
+Celecoxib,Celecoxib,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,Celecoxib,,COX
+"Cerdulatinib (PRT062070, PRT2070)","Cerdulatinib (PRT062070, PRT2070)",CCS(=O)(=O)N1CCN(c2ccc(Nc3ncc(C(N)=O)c(NC4CC4)n3)cc2)CC1,Cerdulatinib,,JAK
+Cimetidine ,Cimetidine ,CNC(=NC#N)NCCSCc1nc[nH]c1C,Cimetidine,,Histamine Receptor
+Clevudine ,Clevudine ,Cc1cn([C@H]2O[C@@H](CO)[C@H](O)[C@H]2F)c(=O)[nH]c1=O,Clevudine,,DNA/RNA Synthesis
+Costunolide,Costunolide,C=C1C(=O)OC2/C=C(\C)CC/C=C(\C)CCC12,Costunolide,,Telomerase
+Crizotinib (PF-02341066),Crizotinib (PF-02341066),CC(Oc1cc(-c2cnn(C3CCNCC3)c2)cnc1N)c1c(Cl)ccc(F)c1Cl,Crizotinib,,"ALK,c-Met"
+Curcumin,Curcumin,COc1cc(/C=C/C(=O)/C=C(O)/C=C/c2ccc(O)c(OC)c2)ccc1O,Curcumin,,"NF-κB,HDAC,Histone Acetyltransferase,Nrf2"
+Cyclocytidine HCl,Cyclocytidine HCl,N=c1ccn2c(n1)OC1C(O)C(CO)OC12,Cyclocytidine,,DNA/RNA Synthesis
+Dacinostat (LAQ824),Dacinostat (LAQ824),O=C(/C=C/c1ccc(CN(CCO)CCc2c[nH]c3ccccc23)cc1)NO,Dacinostat,hydroxamate,HDAC
+Danusertib (PHA-739358),Danusertib (PHA-739358),CO[C@@H](C(=O)N1Cc2[nH]nc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2C1)c1ccccc1,Danusertib,,"Aurora Kinase,Bcr-Abl,c-RET,FGFR"
+Daphnetin,Daphnetin,O=c1ccc2ccc(O)c(O)c2o1,Daphnetin,,"PKA,EGFR,PKC"
+Dasatinib,Dasatinib,Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1,Dasatinib,,"Bcr-Abl,c-Kit,Src"
+Decitabine,Decitabine,Nc1ncn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)n1,Decitabine,,DNA Methyltransferase
+Disulfiram ,Disulfiram ,CCN(CC)C(=S)SSC(=S)N(CC)CC,Disulfiram,,Dehydrogenase
+Divalproex Sodium,Divalproex Sodium,CCCC(CCC)C(=O)O,Divalproex,,HDAC
+Droxinostat,Droxinostat,Cc1cc(Cl)ccc1OCCCC(=O)NO,Droxinostat,hydroxamate,HDAC
+EED226,EED226,CS(=O)(=O)c1ccc(-c2cnc(NCc3ccco3)n3cnnc23)cc1,EED226,,Epigenetic Reader Domain
+ENMD-2076,ENMD-2076,Cc1cc(Nc2cc(N3CCN(C)CC3)nc(/C=C/c3ccccc3)n2)n[nH]1,ENMD-2076,,"Aurora Kinase,FLT3,VEGFR"
+ENMD-2076 L-(+)-Tartaric acid ,ENMD-2076 L-(+)-Tartaric acid ,Cc1cc(Nc2cc(N3CCN(C)CC3)nc(/C=C/c3ccccc3)n2)n[nH]1,ENMD-2076,,"Aurora Kinase,FLT3,VEGFR"
+Ellagic acid,Ellagic acid,O=c1oc2c(O)c(O)cc3c(=O)oc4c(O)c(O)cc1c4c23,Ellagic,,Topoisomerase
+Entacapone,Entacapone,CCN(CC)C(=O)/C(C#N)=C/c1cc(O)c(O)c([N+](=O)[O-])c1,Entacapone,,Histone Methyltransferase
+Entinostat (MS-275),Entinostat (MS-275),Nc1ccccc1NC(=O)c1ccc(CNC(=O)OCc2cccnc2)cc1,Entinostat,o_aminoanilide,HDAC
+Enzastaurin (LY317615),Enzastaurin (LY317615),Cn1cc(C2=C(c3cn(C4CCN(Cc5ccccn5)CC4)c4ccccc34)C(=O)NC2=O)c2ccccc21,Enzastaurin,,PKC
+Epothilone A,Epothilone A,C/C(=C\c1csc(C)n1)C1CC2OC2CCCC(C)C(O)C(C)C(=O)C(C)(C)C(O)CC(=O)O1,Epothilone,,Microtubule Associated
+FLLL32,FLLL32,COc1ccc(/C=C/C(=O)C2(C(=O)/C=C/c3ccc(OC)c(OC)c3)CCCCC2)cc1OC,FLLL32,,JAK
+Fasudil (HA-1077) HCl,Fasudil (HA-1077) HCl,O=S(=O)(c1cccc2cnccc12)N1CCCNCC1,Fasudil,,"Autophagy,ROCK"
+"Fedratinib (SAR302503, TG101348)","Fedratinib (SAR302503, TG101348)",Cc1cnc(Nc2ccc(OCCN3CCCC3)cc2)nc1Nc1cccc(S(=O)(=O)NC(C)(C)C)c1,Fedratinib,,JAK
+Filgotinib (GLPG0634),Filgotinib (GLPG0634),O=C(Nc1nc2cccc(-c3ccc(CN4CCS(=O)(=O)CC4)cc3)n2n1)C1CC1,Filgotinib,,JAK
+Flavopiridol HCl,Flavopiridol HCl,CN1CCC(c2c(O)cc(O)c3c(=O)cc(-c4ccccc4Cl)oc23)C(O)C1,Flavopiridol,,CDK
+"Fluorouracil (5-Fluoracil, 5-FU)","Fluorouracil (5-Fluoracil, 5-FU)",O=c1[nH]cc(F)c(=O)[nH]1,Fluorouracil,,DNA/RNA Synthesis
+Fulvestrant,Fulvestrant,CC12CCC3c4ccc(O)cc4CC(CCCCCCCCC[S+]([O-])CCCC(F)(F)C(F)(F)F)C3C1CCC2O,Fulvestrant,,Estrogen/progestogen Receptor
+G007-LK,G007-LK,CS(=O)(=O)c1ccc(-c2nnc(/C=C/c3nnc(-c4ccc(C#N)cc4)o3)n2-c2ccccc2Cl)nc1,G007-LK,,PARP
+GSK J1,GSK J1,O=C(O)CCNc1cc(N2CCc3ccccc3CC2)nc(-c2ccccn2)n1,GSK,,Histone Demethylase
+GSK-LSD1 2HCl,GSK-LSD1 2HCl,c1ccc([C@@H]2C[C@H]2NC2CCNCC2)cc1,GSK-LSD1,,Histone Demethylase
+GSK1070916,GSK1070916,CCn1cc(-c2ccnc3[nH]c(-c4cccc(CN(C)C)c4)cc23)c(-c2ccc(NC(=O)N(C)C)cc2)n1,GSK1070916,,Aurora Kinase
+Gandotinib (LY2784544),Gandotinib (LY2784544),Cc1cc(Nc2cc(CN3CCOCC3)c3nc(C)c(Cc4ccc(Cl)cc4F)n3n2)[nH]n1,Gandotinib,,JAK
+Givinostat (ITF2357),Givinostat (ITF2357),CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)NO)cc3)ccc2c1,Givinostat,hydroxamate,HDAC
+Glesatinib?(MGCD265),Glesatinib?(MGCD265),COCCNCc1ccc(-c2cc3nccc(Oc4ccc(NC(=S)NC(=O)Cc5ccc(F)cc5)cc4F)c3s2)nc1,Glesatinib?(MGCD265),,"c-Met,Tie-2,VEGFR"
+Hesperadin,Hesperadin,CCS(=O)(=O)Nc1ccc2c(c1)/C(=C(/Nc1ccc(CN3CCCCC3)cc1)c1ccccc1)C(=O)N2,Hesperadin,,Aurora Kinase
+INO-1001 (3-Aminobenzamide),INO-1001 (3-Aminobenzamide),NC(=O)c1cccc(N)c1,INO-1001,,PARP
+IOX2,IOX2,O=C(O)CNC(=O)c1c(O)c2ccccc2n(Cc2ccccc2)c1=O,IOX2,,HIF
+ITSA-1 (ITSA1),ITSA-1 (ITSA1),O=C(c1ccc(Cl)cc1Cl)n1nnc2ccccc21,ITSA-1,,HDAC
+Iniparib (BSI-201),Iniparib (BSI-201),NC(=O)c1ccc(I)c([N+](=O)[O-])c1,Iniparib,,PARP
+Ivosidenib (AG-120),Ivosidenib (AG-120),N#Cc1ccnc(N2C(=O)CCC2C(=O)N(c2cncc(F)c2)C(C(=O)NC2CC(F)(F)C2)c2ccccc2Cl)c1,Ivosidenib,,IDH1
+JNJ-26854165 (Serdemetan),JNJ-26854165 (Serdemetan),c1ccc2c(CCNc3ccc(Nc4ccncc4)cc3)c[nH]c2c1,JNJ-26854165,,"E3 Ligase ,p53"
+JNJ-7706621,JNJ-7706621,Nc1nc(Nc2ccc(S(N)(=O)=O)cc2)nn1C(=O)c1c(F)cccc1F,JNJ-7706621,,"Aurora Kinase,CDK"
+KW-2449,KW-2449,O=C(c1ccc(/C=C/c2n[nH]c3ccccc23)cc1)N1CCNCC1,KW-2449,,"Aurora Kinase,Bcr-Abl,FLT3"
+Ki16425,Ki16425,Cc1noc(-c2ccc(CSCCC(=O)O)cc2)c1NC(=O)OC(C)c1ccccc1Cl,Ki16425,,LPA Receptor
+Ki8751,Ki8751,COc1cc2nccc(Oc3ccc(NC(=O)Nc4ccc(F)cc4F)c(F)c3)c2cc1OC,Ki8751,,"c-Kit,PDGFR,VEGFR"
+Lapatinib (GW-572016) Ditosylate,Lapatinib (GW-572016) Ditosylate,CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1,Lapatinib,,"EGFR,HER2"
+Lenalidomide (CC-5013),Lenalidomide (CC-5013),Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O,Lenalidomide,,TNF-alpha
+Linifanib (ABT-869),Linifanib (ABT-869),Cc1ccc(F)c(NC(=O)Nc2ccc(-c3cccc4[nH]nc(N)c34)cc2)c1,Linifanib,,"CSF-1R,PDGFR,VEGFR"
+Lomustine ,Lomustine ,O=NN(CCCl)C(=O)NC1CCCCC1,Lomustine,,DNA/RNA Synthesis
+"Luminespib (AUY-922, NVP-AUY922)","Luminespib (AUY-922, NVP-AUY922)",CCNC(=O)c1noc(-c2cc(C(C)C)c(O)cc2O)c1-c1ccc(CN2CCOCC2)cc1,Luminespib,,HSP (e.g. HSP90)
+M344,M344,CN(C)c1ccc(C(=O)NCCCCCCC(=O)NO)cc1,M344,hydroxamate,HDAC
+MC1568,MC1568,Cn1cc(/C=C/C(=O)c2cccc(F)c2)cc1/C=C/C(=O)NO,MC1568,hydroxamate,HDAC
+MK-0752,MK-0752,O=C(O)CCC1CCC(c2cc(F)ccc2F)(S(=O)(=O)c2ccc(Cl)cc2)CC1,MK-0752,,"Beta Amyloid,Gamma-secretase"
+MK-5108 (VX-689),MK-5108 (VX-689),O=C(O)[C@]1(Cc2cccc(Nc3nccs3)n2)CC[C@@H](Oc2cccc(Cl)c2F)CC1,MK-5108,,Aurora Kinase
+MLN8054,MLN8054,O=C(O)c1ccc(Nc2ncc3c(n2)-c2ccc(Cl)cc2C(c2c(F)cccc2F)=NC3)cc1,MLN8054,,Aurora Kinase
+Maraviroc,Maraviroc,Cc1nnc(C(C)C)n1C1CC2CCC(C1)N2CCC(NC(=O)C1CCC(F)(F)CC1)c1ccccc1,Maraviroc,,CCR
+Meprednisone,Meprednisone,CC1CC2C3CCC4=CC(=O)C=CC4(C)C3C(=O)CC2(C)C1(O)C(=O)CO,Meprednisone,,Glucocorticoid Receptor
+Mercaptopurine (6-MP),Mercaptopurine (6-MP),S=c1nc[nH]c2nc[nH]c12,Mercaptopurine,,DNA/RNA Synthesis
+Mesna ,Mesna ,O=S(=O)(O)CCS,Mesna,,Others
+Mocetinostat (MGCD0103),Mocetinostat (MGCD0103),Nc1ccccc1NC(=O)c1ccc(CNc2nccc(-c3cccnc3)n2)cc1,Mocetinostat,o_aminoanilide,HDAC
+Momelotinib (CYT387),Momelotinib (CYT387),N#CCNC(=O)c1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1,Momelotinib,,JAK
+Motesanib Diphosphate (AMG-706),Motesanib Diphosphate (AMG-706),CC1(C)CNc2cc(NC(=O)c3cccnc3NCc3ccncc3)ccc21,Motesanib,,"VEGFR,PDGFR,c-Kit"
+NVP-BSK805 2HCl,NVP-BSK805 2HCl,Fc1cc(-c2cccc3ncc(-c4cnn(C5CCNCC5)c4)nc23)cc(F)c1CN1CCOCC1,NVP-BSK805,,JAK
+Navitoclax (ABT-263),Navitoclax (ABT-263),CC1(C)CCC(c2ccc(Cl)cc2)=C(CN2CCN(c3ccc(C(=O)NS(=O)(=O)c4ccc(N[C@H](CCN5CCOCC5)CSc5ccccc5)c(S(=O)(=O)C(F)(F)F)c4)cc3)CC2)C1,Navitoclax,,Bcl-2
+Nilotinib (AMN-107),Nilotinib (AMN-107),Cc1cn(-c2cc(NC(=O)c3ccc(C)c(Nc4nccc(-c5cccnc5)n4)c3)cc(C(F)(F)F)c2)cn1,Nilotinib,,Bcr-Abl
+Nintedanib (BIBF 1120),Nintedanib (BIBF 1120),COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1,Nintedanib,,"FGFR,PDGFR,VEGFR"
+Obatoclax Mesylate (GX15-070),Obatoclax Mesylate (GX15-070),COC1=CC(c2cc3ccccc3[nH]2)=N/C1=C\c1[nH]c(C)cc1C,Obatoclax,,Bcl-2
+Ofloxacin,Ofloxacin,CC1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23,Ofloxacin,,Topoisomerase
+PCI-34051,PCI-34051,COc1ccc(Cn2ccc3ccc(C(=O)NO)cc32)cc1,PCI-34051,hydroxamate,HDAC
+PD173074,PD173074,CCN(CC)CCCCNc1ncc2cc(-c3cc(OC)cc(OC)c3)c(NC(=O)NC(C)(C)C)nc2n1,PD173074,,"FGFR,VEGFR"
+PD98059,PD98059,COc1cccc(-c2cc(=O)c3ccccc3o2)c1N,PD98059,,MEK
+PF-3845,PF-3845,O=C(Nc1cccnc1)N1CCC(Cc2cccc(Oc3ccc(C(F)(F)F)cn3)c2)CC1,PF-3845,,FAAH
+PF-573228,PF-573228,CS(=O)(=O)c1cccc(CNc2nc(Nc3ccc4c(c3)CCC(=O)N4)ncc2C(F)(F)F)c1,PF-573228,,FAK
+PFI-1 (PF-6405761),PFI-1 (PF-6405761),COc1ccccc1S(=O)(=O)Nc1ccc2c(c1)CN(C)C(=O)N2,PFI-1,,Epigenetic Reader Domain
+PHA-680632,PHA-680632,CCc1cccc(CC)c1NC(=O)N1Cc2[nH]nc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2C1,PHA-680632,,Aurora Kinase
+PJ34,PJ34,CN(C)CC(=O)Nc1ccc2[nH]c(=O)c3ccccc3c2c1,PJ34,,PARP
+Panobinostat (LBH589),Panobinostat (LBH589),Cc1[nH]c2ccccc2c1CCNCc1ccc(/C=C/C(=O)NO)cc1,Panobinostat,hydroxamate,HDAC
+"Patupilone (EPO906, Epothilone B)","Patupilone (EPO906, Epothilone B)",C/C(=C\c1csc(C)n1)C1CC2OC2(C)CCCC(C)C(O)C(C)C(=O)C(C)(C)C(O)CC(=O)O1,Patupilone,,Microtubule Associated
+Pelitinib (EKB-569),Pelitinib (EKB-569),CCOc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN(C)C,Pelitinib,,EGFR
+Pirarubicin,Pirarubicin,COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O[C@@H]2CCCCO2)[C@H](C)O1,Pirarubicin,,Topoisomerase
+Pracinostat (SB939),Pracinostat (SB939),CCCCc1nc2cc(/C=C/C(=O)NO)ccc2n1CCN(CC)CC,Pracinostat,hydroxamate,HDAC
+Prednisone ,Prednisone ,CC12C=CC(=O)C=C1CCC1C2C(=O)CC2(C)C1CCC2(O)C(=O)CO,Prednisone,,"Glucocorticoid Receptor,Immunology & Inflammation related"
+Quercetin,Quercetin,O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,Quercetin,,"Src,Sirtuin,PKC,PI3K"
+Quisinostat (JNJ-26481585) 2HCl,Quisinostat (JNJ-26481585) 2HCl,Cn1cc(CNCC2CCN(c3ncc(C(=O)NO)cn3)CC2)c2ccccc21,Quisinostat,hydroxamate,HDAC
+RG108,RG108,O=C(O)[C@H](Cc1c[nH]c2ccccc12)N1C(=O)c2ccccc2C1=O,RG108,,DNA Methyltransferase
+Raltitrexed,Raltitrexed,Cc1nc2ccc(CN(C)c3ccc(C(=O)NC(CCC(=O)O)C(=O)O)s3)cc2c(=O)[nH]1,Raltitrexed,,DNA/RNA Synthesis
+Ramelteon,Ramelteon,CCC(=O)NCCC1CCc2ccc3c(c21)CCO3,Ramelteon,,MT Receptor
+Regorafenib (BAY 73-4506),Regorafenib (BAY 73-4506),CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,Regorafenib,,"c-RET,VEGFR"
+Resminostat,Resminostat,CN(C)Cc1ccc(S(=O)(=O)n2ccc(/C=C/C(=O)NO)c2)cc1,Resminostat,hydroxamate,HDAC
+Resveratrol,Resveratrol,Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1,Resveratrol,,"Autophagy,Sirtuin"
+Rigosertib (ON-01910),Rigosertib (ON-01910),COc1cc(OC)c(/C=C/S(=O)(=O)Cc2ccc(OC)c(NCC(=O)O)c2)c(OC)c1,Rigosertib,,PLK
+"Roscovitine (Seliciclib,CYC202)","Roscovitine (Seliciclib,CYC202)",CCC(CO)Nc1nc(NCc2ccccc2)c2ncn(C(C)C)c2n1,Roscovitine,,CDK
+Roxadustat (FG-4592),Roxadustat (FG-4592),Cc1nc(C(=O)NCC(=O)O)c(O)c2ccc(Oc3ccccc3)cc12,Roxadustat,,HIF
+"Rucaparib (AG-014699,PF-01367338) phosphate","Rucaparib (AG-014699,PF-01367338) phosphate",CNCc1ccc(-c2[nH]c3cc(F)cc4c3c2CCNC4=O)cc1,Rucaparib,,PARP
+Ruxolitinib (INCB018424),Ruxolitinib (INCB018424),N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,Ruxolitinib,,JAK
+S-Ruxolitinib (INCB018424),S-Ruxolitinib (INCB018424),N#CC[C@@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,S-Ruxolitinib,,JAK
+S3I-201,S3I-201,Cc1ccc(S(=O)(=O)OCC(=O)Nc2ccc(C(=O)O)c(O)c2)cc1,S3I-201,,STAT
+SB431542,SB431542,NC(=O)c1ccc(-c2nc(-c3ccc4c(c3)OCO4)c(-c3ccccn3)[nH]2)cc1,SB431542,,TGF-beta/Smad
+SGI-1776 free base,SGI-1776 free base,CN1CCC(CNc2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)CC1,SGI-1776,,Pim
+SL-327,SL-327,N#C/C(=C(/N)Sc1ccc(N)cc1)c1ccccc1C(F)(F)F,SL-327,,MEK
+SNS-314,SNS-314,O=C(Nc1cccc(Cl)c1)Nc1ncc(CCNc2ncnc3ccsc23)s1,SNS-314,,Aurora Kinase
+SRT1720 HCl,SRT1720 HCl,O=C(Nc1ccccc1-c1cn2c(CN3CCNCC3)csc2n1)c1cnc2ccccc2n1,SRT1720,,Sirtuin
+SRT2104 (GSK2245840),SRT2104 (GSK2245840),Cc1nc(-c2cccnc2)sc1C(=O)Nc1ccccc1-c1cn2c(CN3CCOCC3)csc2n1,SRT2104,,Sirtuin
+SRT3025 HCl,SRT3025 HCl,COCCCc1sc(-c2ccccc2)nc1C(=O)Nc1ccccc1-c1nc2cc(CN3CCCC3)cnc2s1,SRT3025,,Sirtuin
+Selisistat (EX 527),Selisistat (EX 527),NC(=O)C1CCCc2c1[nH]c1ccc(Cl)cc21,Selisistat,,Sirtuin
+Sirtinol,Sirtinol,CC(NC(=O)c1ccccc1/N=C/c1c(O)ccc2ccccc12)c1ccccc1,Sirtinol,,Sirtuin
+Sodium Phenylbutyrate,Sodium Phenylbutyrate,O=C(O)CCCc1ccccc1,Sodium,,HDAC
+Sorafenib Tosylate,Sorafenib Tosylate,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1,Sorafenib,,"PDGFR,Raf,VEGFR"
+Streptozotocin (STZ),Streptozotocin (STZ),CN(N=O)C(=O)NC1C(O)OC(CO)C(O)C1O,Streptozotocin,,DNA alkylator
+TAK-901,TAK-901,CCS(=O)(=O)c1cccc(-c2cc(C(=O)NC3CCN(C)CC3)c(C)c3[nH]c4ncc(C)cc4c23)c1,TAK-901,,Aurora Kinase
+TG101209,TG101209,Cc1cnc(Nc2ccc(N3CCN(C)CC3)cc2)nc1Nc1cccc(S(=O)(=O)NC(C)(C)C)c1,TG101209,,"c-RET,FLT3,JAK"
+TGX-221,TGX-221,Cc1cc(C(C)Nc2ccccc2)c2nc(N3CCOCC3)cc(=O)n2c1,TGX-221,,PI3K
+TMP195,TMP195,CC(C)(CNC(=O)c1cccc(-c2noc(C(F)(F)F)n2)c1)c1coc(-c2ccccc2)n1,TMP195,,HDAC
+Tacedinaline (CI994),Tacedinaline (CI994),CC(=O)Nc1ccc(C(=O)Nc2ccccc2N)cc1,Tacedinaline,o_aminoanilide,HDAC
+Tanespimycin (17-AAG),Tanespimycin (17-AAG),C=CCNC1=C2CC(C)CC(OC)C(O)C(C)/C=C(\C)C(OC(N)=O)C(OC)/C=C\C=C(/C)C(=O)NC(=CC1=O)C2=O,Tanespimycin,,HSP (e.g. HSP90)
+Tazemetostat (EPZ-6438),Tazemetostat (EPZ-6438),CCN(c1cc(-c2ccc(CN3CCOCC3)cc2)cc(C(=O)NCc2c(C)cc(C)[nH]c2=O)c1C)C1CCOCC1,Tazemetostat,,Histone Methyltransferase
+"Temsirolimus (CCI-779, NSC 683864)","Temsirolimus (CCI-779, NSC 683864)",COC1CC2CCC(C)C(O)(O2)C(=O)C(=O)N2CCCCC2C(=O)OC(C(C)CC2CCC(OC(=O)C(C)(CO)CO)C(OC)C2)CC(=O)C(C)/C=C(\C)C(O)C(OC)C(=O)C(C)CC(C)/C=C/C=C/C=C/1C,Temsirolimus,,mTOR
+Thalidomide,Thalidomide,O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1,Thalidomide,,"E3 Ligase ,TNF-alpha"
+Thiotepa,Thiotepa,S=P(N1CC1)(N1CC1)N1CC1,Thiotepa,,Others
+Tie2 kinase inhibitor,Tie2 kinase inhibitor,COc1ccc2cc(-c3[nH]c(-c4ccc([S+](C)[O-])cc4)nc3-c3ccncc3)ccc2c1,Tie2,,Tie-2
+Tofacitinib (CP-690550) Citrate,Tofacitinib (CP-690550) Citrate,C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12,Tofacitinib,,JAK
+Toremifene Citrate,Toremifene Citrate,CN(C)CCOc1ccc(/C(=C(/CCCl)c2ccccc2)c2ccccc2)cc1,Toremifene,,Estrogen/progestogen Receptor
+"Tozasertib (VX-680, MK-0457)","Tozasertib (VX-680, MK-0457)",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(Sc3ccc(NC(=O)C4CC4)cc3)n2)n[nH]1,Tozasertib,,Aurora Kinase
+Trametinib (GSK1120212),Trametinib (GSK1120212),CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,Trametinib,,MEK
+Tranylcypromine (2-PCPA) HCl,Tranylcypromine (2-PCPA) HCl,N[C@@H]1C[C@H]1c1ccccc1,Tranylcypromine,,MAO
+Triamcinolone Acetonide,Triamcinolone Acetonide,CC1(C)OC2CC3C4CCC5=CC(=O)C=CC5(C)C4(F)C(O)CC3(C)C2(C(=O)CO)O1,Triamcinolone,,Glucocorticoid Receptor
+Trichostatin A (TSA),Trichostatin A (TSA),CC(/C=C/C(=O)NO)=C\[C@@H](C)C(=O)c1ccc(N(C)C)cc1,Trichostatin,hydroxamate,HDAC
+Tubastatin A HCl,Tubastatin A HCl,CN1CCc2c(c3ccccc3n2Cc2ccc(C(=O)NO)cc2)C1,Tubastatin,hydroxamate,HDAC
+Tucidinostat (Chidamide),Tucidinostat (Chidamide),Nc1ccc(F)cc1NC(=O)c1ccc(CNC(=O)/C=C/c2cccnc2)cc1,Tucidinostat,o_aminoanilide,HDAC
+UNC0379,UNC0379,COc1cc2nc(N3CCCC3)nc(NCCCCCN3CCCC3)c2cc1OC,UNC0379,,Histone Methyltransferase
+UNC0631,UNC0631,COc1cc2c(NC3CCN(CC4CCCCC4)CC3)nc(N3CCCN(C(C)C)CC3)nc2cc1OCCCN1CCCCC1,UNC0631,,Histone Methyltransferase
+UNC1999,UNC1999,CCCc1cc(C)[nH]c(=O)c1CNC(=O)c1cc(-c2ccc(N3CCN(C(C)C)CC3)nc2)cc2c1cnn2C(C)C,UNC1999,,Histone Methyltransferase
+Valproic acid sodium salt (Sodium valproate),Valproic acid sodium salt (Sodium valproate),CCCC(CCC)C(=O)O,Valproic,,"GABA Receptor,HDAC,Autophagy"
+Vandetanib (ZD6474),Vandetanib (ZD6474),COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCC1CCN(C)CC1,Vandetanib,,VEGFR
+Veliparib (ABT-888),Veliparib (ABT-888),C[C@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1,Veliparib,,PARP
+WHI-P154,WHI-P154,COc1cc2ncnc(Nc3ccc(O)c(Br)c3)c2cc1OC,WHI-P154,,"EGFR,JAK"
+WP1066,WP1066,C[C@H](NC(=O)/C(C#N)=C/c1cccc(Br)n1)c1ccccc1,WP1066,,JAK
+XAV-939,XAV-939,Oc1nc(-c2ccc(C(F)(F)F)cc2)nc2c1CSCC2,XAV-939,,Wnt/beta-catenin
+YM155 (Sepantronium Bromide),YM155 (Sepantronium Bromide),COCCn1c2c([n+](Cc3cnccn3)c1C)C(=O)c1ccccc1C2=O,YM155,,Survivin
+ZM 447439,ZM 447439,COc1cc2c(Nc3ccc(NC(=O)c4ccccc4)cc3)ncnc2cc1OCCCN1CCOCC1,ZM,,Aurora Kinase
+Zileuton,Zileuton,CC(c1cc2ccccc2s1)N(O)C(N)=O,Zileuton,,Lipoxygenase

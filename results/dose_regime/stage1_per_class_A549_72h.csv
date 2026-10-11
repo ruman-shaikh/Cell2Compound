@@ -1,0 +1,11 @@
+mechanism_class,groups,snr_10nM,snr_100nM,snr_1000nM,snr_10000nM,snr_all
+Aurora Kinase,32,1.271,1.507,1.662,1.745,1.6
+HDAC,49,0.999,1.137,1.582,0.967,1.099
+Epigenetic Reader Domain,12,0.489,0.769,1.188,3.052,1.029
+DNA Methyltransferase,8,0.5,0.685,0.933,1.611,0.998
+Histone Methyltransferase,8,0.943,0.824,0.406,1.064,0.795
+JAK,12,0.731,0.685,0.0,0.938,0.708
+HIF,8,0.499,0.558,0.279,1.498,0.691
+Topoisomerase,8,0.786,0.792,0.598,0.484,0.669
+PARP,12,0.653,0.615,0.0,0.709,0.584
+Sirtuin,12,0.88,0.576,0.162,0.25,0.413

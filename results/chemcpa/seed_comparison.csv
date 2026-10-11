@@ -1,0 +1,6 @@
+seed,groups,floor,alignment_drift,alignment_passed,chemcpa_rmse,ours_rmse,margin,best_of_ours_model,best_of_ours_rmse,selection_effect,chemcpa_top50_de,ours_top50_de
+42,152,0.0764,0.01107,True,0.1016,0.1071,-0.005500000000000005,tanimoto_knn,0.107,0.00010000000000000286,0.3343,0.3611
+43,151,0.0786,0.01262,True,0.1149,0.1132,0.001700000000000007,tanimoto_kernel_ridge,0.1132,0.0,0.38,0.3597
+44,149,0.0812,0.01573,True,0.1247,0.1166,0.00810000000000001,tanimoto_kernel_ridge,0.1166,0.0,0.416,0.3667
+45,158,0.0788,0.01346,True,0.1194,0.1093,0.010100000000000012,tanimoto_kernel_ridge,0.1093,0.0,0.3547,0.3567
+46,155,0.0797,0.0132,True,0.1125,0.1125,0.0,tanimoto_kernel_ridge,0.1125,0.0,0.3789,0.3681

@@ -1,0 +1,95 @@
+{
+  "predictions": "results/chemcpa/ood_predictions_s45.npz",
+  "pseudobulk": "data/pseudobulk_A549_24h.npz",
+  "split_seed": 45,
+  "genes": 2000,
+  "held_out_groups_compared": 158,
+  "held_out_compounds": 40,
+  "replicate_noise_floor_rmse": 0.0788,
+  "best_baseline": "dose_mean_response",
+  "alignment_check": {
+    "mean_abs_observed_difference": 0.01346,
+    "tolerance": 0.02,
+    "passed": true
+  },
+  "control_reference": {
+    "source": "all control cells pooled, from the pseudobulk archive",
+    "cells": 3726,
+    "mean_abs_difference_to_chemcpa_split_reference": 0.02746
+  },
+  "results": [
+    {
+      "model": "tanimoto_kernel_ridge",
+      "rmse": 0.1093,
+      "rmse_top50_de": 0.3567,
+      "pearson_top50_de": 0.3872,
+      "attainable_fraction": 0.116
+    },
+    {
+      "model": "mlp",
+      "rmse": 0.112,
+      "rmse_top50_de": 0.3798,
+      "pearson_top50_de": 0.3925,
+      "attainable_fraction": 0.037
+    },
+    {
+      "model": "ridge",
+      "rmse": 0.1127,
+      "rmse_top50_de": 0.3789,
+      "pearson_top50_de": 0.3843,
+      "attainable_fraction": 0.017
+    },
+    {
+      "model": "dose_mean_response",
+      "rmse": 0.1133,
+      "rmse_top50_de": 0.3821,
+      "pearson_top50_de": 0.3898,
+      "attainable_fraction": 0.0
+    },
+    {
+      "model": "training_mean_response",
+      "rmse": 0.1148,
+      "rmse_top50_de": 0.3911,
+      "pearson_top50_de": 0.367,
+      "attainable_fraction": -0.043
+    },
+    {
+      "model": "tanimoto_knn",
+      "rmse": 0.1186,
+      "rmse_top50_de": 0.3418,
+      "pearson_top50_de": 0.3167,
+      "attainable_fraction": -0.155
+    },
+    {
+      "model": "zero_response",
+      "rmse": 0.1188,
+      "rmse_top50_de": 0.415,
+      "pearson_top50_de": NaN,
+      "attainable_fraction": -0.161
+    },
+    {
+      "model": "chemcpa",
+      "rmse": 0.1194,
+      "rmse_top50_de": 0.3547,
+      "pearson_top50_de": 0.3575,
+      "attainable_fraction": -0.177
+    }
+  ],
+  "our_hyperparameters": {
+    "ridge_alpha": 10000.0,
+    "kernel_alpha": 1.0,
+    "dose_bandwidth": 0.5,
+    "mlp": {
+      "hidden": 256,
+      "dropout": 0.5,
+      "weight_decay": 0.01,
+      "epochs": 61
+    }
+  },
+  "comparability": [
+    "Same cells, genes, groups, control reference and metric for every row.",
+    "chemCPA predicts absolute expression; its predictions are converted to deltas against the same pooled control reference as every other model here.",
+    "This is NOT chemCPA's own reported metric (per-condition R2 on single cells); it is chemCPA scored on our pseudobulk task, which is what makes the rows comparable.",
+    "chemCPA was trained once at its default 201 epochs with no hyperparameter search, while our models select hyperparameters on the validation split, so this favours ours."
+  ]
+}

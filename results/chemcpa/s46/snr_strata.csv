@@ -1,0 +1,10 @@
+stratum,groups,floor,best_baseline,headroom,measurable,snr_median,rmse_chemcpa,attain_chemcpa,rmse_tanimoto_kernel_ridge,attain_tanimoto_kernel_ridge,rmse_tanimoto_knn,attain_tanimoto_knn,rmse_dose_mean_response,attain_dose_mean_response,chemcpa_minus_kernel_ridge,selection_effect_of_min_over_our_7
+all,155,0.0797,dose_mean_response,0.0403,True,0.392,0.1125,0.187,0.1125,0.186,0.1174,0.064,0.12,0.0,-5e-05,0.0
+snr_q1,33,0.0871,dose_mean_response,-0.0051,False,0.0,0.0858,,0.0854,,0.0939,,0.082,,0.00045,0.00361
+snr_q2,32,0.0784,zero_response,0.0035,False,0.287,0.0892,,0.0865,,0.0912,,0.0824,,0.00276,0.00465
+snr_q3,50,0.0749,training_mean_response,0.0087,True,0.441,0.0866,-0.354,0.0902,-0.762,0.1002,-1.915,0.0841,-0.059,-0.00354,0.0066
+snr_q4,40,0.0801,dose_mean_response,0.1096,True,1.567,0.1649,0.227,0.164,0.235,0.1642,0.232,0.1897,0.0,0.00087,0.0
+dose_10nM,39,0.07,dose_mean_response,0.0179,True,0.334,0.0869,0.052,0.0891,-0.067,0.0928,-0.277,0.0879,0.0,-0.00213,0.00185
+dose_100nM,39,0.0717,dose_mean_response,0.036,True,0.384,0.1036,0.113,0.1053,0.068,0.1097,-0.056,0.1077,0.0,-0.00162,0.00381
+dose_1000nM,39,0.0809,dose_mean_response,0.043,True,0.394,0.1133,0.246,0.1137,0.237,0.1188,0.117,0.1238,0.0,-0.00037,0.0
+dose_10000nM,38,0.0942,dose_mean_response,0.058,True,0.567,0.1401,0.208,0.1373,0.256,0.1433,0.153,0.1522,0.0,0.00278,0.0

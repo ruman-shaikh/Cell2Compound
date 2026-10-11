@@ -1,0 +1,94 @@
+{
+  "shared_compounds": 47,
+  "matched_24h": [
+    {
+      "dose_nM": 10.0,
+      "groups": 47,
+      "snr_median": 0.144,
+      "floor_median": 0.0603,
+      "cells_median": 192
+    },
+    {
+      "dose_nM": 100.0,
+      "groups": 47,
+      "snr_median": 0.318,
+      "floor_median": 0.0641,
+      "cells_median": 186
+    },
+    {
+      "dose_nM": 1000.0,
+      "groups": 47,
+      "snr_median": 0.43,
+      "floor_median": 0.0613,
+      "cells_median": 187
+    },
+    {
+      "dose_nM": 10000.0,
+      "groups": 46,
+      "snr_median": 0.45,
+      "floor_median": 0.0714,
+      "cells_median": 161
+    }
+  ],
+  "at_72h": [
+    {
+      "dose_nM": 10.0,
+      "groups": 47,
+      "snr_median": 0.87,
+      "floor_median": 0.037,
+      "cells_median": 488
+    },
+    {
+      "dose_nM": 100.0,
+      "groups": 47,
+      "snr_median": 0.996,
+      "floor_median": 0.0381,
+      "cells_median": 475
+    },
+    {
+      "dose_nM": 1000.0,
+      "groups": 47,
+      "snr_median": 0.739,
+      "floor_median": 0.0471,
+      "cells_median": 496
+    },
+    {
+      "dose_nM": 10000.0,
+      "groups": 43,
+      "snr_median": 1.256,
+      "floor_median": 0.046,
+      "cells_median": 423
+    }
+  ],
+  "all_188_at_24h": [
+    {
+      "dose_nM": 10.0,
+      "groups": 188,
+      "snr_median": 0.258,
+      "floor_median": 0.0509,
+      "cells_median": 229
+    },
+    {
+      "dose_nM": 100.0,
+      "groups": 188,
+      "snr_median": 0.321,
+      "floor_median": 0.0528,
+      "cells_median": 222
+    },
+    {
+      "dose_nM": 1000.0,
+      "groups": 185,
+      "snr_median": 0.39,
+      "floor_median": 0.0549,
+      "cells_median": 214
+    },
+    {
+      "dose_nM": 10000.0,
+      "groups": 183,
+      "snr_median": 0.698,
+      "floor_median": 0.0591,
+      "cells_median": 191
+    }
+  ],
+  "note": "72h panel is a 47-compound subset enriched for HDAC and Aurora; the matched rows are the only valid time comparison"
+}

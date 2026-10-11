@@ -1,0 +1,15 @@
+{
+  "source_url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?molecule_chembl_id__in=CHEMBL25,CHEMBL59,CHEMBL941,CHEMBL553,CHEMBL98&limit=10",
+  "raw_file": "data/raw/chembl_seed.json",
+  "sha256": "cade037d2d3a1f7616c4a336f1af7527585b85108690299cab331877b0705e59",
+  "imported_utc": "2026-10-07T20:20:44.811248+00:00",
+  "rows": 5,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 5
+  },
+  "purpose": "Initial chemistry integration smoke test; not the modelling cohort"
+}

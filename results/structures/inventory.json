@@ -1,0 +1,152 @@
+{
+  "experimental": {
+    "file": "data/raw/4LXZ.pdb",
+    "sha256": "8f32fb58adcbf1198d1e51aeb242b312f0abf772b58d732a767d7388f4b2fdf3",
+    "chains": [
+      {
+        "chain": "A",
+        "residues_with_CA": 368,
+        "hetero_residues": [
+          {
+            "name": "ZN",
+            "number": 401,
+            "atoms": 1
+          },
+          {
+            "name": "CA",
+            "number": 402,
+            "atoms": 1
+          },
+          {
+            "name": "NA",
+            "number": 403,
+            "atoms": 1
+          },
+          {
+            "name": "PG4",
+            "number": 404,
+            "atoms": 13
+          },
+          {
+            "name": "PG4",
+            "number": 405,
+            "atoms": 13
+          },
+          {
+            "name": "PG4",
+            "number": 406,
+            "atoms": 13
+          },
+          {
+            "name": "SHH",
+            "number": 407,
+            "atoms": 19
+          }
+        ]
+      },
+      {
+        "chain": "B",
+        "residues_with_CA": 367,
+        "hetero_residues": [
+          {
+            "name": "ZN",
+            "number": 401,
+            "atoms": 1
+          },
+          {
+            "name": "CA",
+            "number": 402,
+            "atoms": 1
+          },
+          {
+            "name": "NA",
+            "number": 403,
+            "atoms": 1
+          },
+          {
+            "name": "NHE",
+            "number": 404,
+            "atoms": 13
+          },
+          {
+            "name": "PG4",
+            "number": 405,
+            "atoms": 13
+          },
+          {
+            "name": "PG4",
+            "number": 406,
+            "atoms": 13
+          },
+          {
+            "name": "PG4",
+            "number": 407,
+            "atoms": 13
+          },
+          {
+            "name": "SHH",
+            "number": 408,
+            "atoms": 19
+          }
+        ]
+      },
+      {
+        "chain": "C",
+        "residues_with_CA": 368,
+        "hetero_residues": [
+          {
+            "name": "ZN",
+            "number": 401,
+            "atoms": 1
+          },
+          {
+            "name": "CA",
+            "number": 402,
+            "atoms": 1
+          },
+          {
+            "name": "NA",
+            "number": 403,
+            "atoms": 1
+          },
+          {
+            "name": "PG4",
+            "number": 404,
+            "atoms": 13
+          },
+          {
+            "name": "PG4",
+            "number": 405,
+            "atoms": 13
+          },
+          {
+            "name": "SHH",
+            "number": 406,
+            "atoms": 19
+          }
+        ]
+      }
+    ]
+  },
+  "alphafold": {
+    "file": "data/raw/HDAC2_alphafold.pdb",
+    "sha256": "127cf927278d918542f354b29213a8f4bb7e1495c964d19f90ad36ba21fb38b1",
+    "chains": [
+      {
+        "chain": "A",
+        "residues_with_CA": 488,
+        "hetero_residues": [],
+        "confidence": {
+          "mean_plddt": 85.57508196721311,
+          "fraction_below_70": 0.21721311475409835,
+          "fraction_below_50": 0.13934426229508196
+        }
+      }
+    ]
+  },
+  "limitations": [
+    "Global confidence does not establish pocket quality.",
+    "Experimental B factors are not pLDDT and are not compared as such.",
+    "Pocket mapping, sequence alignment, and docking validation remain required."
+  ]
+}

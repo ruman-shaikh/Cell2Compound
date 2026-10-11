@@ -1,0 +1,11 @@
+{
+  "checkpoint": "/home/ruman/repos/chemCPA/training_output_s43/rgct58jv/last.ckpt",
+  "dataset": "ours_sciplex_s43",
+  "device": "cuda",
+  "conditions_predicted": 152,
+  "conditions_skipped_too_few_cells": [],
+  "ood_control_cells": 571,
+  "genes": 2000,
+  "output": "/home/ruman/repos/Cell2Compound/results/chemcpa/ood_predictions_s43.npz",
+  "note": "group means only; chemCPA R2 is not computed here because our comparison uses RMSE on control-relative deltas over the same genes"
+}

@@ -1,0 +1,121 @@
+{
+  "model": "facebook/esm2_t6_8M_UR50D",
+  "revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+  "device": "cuda",
+  "window": 1022,
+  "stride": 511,
+  "targets": [
+    {
+      "id": "HDAC1",
+      "length": 482,
+      "file": "target_0.npz",
+      "windows": 1,
+      "sequence_sha256": "7289cbc54521bc202bb99244e249eff3fd381af091772ac7e1cfdbd1b155c545"
+    },
+    {
+      "id": "HDAC2",
+      "length": 488,
+      "file": "target_1.npz",
+      "windows": 1,
+      "sequence_sha256": "955979c609c58538ca00aee39b91bfe3f7988d4c5d7ac63d68ced1c874449011"
+    },
+    {
+      "id": "HDAC3",
+      "length": 428,
+      "file": "target_2.npz",
+      "windows": 1,
+      "sequence_sha256": "9d0bf140dd3e9610a05d0391d0b3076177bb6c5932d4b003e913cd9bfb378d81"
+    },
+    {
+      "id": "HDAC6",
+      "length": 1215,
+      "file": "target_3.npz",
+      "windows": 2,
+      "sequence_sha256": "9a7fa3c16640c215ee56fb067330853d5928b50181834259d9e00abb24e9b751"
+    },
+    {
+      "id": "HDAC8",
+      "length": 377,
+      "file": "target_4.npz",
+      "windows": 1,
+      "sequence_sha256": "4602a348ca21f49c27d1dfd706dbfb54f20ab49a7de362ece550dbb1dd236c87"
+    },
+    {
+      "id": "JAK1",
+      "length": 1154,
+      "file": "target_5.npz",
+      "windows": 2,
+      "sequence_sha256": "1c6644344a12e467bac221d095a23fc2da3d2eb868d6085259979d4b76029cba"
+    },
+    {
+      "id": "JAK2",
+      "length": 1132,
+      "file": "target_6.npz",
+      "windows": 2,
+      "sequence_sha256": "21017319c2c8714bf0b97157e13f2184664d2d13b899b37276195af86ca0720a"
+    },
+    {
+      "id": "JAK3",
+      "length": 1124,
+      "file": "target_7.npz",
+      "windows": 2,
+      "sequence_sha256": "18a68eca96f64db10c5b38e1f1bf1b013e7dd5091fad780578010a93474da833"
+    },
+    {
+      "id": "TYK2",
+      "length": 1187,
+      "file": "target_8.npz",
+      "windows": 2,
+      "sequence_sha256": "3f6b27ef15f1a0769f6d67bc2e74c379d3b7bd9e36093cb9bb74486a4a241890"
+    },
+    {
+      "id": "AURKA",
+      "length": 403,
+      "file": "target_9.npz",
+      "windows": 1,
+      "sequence_sha256": "7192d652f813d4d86f957b1edb7729c8adb429515fb591d7f4c6937a9d54dec2"
+    },
+    {
+      "id": "AURKB",
+      "length": 344,
+      "file": "target_10.npz",
+      "windows": 1,
+      "sequence_sha256": "0f99982b545e61cc6fa4ca70be1e2f0f503d3e26f44fdb3067dd3c6905bb2788"
+    },
+    {
+      "id": "ABL1",
+      "length": 1130,
+      "file": "target_11.npz",
+      "windows": 2,
+      "sequence_sha256": "bf5ccc817349256c1c2f16dd66d61bfcd29ac4897fdead01d85e01cd84e33670"
+    },
+    {
+      "id": "KIT",
+      "length": 976,
+      "file": "target_12.npz",
+      "windows": 1,
+      "sequence_sha256": "7b430dd4888d7410e8d65d331b8bd4f5bd9abd4f3a9290f2a93f37b0ed495c5c"
+    },
+    {
+      "id": "FLT3",
+      "length": 993,
+      "file": "target_13.npz",
+      "windows": 1,
+      "sequence_sha256": "68d60cea30219da8cef67dbcc1b81dcdebc8456663f7f54b6fb8cc6666a7b416"
+    },
+    {
+      "id": "EGFR",
+      "length": 1210,
+      "file": "target_14.npz",
+      "windows": 2,
+      "sequence_sha256": "dbb4583267ad40a7dfd854ee3c44ce4be38e137d0570e3eb76cf1854a74e7246"
+    },
+    {
+      "id": "SRC",
+      "length": 536,
+      "file": "target_15.npz",
+      "windows": 1,
+      "sequence_sha256": "bfb0c691493b552212f52a3e68ec9d6c2e67dc37339f19b6e71c22fd202292f8"
+    }
+  ]
+}

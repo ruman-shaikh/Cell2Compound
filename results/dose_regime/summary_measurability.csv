@@ -1,0 +1,11 @@
+dataset,stratum,groups,floor,headroom,measurable,attainable
+A549_24h,snr_q1,36,0.0966,-0.005,False,
+A549_24h,snr_q2,34,0.0845,0.0042,True,-0.997
+A549_24h,snr_q3,43,0.0841,0.0136,True,-0.513
+A549_24h,snr_q4,39,0.0988,0.1532,True,0.208
+K562_24h,snr_q2,76,0.0829,-0.0048,False,
+K562_24h,snr_q3,38,0.0855,0.0136,True,-0.388
+K562_24h,snr_q4,39,0.0986,0.1136,True,0.216
+MCF7_24h,snr_q3,105,0.0682,-0.0021,False,
+MCF7_24h,snr_q4,43,0.0745,0.1312,True,0.187
+A549_72h,snr_q2,15,0.0651,0.0223,True,-0.079

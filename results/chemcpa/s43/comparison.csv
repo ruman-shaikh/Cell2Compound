@@ -1,0 +1,9 @@
+model,rmse,rmse_top50_de,pearson_top50_de,attainable_fraction
+tanimoto_kernel_ridge,0.1132,0.3597,0.3748,0.182
+chemcpa,0.1149,0.38,0.3723,0.143
+mlp,0.1162,0.397,0.3933,0.111
+ridge,0.1185,0.3951,0.3977,0.057
+tanimoto_knn,0.12,0.3516,0.3405,0.022
+dose_mean_response,0.1209,0.4162,0.4054,0.0
+training_mean_response,0.1221,0.4237,0.3892,-0.028
+zero_response,0.1264,0.4464,,-0.131

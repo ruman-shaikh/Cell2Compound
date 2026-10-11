@@ -1,0 +1,10 @@
+{
+  "input_rows": 5,
+  "accepted": 5,
+  "rejected": 0,
+  "fingerprint": {
+    "kind": "Morgan",
+    "radius": 2,
+    "bits": 2048
+  }
+}

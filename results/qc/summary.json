@@ -1,0 +1,54 @@
+{
+  "input": "data/sciplex_subset_v2.h5ad",
+  "output": "data/sciplex_qc.h5ad",
+  "cells_in": 28513,
+  "cells_kept": 28017,
+  "genes_in": 110983,
+  "genes_kept_nonzero": 40582,
+  "mito_genes": 74,
+  "thresholds": {
+    "nmads_log": 5.0,
+    "mito_nmads": 3.0,
+    "pct_mito_cap": 47.10700142494667
+  },
+  "removed_by_flag": {
+    "counts_outlier": 1,
+    "genes_outlier": 1,
+    "high_mito": 495
+  },
+  "median": {
+    "total_counts": 1238.0,
+    "n_genes": 792.0,
+    "pct_mito": 20.468431771894092
+  },
+  "control_cells_kept": 1478,
+  "control_cells_by_replicate": {
+    "rep1": 738,
+    "rep2": 740
+  },
+  "control_plates": 16,
+  "control_replicate_profile_pearson": 0.9899133074048232,
+  "control_split_half_rmse": 0.039412016855591314,
+  "control_profile_genes": 5187,
+  "plates_per_compound": {
+    "min": 4,
+    "median": 4.0,
+    "max": 4
+  },
+  "highest_compound_loss": {
+    "YM155 (Sepantronium Bromide)": 0.291,
+    "Epothilone A": 0.235,
+    "Flavopiridol HCl": 0.229,
+    "Patupilone (EPO906, Epothilone B)": 0.16,
+    "Rigosertib (ON-01910)": 0.139,
+    "Bisindolylmaleimide IX (Ro 31-8220 Mesylate)": 0.132,
+    "Ivosidenib (AG-120)": 0.119,
+    "Danusertib (PHA-739358)": 0.056,
+    "UNC0379": 0.056,
+    "PCI-34051": 0.049
+  },
+  "limitations": [
+    "Thresholds are global; cytotoxic compounds can lose more cells, which biases their mean response toward survivors.",
+    "Split-half RMSE is computed on control-expressed genes and is not directly comparable to model RMSE on selected genes."
+  ]
+}

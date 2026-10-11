@@ -1,0 +1,30 @@
+{
+  "python": "/home/ruman/venvs/general/bin/python",
+  "python_version": "3.10.19",
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "rdkit": "2025.3.6",
+    "pandas": "2.3.3",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "transformers": "4.46.3",
+    "scanpy": "1.11.5",
+    "anndata": "0.11.4",
+    "h5py": "3.15.1",
+    "requests": "2.34.2",
+    "matplotlib": "3.8.4",
+    "biopython": "1.86",
+    "vina": "1.2.7",
+    "meeko": "0.8.0",
+    "gemmi": "0.7.5",
+    "pytest": "9.1.1"
+  },
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "vina_cli": null,
+  "obabel": null,
+  "autogrid4": null,
+  "mk_prepare_receptor": "/home/ruman/venvs/general/bin/mk_prepare_receptor.py",
+  "disk_free_gib": 166.71
+}

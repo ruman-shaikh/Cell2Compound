@@ -1,0 +1,179 @@
+{
+  "receptors": {
+    "4LXZ": {
+      "pdb": "4LXZ",
+      "cognate_ligand": "SHH",
+      "suits_chemotype": "hydroxamate",
+      "residues_removed": [],
+      "box_center": [
+        25.71,
+        -15.817,
+        1.122
+      ]
+    },
+    "4LY1": {
+      "pdb": "4LY1",
+      "cognate_ligand": "20Y",
+      "suits_chemotype": "o_aminoanilide",
+      "residues_removed": [],
+      "box_center": [
+        21.904,
+        -18.461,
+        0.681
+      ]
+    }
+  },
+  "scoring": "vina",
+  "scoring_selected_by": "Scoring function for candidate docking = best crossdock top-1 success (RMSD <= threshold); zinc engagement breaks ties.",
+  "threads_per_run": 4,
+  "concurrent_runs": 5,
+  "parallelism_note": "Compounds/receptors/seeds are independent and run concurrently; threads per run is held at the value the cached poses were produced with, since Vina trajectories depend on it.",
+  "box_size": 22.0,
+  "exhaustiveness": 16,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "library": {
+    "zbg": 21,
+    "comparators": 21,
+    "failed": []
+  },
+  "per_receptor": {
+    "4LXZ": {
+      "n": 42,
+      "median_best_score": {
+        "comparator": -7.52,
+        "zbg": -8.23
+      },
+      "zinc_engaged_fraction": {
+        "comparator": 0.016,
+        "zbg": 0.73
+      },
+      "auroc_zbg_vs_comparator": 0.866,
+      "score_vs_heavy_atoms_spearman": -0.428
+    },
+    "4LY1": {
+      "n": 42,
+      "median_best_score": {
+        "comparator": -7.38,
+        "zbg": -8.46
+      },
+      "zinc_engaged_fraction": {
+        "comparator": 0.27,
+        "zbg": 0.778
+      },
+      "auroc_zbg_vs_comparator": 0.807,
+      "score_vs_heavy_atoms_spearman": -0.414
+    }
+  },
+  "chemotype_matched_receptor": {
+    "n": 63,
+    "median_best_score": {
+      "comparator": -7.51,
+      "zbg": -8.47
+    },
+    "zinc_engaged_fraction": {
+      "comparator": 0.143,
+      "zbg": 0.698
+    },
+    "auroc_zbg_vs_comparator": 0.846,
+    "score_vs_heavy_atoms_spearman": -0.516
+  },
+  "validation_context": {
+    "redock_success_by_chemotype": {
+      "benzamide/alphafold/vina": {
+        "top1_success": 0.0,
+        "top3_success": 0.0,
+        "sampled": 0.0,
+        "top1_zinc_engaged": 0.0
+      },
+      "benzamide/alphafold/vinardo": {
+        "top1_success": 0.0,
+        "top3_success": 0.0,
+        "sampled": 0.0,
+        "top1_zinc_engaged": 0.0
+      },
+      "benzamide/crossdock/vina": {
+        "top1_success": 0.0,
+        "top3_success": 0.0,
+        "sampled": 0.0,
+        "top1_zinc_engaged": 0.25
+      },
+      "benzamide/crossdock/vinardo": {
+        "top1_success": 0.0,
+        "top3_success": 0.0,
+        "sampled": 0.0,
+        "top1_zinc_engaged": 0.25
+      },
+      "benzamide/redock/vina": {
+        "top1_success": 0.95,
+        "top3_success": 0.95,
+        "sampled": 0.95,
+        "top1_zinc_engaged": 0.95
+      },
+      "benzamide/redock/vinardo": {
+        "top1_success": 0.75,
+        "top3_success": 0.85,
+        "sampled": 0.9,
+        "top1_zinc_engaged": 0.85
+      },
+      "hydroxamate/alphafold/vina": {
+        "top1_success": 0.0,
+        "top3_success": 0.0,
+        "sampled": 0.0,
+        "top1_zinc_engaged": 0.0
+      },
+      "hydroxamate/alphafold/vinardo": {
+        "top1_success": 0.0,
+        "top3_success": 0.0,
+        "sampled": 0.0,
+        "top1_zinc_engaged": 0.0
+      },
+      "hydroxamate/crossdock/vina": {
+        "top1_success": 0.0,
+        "top3_success": 0.0,
+        "sampled": 0.8,
+        "top1_zinc_engaged": 1.0
+      },
+      "hydroxamate/crossdock/vinardo": {
+        "top1_success": 0.0,
+        "top3_success": 0.0,
+        "sampled": 0.0,
+        "top1_zinc_engaged": 0.6
+      },
+      "hydroxamate/redock/vina": {
+        "top1_success": 0.0,
+        "top3_success": 0.1,
+        "sampled": 0.7,
+        "top1_zinc_engaged": 1.0
+      },
+      "hydroxamate/redock/vinardo": {
+        "top1_success": 0.1,
+        "top3_success": 0.4,
+        "sampled": 0.7,
+        "top1_zinc_engaged": 1.0
+      }
+    },
+    "note": "No receptor redocked hydroxamates within 2 A, so hydroxamate rankings are weak evidence."
+  },
+  "response_rms_median": {
+    "comparator": 0.1667,
+    "zbg": 0.4795
+  },
+  "response_mannwhitney_p_zbg_greater": 0.00016078679341057788,
+  "limitations": [
+    "Docking scores are not binding affinities; ZBG compounds are expected to score well partly by construction.",
+    "Cognate redocking never reached 2 A for hydroxamates in any receptor, including the native one.",
+    "Benzamides only redock well in a benzamide-bound receptor; a single receptor cannot serve both chemotypes.",
+    "Score correlates with ligand size; the correlation is reported beside every contrast.",
+    "Comparators are other sci-Plex drugs, not confirmed HDAC non-binders.",
+    "Transcriptional response is shown alongside, never used to rank or validate docking."
+  ],
+  "compounds_with_chembl_hdac2_potency": 17,
+  "score_vs_hdac2_pchembl_spearman": {
+    "4LXZ": 0.005,
+    "4LY1": -0.083
+  }
+}

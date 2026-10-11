@@ -1,0 +1,1631 @@
+{
+  "generated_from": "saved pipeline outputs only",
+  "git_commit": "a5bc96d",
+  "environment": {
+    "python": "/home/ruman/venvs/general/bin/python",
+    "python_version": "3.10.19",
+    "packages": {
+      "torch": "2.5.1+cu121",
+      "rdkit": "2025.3.6",
+      "pandas": "2.3.3",
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "transformers": "4.46.3",
+      "scanpy": "1.11.5",
+      "anndata": "0.11.4",
+      "h5py": "3.15.1",
+      "requests": "2.34.2",
+      "matplotlib": "3.8.4",
+      "biopython": "1.86",
+      "vina": "1.2.7",
+      "meeko": "0.8.0",
+      "gemmi": "0.7.5",
+      "pytest": "9.1.1"
+    },
+    "cuda_available": true,
+    "cuda_device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "vina_cli": null,
+    "obabel": null,
+    "autogrid4": null,
+    "mk_prepare_receptor": "/home/ruman/venvs/general/bin/mk_prepare_receptor.py",
+    "disk_free_gib": 166.71,
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43"
+  },
+  "data": {
+    "single_cell_source": {
+      "record": "https://zenodo.org/records/13350497",
+      "file": "SrivatsanTrapnell2020_sciplex3.h5ad",
+      "bytes": 2526631614,
+      "checksum": "md5:c9e70629505d98c7ca1a837f62b14e89",
+      "release_note": "v1.4 corrects sci-Plex3 errors"
+    },
+    "pseudobulk": {
+      "input": "data/raw/sciplex3.h5ad",
+      "output": "data/pseudobulk_A549_24h.npz",
+      "cell_line": "A549",
+      "time_hours": 24.0,
+      "cells_selected": 162171,
+      "cells_kept": 159909,
+      "thresholds": {
+        "log_nmads": 5.0,
+        "pct_mito_cap": 46.57902526855469
+      },
+      "genes_kept": 17808,
+      "groups": 1520,
+      "group_keys": [
+        "perturbation",
+        "dose_value",
+        "replicate",
+        "plate"
+      ],
+      "normalisation": "per-cell 1e4 by full library size, log1p; summed (divide by cells for means)"
+    },
+    "qc": {
+      "cells_in": 28513,
+      "cells_kept": 28017,
+      "thresholds": {
+        "nmads_log": 5.0,
+        "mito_nmads": 3.0,
+        "pct_mito_cap": 47.10700142494667
+      },
+      "control_cells_kept": 1478,
+      "control_replicate_profile_pearson": 0.9899133074048232,
+      "control_split_half_rmse": 0.039412016855591314,
+      "highest_compound_loss": {
+        "YM155 (Sepantronium Bromide)": 0.291,
+        "Epothilone A": 0.235,
+        "Flavopiridol HCl": 0.229,
+        "Patupilone (EPO906, Epothilone B)": 0.16,
+        "Rigosertib (ON-01910)": 0.139,
+        "Bisindolylmaleimide IX (Ro 31-8220 Mesylate)": 0.132,
+        "Ivosidenib (AG-120)": 0.119,
+        "Danusertib (PHA-739358)": 0.056,
+        "UNC0379": 0.056,
+        "PCI-34051": 0.049
+      }
+    }
+  },
+  "headline_results": {
+    "expression_rmse_over_seeds": {
+      "zero_response": {
+        "mean": 0.1583,
+        "sd": 0.004
+      },
+      "training_mean_response": {
+        "mean": 0.153,
+        "sd": 0.0039
+      },
+      "dose_mean_response": {
+        "mean": 0.1513,
+        "sd": 0.0041
+      },
+      "tanimoto_knn": {
+        "mean": 0.1488,
+        "sd": 0.0095
+      },
+      "ridge": {
+        "mean": 0.1481,
+        "sd": 0.0032
+      },
+      "tanimoto_kernel_ridge": {
+        "mean": 0.1412,
+        "sd": 0.0039
+      },
+      "mlp": {
+        "mean": 0.1479,
+        "sd": 0.0038
+      }
+    },
+    "expression_top50_de_rmse": {
+      "zero_response": 0.4425,
+      "training_mean_response": 0.4197,
+      "dose_mean_response": 0.4118,
+      "tanimoto_knn": 0.3553,
+      "ridge": 0.3935,
+      "tanimoto_kernel_ridge": 0.3676,
+      "mlp": 0.406
+    },
+    "expression_replicate_noise_floor": 0.09105310528523816,
+    "expression_control_matching_ablation": {
+      "pooled_default": {
+        "zero_response": 0.1583,
+        "training_mean_response": 0.153,
+        "dose_mean_response": 0.1513,
+        "tanimoto_knn": 0.1488,
+        "ridge": 0.1481,
+        "tanimoto_kernel_ridge": 0.1412,
+        "mlp": 0.1479
+      },
+      "plate_matched": {
+        "zero_response": 0.1635,
+        "training_mean_response": 0.1586,
+        "dose_mean_response": 0.1561,
+        "tanimoto_knn": 0.1537,
+        "ridge": 0.1547,
+        "tanimoto_kernel_ridge": 0.1468,
+        "mlp": 0.154
+      }
+    },
+    "measurability_median_snr_by_dose": {
+      "A549_24h": {
+        "10nM": 0.258,
+        "100nM": 0.321,
+        "1000nM": 0.39,
+        "10000nM": 0.698
+      },
+      "K562_24h": {
+        "10nM": 0.215,
+        "100nM": 0.218,
+        "1000nM": 0.248,
+        "10000nM": 0.605
+      },
+      "MCF7_24h": {
+        "10nM": 0.0,
+        "100nM": 0.0,
+        "1000nM": 0.345,
+        "10000nM": 0.619
+      },
+      "A549_72h": {
+        "10nM": 0.87,
+        "100nM": 0.996,
+        "1000nM": 0.739,
+        "10000nM": 1.256
+      }
+    },
+    "measurability_fraction_groups_above_noise": {
+      "A549_24h": {
+        "10nM": 0.08,
+        "100nM": 0.149,
+        "1000nM": 0.178,
+        "10000nM": 0.399
+      },
+      "K562_24h": {
+        "10nM": 0.08,
+        "100nM": 0.149,
+        "1000nM": 0.166,
+        "10000nM": 0.339
+      },
+      "MCF7_24h": {
+        "10nM": 0.08,
+        "100nM": 0.128,
+        "1000nM": 0.21,
+        "10000nM": 0.399
+      },
+      "A549_72h": {
+        "10nM": 0.362,
+        "100nM": 0.489,
+        "1000nM": 0.468,
+        "10000nM": 0.535
+      }
+    },
+    "chemcpa_pooled": {
+      "chemcpa": 0.1016,
+      "tanimoto_knn": 0.107,
+      "tanimoto_kernel_ridge": 0.1071,
+      "ridge": 0.1126,
+      "dose_mean_response": 0.116,
+      "mlp": 0.1163,
+      "training_mean_response": 0.1174,
+      "zero_response": 0.1213
+    },
+    "chemcpa_advantage_by_snr_stratum": {
+      "snr_q1": -0.00114,
+      "snr_q2": -0.00147,
+      "snr_q3": -0.00028,
+      "snr_q4": -0.01282
+    },
+    "time_matched_snr_72h_over_24h": {
+      "10nM": 6.04,
+      "100nM": 3.13,
+      "1000nM": 1.72,
+      "10000nM": 2.79
+    },
+    "property": {
+      "comparator": {
+        "test_rmse": {
+          "mean": 2.0338984422417985,
+          "sd": 0.3745524161988877
+        },
+        "test_mae": {
+          "mean": 1.6332753511875011,
+          "sd": 0.30248595305426806
+        },
+        "test_r2": {
+          "mean": -0.058178555349978955,
+          "sd": 0.057207864567394844
+        }
+      },
+      "selected": {
+        "test_rmse": {
+          "mean": 0.7767980362091691,
+          "sd": 0.0592766881804681
+        },
+        "test_mae": {
+          "mean": 0.5583915150877214,
+          "sd": 0.059569569656939436
+        },
+        "test_r2": {
+          "mean": 0.835893824704363,
+          "sd": 0.05386241278341458
+        }
+      }
+    },
+    "property_empty_scaffold_ablation": {
+      "singleton": {
+        "comparator": {
+          "test_rmse": {
+            "mean": 2.0338984422417985,
+            "sd": 0.3745524161988877
+          },
+          "test_mae": {
+            "mean": 1.6332753511875011,
+            "sd": 0.30248595305426806
+          },
+          "test_r2": {
+            "mean": -0.058178555349978955,
+            "sd": 0.057207864567394844
+          }
+        },
+        "selected": {
+          "test_rmse": {
+            "mean": 0.7767980362091691,
+            "sd": 0.0592766881804681
+          },
+          "test_mae": {
+            "mean": 0.5583915150877214,
+            "sd": 0.059569569656939436
+          },
+          "test_r2": {
+            "mean": 0.835893824704363,
+            "sd": 0.05386241278341458
+          }
+        }
+      },
+      "group": {
+        "comparator": {
+          "test_rmse": {
+            "mean": 2.068540851343147,
+            "sd": 0.2866549729984132
+          },
+          "test_mae": {
+            "mean": 1.6425162890623013,
+            "sd": 0.2816010888613705
+          },
+          "test_r2": {
+            "mean": -0.09749134886470005,
+            "sd": 0.12274952947371635
+          }
+        },
+        "selected": {
+          "test_rmse": {
+            "mean": 0.8796965627513851,
+            "sd": 0.1306330797390591
+          },
+          "test_mae": {
+            "mean": 0.6605188088461913,
+            "sd": 0.1197827388980664
+          },
+          "test_r2": {
+            "mean": 0.7967526492524419,
+            "sd": 0.05579550802882732
+          }
+        }
+      }
+    },
+    "target_aware": {
+      "loto/compound_mean_other_targets": {
+        "rmse_mean": 1.1628,
+        "rmse_std": 0.1696,
+        "r2_mean": 0.0224,
+        "r2_std": 0.3743,
+        "mean_within_target_pearson_mean": 0.4407,
+        "mean_within_target_pearson_std": 0.1892
+      },
+      "loto/esm": {
+        "rmse_mean": 1.1424,
+        "rmse_std": 0.2338,
+        "r2_mean": 0.0653,
+        "r2_std": 0.3451,
+        "mean_within_target_pearson_mean": 0.4462,
+        "mean_within_target_pearson_std": 0.2121
+      },
+      "loto/esm_shuffled": {
+        "rmse_mean": 1.2816,
+        "rmse_std": 0.2721,
+        "r2_mean": -0.1464,
+        "r2_std": 0.3394,
+        "mean_within_target_pearson_mean": 0.3526,
+        "mean_within_target_pearson_std": 0.204
+      },
+      "loto/none": {
+        "rmse_mean": 1.1878,
+        "rmse_std": 0.2495,
+        "r2_mean": -0.011,
+        "r2_std": 0.3884,
+        "mean_within_target_pearson_mean": 0.4465,
+        "mean_within_target_pearson_std": 0.1958
+      },
+      "loto_shared_compounds/compound_mean_other_targets": {
+        "rmse_mean": 1.0786,
+        "rmse_std": 0.1672,
+        "r2_mean": 0.0826,
+        "r2_std": 0.3974,
+        "mean_within_target_pearson_mean": 0.5659,
+        "mean_within_target_pearson_std": 0.1474
+      },
+      "loto_shared_compounds/esm": {
+        "rmse_mean": 1.0493,
+        "rmse_std": 0.1796,
+        "r2_mean": 0.1352,
+        "r2_std": 0.3567,
+        "mean_within_target_pearson_mean": 0.523,
+        "mean_within_target_pearson_std": 0.1897
+      },
+      "loto_shared_compounds/esm_shuffled": {
+        "rmse_mean": 1.1648,
+        "rmse_std": 0.1757,
+        "r2_mean": -0.033,
+        "r2_std": 0.3106,
+        "mean_within_target_pearson_mean": 0.4147,
+        "mean_within_target_pearson_std": 0.188
+      },
+      "loto_shared_compounds/none": {
+        "rmse_mean": 1.0755,
+        "rmse_std": 0.1531,
+        "r2_mean": 0.0953,
+        "r2_std": 0.3615,
+        "mean_within_target_pearson_mean": 0.5416,
+        "mean_within_target_pearson_std": 0.1494
+      },
+      "loto_strict/esm": {
+        "rmse_mean": 1.2616,
+        "rmse_std": 0.2013,
+        "r2_mean": -0.1038,
+        "r2_std": 0.2287,
+        "mean_within_target_pearson_mean": 0.2788,
+        "mean_within_target_pearson_std": 0.1514
+      },
+      "loto_strict/esm_shuffled": {
+        "rmse_mean": 1.3538,
+        "rmse_std": 0.258,
+        "r2_mean": -0.2642,
+        "r2_std": 0.2797,
+        "mean_within_target_pearson_mean": 0.2332,
+        "mean_within_target_pearson_std": 0.1215
+      },
+      "loto_strict/none": {
+        "rmse_mean": 1.2918,
+        "rmse_std": 0.199,
+        "r2_mean": -0.1746,
+        "r2_std": 0.3241,
+        "mean_within_target_pearson_mean": 0.2835,
+        "mean_within_target_pearson_std": 0.1585
+      },
+      "scaffold/esm": {
+        "rmse_mean": 0.7724,
+        "rmse_std": 0.011,
+        "r2_mean": 0.6617,
+        "r2_std": 0.0058,
+        "mean_within_target_pearson_mean": 0.7729,
+        "mean_within_target_pearson_std": 0.0103
+      },
+      "scaffold/esm_shuffled": {
+        "rmse_mean": 0.7733,
+        "rmse_std": 0.0146,
+        "r2_mean": 0.6608,
+        "r2_std": 0.01,
+        "mean_within_target_pearson_mean": 0.7704,
+        "mean_within_target_pearson_std": 0.0131
+      },
+      "scaffold/none": {
+        "rmse_mean": 0.8874,
+        "rmse_std": 0.0177,
+        "r2_mean": 0.5535,
+        "r2_std": 0.006,
+        "mean_within_target_pearson_mean": 0.6756,
+        "mean_within_target_pearson_std": 0.0141
+      },
+      "scaffold/one_hot": {
+        "rmse_mean": 0.7837,
+        "rmse_std": 0.0192,
+        "r2_mean": 0.6518,
+        "r2_std": 0.0075,
+        "mean_within_target_pearson_mean": 0.7576,
+        "mean_within_target_pearson_std": 0.0063
+      }
+    },
+    "docking_validation": {
+      "alphafold/vina": {
+        "top1_success": 0.0,
+        "top3_success": 0.0,
+        "sampled": 0.0,
+        "top1_zinc_engaged": 0.0
+      },
+      "alphafold/vinardo": {
+        "top1_success": 0.0,
+        "top3_success": 0.0,
+        "sampled": 0.0,
+        "top1_zinc_engaged": 0.0
+      },
+      "crossdock/vina": {
+        "top1_success": 0.0,
+        "top3_success": 0.0,
+        "sampled": 0.16,
+        "top1_zinc_engaged": 0.4
+      },
+      "crossdock/vinardo": {
+        "top1_success": 0.0,
+        "top3_success": 0.0,
+        "sampled": 0.0,
+        "top1_zinc_engaged": 0.32
+      },
+      "redock/vina": {
+        "top1_success": 0.633,
+        "top3_success": 0.667,
+        "sampled": 0.867,
+        "top1_zinc_engaged": 0.967
+      },
+      "redock/vinardo": {
+        "top1_success": 0.533,
+        "top3_success": 0.7,
+        "sampled": 0.833,
+        "top1_zinc_engaged": 0.9
+      }
+    },
+    "mechanism_stress_test": {
+      "self_consistency": {
+        "checked": true,
+        "headline": "results/expression/metrics.json",
+        "rmse_drift_vs_headline": {
+          "zero_response": 0.0,
+          "training_mean_response": 0.0,
+          "dose_mean_response": 0.0,
+          "tanimoto_knn": 0.0,
+          "ridge": 0.0,
+          "tanimoto_kernel_ridge": 0.0,
+          "mlp": 0.0
+        },
+        "max_abs_drift": 0.0,
+        "tolerance": 0.005,
+        "within_tolerance": true
+      },
+      "arms": {
+        "loco": {
+          "n": 17,
+          "replicate_floor_rmse": 0.0919,
+          "best_baseline_rmse": 0.1317,
+          "tanimoto_kernel_ridge_rmse": 0.1351,
+          "ridge_rmse": 0.136,
+          "mlp_rmse": 0.1347,
+          "tanimoto_knn_rmse": 0.1488,
+          "dose_mean_response_rmse": 0.1325,
+          "tanimoto_knn_attainable_fraction_median": -0.374,
+          "tanimoto_knn_attainable_fraction_mean": -0.846,
+          "tanimoto_knn_interpretable_folds": 14,
+          "tanimoto_knn_beats_baseline": "1/17",
+          "ridge_attainable_fraction_median": -0.127,
+          "ridge_attainable_fraction_mean": -0.225,
+          "ridge_interpretable_folds": 14,
+          "ridge_beats_baseline": "4/17",
+          "tanimoto_kernel_ridge_attainable_fraction_median": -0.069,
+          "tanimoto_kernel_ridge_attainable_fraction_mean": -0.203,
+          "tanimoto_kernel_ridge_interpretable_folds": 14,
+          "tanimoto_kernel_ridge_beats_baseline": "3/17",
+          "mlp_attainable_fraction_median": -0.028,
+          "mlp_attainable_fraction_mean": -0.05,
+          "mlp_interpretable_folds": 14,
+          "mlp_beats_baseline": "5/17"
+        },
+        "no_hdac": {
+          "n": 5,
+          "replicate_floor_rmse": 0.0927,
+          "best_baseline_rmse": 0.1252,
+          "tanimoto_kernel_ridge_rmse": 0.1225,
+          "ridge_rmse": 0.125,
+          "mlp_rmse": 0.1249,
+          "tanimoto_knn_rmse": 0.1299,
+          "dose_mean_response_rmse": 0.1252,
+          "tanimoto_knn_attainable_fraction_median": -0.154,
+          "tanimoto_knn_attainable_fraction_mean": -0.183,
+          "tanimoto_knn_interpretable_folds": 5,
+          "tanimoto_knn_beats_baseline": "1/5",
+          "ridge_attainable_fraction_median": -0.011,
+          "ridge_attainable_fraction_mean": 0.002,
+          "ridge_interpretable_folds": 5,
+          "ridge_beats_baseline": "2/5",
+          "tanimoto_kernel_ridge_attainable_fraction_median": 0.1,
+          "tanimoto_kernel_ridge_attainable_fraction_mean": 0.076,
+          "tanimoto_kernel_ridge_interpretable_folds": 5,
+          "tanimoto_kernel_ridge_beats_baseline": "4/5",
+          "mlp_attainable_fraction_median": 0.008,
+          "mlp_attainable_fraction_mean": 0.002,
+          "mlp_interpretable_folds": 5,
+          "mlp_beats_baseline": "3/5"
+        },
+        "reference": {
+          "n": 5,
+          "replicate_floor_rmse": 0.0913,
+          "best_baseline_rmse": 0.1513,
+          "tanimoto_kernel_ridge_rmse": 0.1412,
+          "ridge_rmse": 0.1481,
+          "mlp_rmse": 0.1479,
+          "tanimoto_knn_rmse": 0.1488,
+          "dose_mean_response_rmse": 0.1513,
+          "tanimoto_knn_attainable_fraction_median": 0.063,
+          "tanimoto_knn_attainable_fraction_mean": 0.034,
+          "tanimoto_knn_interpretable_folds": 5,
+          "tanimoto_knn_beats_baseline": "3/5",
+          "ridge_attainable_fraction_median": 0.053,
+          "ridge_attainable_fraction_mean": 0.053,
+          "ridge_interpretable_folds": 5,
+          "ridge_beats_baseline": "5/5",
+          "tanimoto_kernel_ridge_attainable_fraction_median": 0.205,
+          "tanimoto_kernel_ridge_attainable_fraction_mean": 0.164,
+          "tanimoto_kernel_ridge_interpretable_folds": 5,
+          "tanimoto_kernel_ridge_beats_baseline": "5/5",
+          "mlp_attainable_fraction_median": 0.052,
+          "mlp_attainable_fraction_mean": 0.055,
+          "mlp_interpretable_folds": 5,
+          "mlp_beats_baseline": "3/5"
+        }
+      },
+      "strata": {
+        "1-2x": {
+          "n": 5,
+          "replicate_floor_rmse": 0.0987,
+          "best_baseline_rmse": 0.235,
+          "tanimoto_kernel_ridge_rmse": 0.219,
+          "ridge_rmse": 0.2271,
+          "mlp_rmse": 0.2361,
+          "tanimoto_knn_rmse": 0.2207,
+          "dose_mean_response_rmse": 0.235,
+          "tanimoto_knn_attainable_fraction_median": 0.095,
+          "tanimoto_knn_attainable_fraction_mean": 0.104,
+          "tanimoto_knn_interpretable_folds": 5,
+          "tanimoto_knn_beats_baseline": "4/5",
+          "ridge_attainable_fraction_median": 0.046,
+          "ridge_attainable_fraction_mean": 0.057,
+          "ridge_interpretable_folds": 5,
+          "ridge_beats_baseline": "4/5",
+          "tanimoto_kernel_ridge_attainable_fraction_median": 0.131,
+          "tanimoto_kernel_ridge_attainable_fraction_mean": 0.116,
+          "tanimoto_kernel_ridge_interpretable_folds": 5,
+          "tanimoto_kernel_ridge_beats_baseline": "5/5",
+          "mlp_attainable_fraction_median": -0.012,
+          "mlp_attainable_fraction_mean": -0.009,
+          "mlp_interpretable_folds": 5,
+          "mlp_beats_baseline": "2/5",
+          "median_response_over_noise": 1.26,
+          "hdac_fraction": 0.176
+        },
+        "2-4x": {
+          "n": 2,
+          "replicate_floor_rmse": 0.099,
+          "best_baseline_rmse": 0.4682,
+          "tanimoto_kernel_ridge_rmse": 0.3258,
+          "ridge_rmse": 0.3961,
+          "mlp_rmse": 0.3892,
+          "tanimoto_knn_rmse": 0.2935,
+          "dose_mean_response_rmse": 0.4682,
+          "tanimoto_knn_attainable_fraction_median": 0.475,
+          "tanimoto_knn_attainable_fraction_mean": 0.475,
+          "tanimoto_knn_interpretable_folds": 2,
+          "tanimoto_knn_beats_baseline": "2/2",
+          "ridge_attainable_fraction_median": 0.195,
+          "ridge_attainable_fraction_mean": 0.195,
+          "ridge_interpretable_folds": 2,
+          "ridge_beats_baseline": "2/2",
+          "tanimoto_kernel_ridge_attainable_fraction_median": 0.387,
+          "tanimoto_kernel_ridge_attainable_fraction_mean": 0.387,
+          "tanimoto_kernel_ridge_interpretable_folds": 2,
+          "tanimoto_kernel_ridge_beats_baseline": "2/2",
+          "mlp_attainable_fraction_median": 0.214,
+          "mlp_attainable_fraction_mean": 0.214,
+          "mlp_interpretable_folds": 2,
+          "mlp_beats_baseline": "2/2",
+          "median_response_over_noise": 2.46,
+          "hdac_fraction": 1.0
+        },
+        "<1x": {
+          "n": 5,
+          "replicate_floor_rmse": 0.0895,
+          "best_baseline_rmse": 0.1027,
+          "tanimoto_kernel_ridge_rmse": 0.1075,
+          "ridge_rmse": 0.1071,
+          "mlp_rmse": 0.1031,
+          "tanimoto_knn_rmse": 0.1241,
+          "dose_mean_response_rmse": 0.1032,
+          "tanimoto_knn_attainable_fraction_median": -1.541,
+          "tanimoto_knn_attainable_fraction_mean": -1.685,
+          "tanimoto_knn_interpretable_folds": 5,
+          "tanimoto_knn_beats_baseline": "0/5",
+          "ridge_attainable_fraction_median": -0.482,
+          "ridge_attainable_fraction_mean": -0.374,
+          "ridge_interpretable_folds": 5,
+          "ridge_beats_baseline": "1/5",
+          "tanimoto_kernel_ridge_attainable_fraction_median": -0.39,
+          "tanimoto_kernel_ridge_attainable_fraction_mean": -0.4,
+          "tanimoto_kernel_ridge_interpretable_folds": 5,
+          "tanimoto_kernel_ridge_beats_baseline": "1/5",
+          "mlp_attainable_fraction_median": -0.009,
+          "mlp_attainable_fraction_mean": -0.064,
+          "mlp_interpretable_folds": 5,
+          "mlp_beats_baseline": "2/5",
+          "median_response_over_noise": 0.53,
+          "hdac_fraction": 0.145
+        }
+      },
+      "loco_by_class": {
+        "Aurora Kinase": {
+          "test_groups": 52,
+          "best_baseline_rmse": 0.1653,
+          "tanimoto_kernel_ridge_rmse": 0.1646,
+          "tanimoto_kernel_ridge_attainable_fraction": 0.0103,
+          "held_out_is_hdac": false
+        },
+        "Bcl-2": {
+          "test_groups": 12,
+          "best_baseline_rmse": 0.122,
+          "tanimoto_kernel_ridge_rmse": 0.1261,
+          "tanimoto_kernel_ridge_attainable_fraction": -0.1937,
+          "held_out_is_hdac": false
+        },
+        "CDK": {
+          "test_groups": 10,
+          "best_baseline_rmse": 0.1357,
+          "tanimoto_kernel_ridge_rmse": 0.1394,
+          "tanimoto_kernel_ridge_attainable_fraction": -0.0655,
+          "held_out_is_hdac": false
+        },
+        "DNA Methyltransferase": {
+          "test_groups": 12,
+          "best_baseline_rmse": 0.1085,
+          "tanimoto_kernel_ridge_rmse": 0.112,
+          "tanimoto_kernel_ridge_attainable_fraction": NaN,
+          "held_out_is_hdac": false
+        },
+        "DNA alkylator": {
+          "test_groups": 12,
+          "best_baseline_rmse": 0.0761,
+          "tanimoto_kernel_ridge_rmse": 0.0818,
+          "tanimoto_kernel_ridge_attainable_fraction": NaN,
+          "held_out_is_hdac": false
+        },
+        "DNA/RNA Synthesis": {
+          "test_groups": 32,
+          "best_baseline_rmse": 0.1326,
+          "tanimoto_kernel_ridge_rmse": 0.1366,
+          "tanimoto_kernel_ridge_attainable_fraction": -0.0734,
+          "held_out_is_hdac": false
+        },
+        "Epigenetic Reader Domain": {
+          "test_groups": 12,
+          "best_baseline_rmse": 0.1328,
+          "tanimoto_kernel_ridge_rmse": 0.1356,
+          "tanimoto_kernel_ridge_attainable_fraction": -0.0844,
+          "held_out_is_hdac": false
+        },
+        "HDAC": {
+          "test_groups": 92,
+          "best_baseline_rmse": 0.2428,
+          "tanimoto_kernel_ridge_rmse": 0.2411,
+          "tanimoto_kernel_ridge_attainable_fraction": 0.0116,
+          "held_out_is_hdac": true
+        },
+        "HIF": {
+          "test_groups": 12,
+          "best_baseline_rmse": 0.0948,
+          "tanimoto_kernel_ridge_rmse": 0.1022,
+          "tanimoto_kernel_ridge_attainable_fraction": -0.964,
+          "held_out_is_hdac": false
+        },
+        "HSP (e.g. HSP90)": {
+          "test_groups": 12,
+          "best_baseline_rmse": 0.196,
+          "tanimoto_kernel_ridge_rmse": 0.1948,
+          "tanimoto_kernel_ridge_attainable_fraction": 0.0133,
+          "held_out_is_hdac": false
+        },
+        "Histone Methyltransferase": {
+          "test_groups": 28,
+          "best_baseline_rmse": 0.104,
+          "tanimoto_kernel_ridge_rmse": 0.1057,
+          "tanimoto_kernel_ridge_attainable_fraction": -0.094,
+          "held_out_is_hdac": false
+        },
+        "JAK": {
+          "test_groups": 64,
+          "best_baseline_rmse": 0.1142,
+          "tanimoto_kernel_ridge_rmse": 0.1177,
+          "tanimoto_kernel_ridge_attainable_fraction": -0.1276,
+          "held_out_is_hdac": false
+        },
+        "MEK": {
+          "test_groups": 12,
+          "best_baseline_rmse": 0.1878,
+          "tanimoto_kernel_ridge_rmse": 0.1909,
+          "tanimoto_kernel_ridge_attainable_fraction": -0.0304,
+          "held_out_is_hdac": false
+        },
+        "Others": {
+          "test_groups": 12,
+          "best_baseline_rmse": 0.1003,
+          "tanimoto_kernel_ridge_rmse": 0.1005,
+          "tanimoto_kernel_ridge_attainable_fraction": -0.0108,
+          "held_out_is_hdac": false
+        },
+        "PARP": {
+          "test_groups": 28,
+          "best_baseline_rmse": 0.0969,
+          "tanimoto_kernel_ridge_rmse": 0.1049,
+          "tanimoto_kernel_ridge_attainable_fraction": -1.1663,
+          "held_out_is_hdac": false
+        },
+        "Sirtuin": {
+          "test_groups": 20,
+          "best_baseline_rmse": 0.1121,
+          "tanimoto_kernel_ridge_rmse": 0.1242,
+          "tanimoto_kernel_ridge_attainable_fraction": NaN,
+          "held_out_is_hdac": false
+        },
+        "Topoisomerase": {
+          "test_groups": 12,
+          "best_baseline_rmse": 0.1177,
+          "tanimoto_kernel_ridge_rmse": 0.1192,
+          "tanimoto_kernel_ridge_attainable_fraction": -0.0603,
+          "held_out_is_hdac": false
+        }
+      }
+    },
+    "docking_candidates": {
+      "n": 63,
+      "median_best_score": {
+        "comparator": -7.51,
+        "zbg": -8.47
+      },
+      "zinc_engaged_fraction": {
+        "comparator": 0.143,
+        "zbg": 0.698
+      },
+      "auroc_zbg_vs_comparator": 0.846,
+      "score_vs_heavy_atoms_spearman": -0.516,
+      "per_receptor": {
+        "4LXZ": {
+          "n": 42,
+          "median_best_score": {
+            "comparator": -7.52,
+            "zbg": -8.23
+          },
+          "zinc_engaged_fraction": {
+            "comparator": 0.016,
+            "zbg": 0.73
+          },
+          "auroc_zbg_vs_comparator": 0.866,
+          "score_vs_heavy_atoms_spearman": -0.428
+        },
+        "4LY1": {
+          "n": 42,
+          "median_best_score": {
+            "comparator": -7.38,
+            "zbg": -8.46
+          },
+          "zinc_engaged_fraction": {
+            "comparator": 0.27,
+            "zbg": 0.778
+          },
+          "auroc_zbg_vs_comparator": 0.807,
+          "score_vs_heavy_atoms_spearman": -0.414
+        }
+      },
+      "score_vs_hdac2_pchembl_spearman": {
+        "4LXZ": 0.005,
+        "4LY1": -0.083
+      },
+      "response_rms_median": {
+        "comparator": 0.1667,
+        "zbg": 0.4795
+      },
+      "response_mannwhitney_p_zbg_greater": 0.00016078679341057788,
+      "compounds_with_chembl_hdac2_potency": 17
+    }
+  },
+  "skill_evidence_map": [
+    {
+      "skill": "RDKit / SMILES",
+      "demonstrated": true,
+      "evidence": [
+        "cell2compound/chemistry.py",
+        "cell2compound/compounds.py",
+        "tests/test_chemistry.py",
+        "tests/test_compounds.py",
+        "results/expression/compound_mapping.csv"
+      ],
+      "numbers": {
+        "sciplex_names_mapped": 188,
+        "distinct_parent_structures": 186,
+        "unmatched_names": 0
+      },
+      "caveat": "Salt stripping uses RDKit ChargeParent; two sci-Plex names share one parent structure by design."
+    },
+    {
+      "skill": "Fingerprints / descriptors",
+      "demonstrated": true,
+      "evidence": [
+        "results/chemistry/descriptors.csv",
+        "results/chemistry/fingerprints.npz"
+      ],
+      "numbers": {
+        "fingerprint": {
+          "kind": "Morgan",
+          "radius": 2,
+          "bits": 2048
+        }
+      },
+      "caveat": "Morgan fingerprints feed every model; descriptors are the property-model features."
+    },
+    {
+      "skill": "ChEMBL",
+      "demonstrated": true,
+      "evidence": [
+        "scripts/chembl_targets.py",
+        "results/targets/compound_chembl.csv",
+        "results/targets/mechanisms.csv",
+        "scripts/bioactivity_dataset.py",
+        "data/bioactivity/pairs.csv"
+      ],
+      "numbers": {
+        "chembl_release": "ChEMBL_37",
+        "structures_resolved": {
+          "exact_inchikey": 169,
+          "connectivity_only": 15,
+          "not_found": 2
+        },
+        "parents_with_mechanism": 88,
+        "bioactivity_pairs": 88011,
+        "bioactivity_structures": 54697
+      },
+      "caveat": "Identity by InChIKey; connectivity-only matches are flagged, not merged silently."
+    },
+    {
+      "skill": "Property prediction",
+      "demonstrated": true,
+      "evidence": [
+        "scripts/property_baseline.py",
+        "results/property/metrics.json",
+        "results/property/test_predictions.csv"
+      ],
+      "numbers": {
+        "summary_over_seeds": {
+          "comparator": {
+            "test_rmse": {
+              "mean": 2.0338984422417985,
+              "sd": 0.3745524161988877
+            },
+            "test_mae": {
+              "mean": 1.6332753511875011,
+              "sd": 0.30248595305426806
+            },
+            "test_r2": {
+              "mean": -0.058178555349978955,
+              "sd": 0.057207864567394844
+            }
+          },
+          "selected": {
+            "test_rmse": {
+              "mean": 0.7767980362091691,
+              "sd": 0.0592766881804681
+            },
+            "test_mae": {
+              "mean": 0.5583915150877214,
+              "sd": 0.059569569656939436
+            },
+            "test_r2": {
+              "mean": 0.835893824704363,
+              "sd": 0.05386241278341458
+            }
+          }
+        },
+        "seeds": [
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "split_sizes": {
+          "train": 701,
+          "validation": 139,
+          "test_mean": 276,
+          "test_min": 157,
+          "test_max": 425
+        },
+        "models_selected": {
+          "rf_descriptors_leaf1": 3,
+          "rf_descriptors_leaf5": 2
+        },
+        "empty_scaffold_policy": "singleton",
+        "acyclic_sharing_empty_scaffold": 316
+      },
+      "caveat": "Five scaffold-disjoint splits on ESOL; 316 of 1117 structures are acyclic and share the empty Murcko scaffold, so the policy for that group is reported as an ablation."
+    },
+    {
+      "skill": "Single-cell / gene expression",
+      "demonstrated": true,
+      "evidence": [
+        "scripts/pseudobulk.py",
+        "scripts/single_cell_qc.py",
+        "scripts/expression_baseline.py",
+        "results/qc/summary.json",
+        "results/expression/metrics.json",
+        "results/expression/per_compound_errors.csv"
+      ],
+      "numbers": {
+        "cells_used": 159909,
+        "compound_dose_groups": 744,
+        "genes": 1000,
+        "control_cells": 3726,
+        "best_learned": [
+          "mlp",
+          {
+            "rmse": {
+              "mean": 0.1479400026161432,
+              "sd": 0.003769026910112683
+            },
+            "rmse_top50_de": {
+              "mean": 0.40599451266516084,
+              "sd": 0.01278340977768438
+            },
+            "pearson_top50_de": {
+              "mean": 0.39070097998060227,
+              "sd": 0.045474753940475995
+            },
+            "pearson_all": {
+              "mean": 0.24749351374193992,
+              "sd": 0.026831569051232265
+            }
+          }
+        ],
+        "best_baseline": [
+          "dose_mean_response",
+          {
+            "rmse": {
+              "mean": 0.15131059593876522,
+              "sd": 0.00412737740992206
+            },
+            "rmse_top50_de": {
+              "mean": 0.4118036357539395,
+              "sd": 0.013041168457172332
+            },
+            "pearson_top50_de": {
+              "mean": 0.3979070051859399,
+              "sd": 0.028816898072975283
+            },
+            "pearson_all": {
+              "mean": 0.26091113040542335,
+              "sd": 0.010894970062974338
+            }
+          }
+        ],
+        "replicate_noise_floor": 0.09105310528523816
+      },
+      "caveat": "Compound-held-out over 5 split seeds; learned gain over the dose-mean baseline is small next to the replicate floor. See the mechanism stress test for whether that gain generalises beyond mechanism classes already seen in training."
+    },
+    {
+      "skill": "ESM",
+      "demonstrated": true,
+      "evidence": [
+        "scripts/esm_embeddings.py",
+        "results/esm_panel/manifest.json",
+        "scripts/target_aware_model.py",
+        "results/target_aware/summary.json"
+      ],
+      "numbers": {
+        "model": "facebook/esm2_t6_8M_UR50D",
+        "targets": 16,
+        "ablation": {
+          "loto/compound_mean_other_targets": {
+            "rmse_mean": 1.1628,
+            "rmse_std": 0.1696,
+            "r2_mean": 0.0224,
+            "r2_std": 0.3743,
+            "mean_within_target_pearson_mean": 0.4407,
+            "mean_within_target_pearson_std": 0.1892
+          },
+          "loto/esm": {
+            "rmse_mean": 1.1424,
+            "rmse_std": 0.2338,
+            "r2_mean": 0.0653,
+            "r2_std": 0.3451,
+            "mean_within_target_pearson_mean": 0.4462,
+            "mean_within_target_pearson_std": 0.2121
+          },
+          "loto/esm_shuffled": {
+            "rmse_mean": 1.2816,
+            "rmse_std": 0.2721,
+            "r2_mean": -0.1464,
+            "r2_std": 0.3394,
+            "mean_within_target_pearson_mean": 0.3526,
+            "mean_within_target_pearson_std": 0.204
+          },
+          "loto/none": {
+            "rmse_mean": 1.1878,
+            "rmse_std": 0.2495,
+            "r2_mean": -0.011,
+            "r2_std": 0.3884,
+            "mean_within_target_pearson_mean": 0.4465,
+            "mean_within_target_pearson_std": 0.1958
+          },
+          "loto_shared_compounds/compound_mean_other_targets": {
+            "rmse_mean": 1.0786,
+            "rmse_std": 0.1672,
+            "r2_mean": 0.0826,
+            "r2_std": 0.3974,
+            "mean_within_target_pearson_mean": 0.5659,
+            "mean_within_target_pearson_std": 0.1474
+          },
+          "loto_shared_compounds/esm": {
+            "rmse_mean": 1.0493,
+            "rmse_std": 0.1796,
+            "r2_mean": 0.1352,
+            "r2_std": 0.3567,
+            "mean_within_target_pearson_mean": 0.523,
+            "mean_within_target_pearson_std": 0.1897
+          },
+          "loto_shared_compounds/esm_shuffled": {
+            "rmse_mean": 1.1648,
+            "rmse_std": 0.1757,
+            "r2_mean": -0.033,
+            "r2_std": 0.3106,
+            "mean_within_target_pearson_mean": 0.4147,
+            "mean_within_target_pearson_std": 0.188
+          },
+          "loto_shared_compounds/none": {
+            "rmse_mean": 1.0755,
+            "rmse_std": 0.1531,
+            "r2_mean": 0.0953,
+            "r2_std": 0.3615,
+            "mean_within_target_pearson_mean": 0.5416,
+            "mean_within_target_pearson_std": 0.1494
+          },
+          "loto_strict/esm": {
+            "rmse_mean": 1.2616,
+            "rmse_std": 0.2013,
+            "r2_mean": -0.1038,
+            "r2_std": 0.2287,
+            "mean_within_target_pearson_mean": 0.2788,
+            "mean_within_target_pearson_std": 0.1514
+          },
+          "loto_strict/esm_shuffled": {
+            "rmse_mean": 1.3538,
+            "rmse_std": 0.258,
+            "r2_mean": -0.2642,
+            "r2_std": 0.2797,
+            "mean_within_target_pearson_mean": 0.2332,
+            "mean_within_target_pearson_std": 0.1215
+          },
+          "loto_strict/none": {
+            "rmse_mean": 1.2918,
+            "rmse_std": 0.199,
+            "r2_mean": -0.1746,
+            "r2_std": 0.3241,
+            "mean_within_target_pearson_mean": 0.2835,
+            "mean_within_target_pearson_std": 0.1585
+          },
+          "scaffold/esm": {
+            "rmse_mean": 0.7724,
+            "rmse_std": 0.011,
+            "r2_mean": 0.6617,
+            "r2_std": 0.0058,
+            "mean_within_target_pearson_mean": 0.7729,
+            "mean_within_target_pearson_std": 0.0103
+          },
+          "scaffold/esm_shuffled": {
+            "rmse_mean": 0.7733,
+            "rmse_std": 0.0146,
+            "r2_mean": 0.6608,
+            "r2_std": 0.01,
+            "mean_within_target_pearson_mean": 0.7704,
+            "mean_within_target_pearson_std": 0.0131
+          },
+          "scaffold/none": {
+            "rmse_mean": 0.8874,
+            "rmse_std": 0.0177,
+            "r2_mean": 0.5535,
+            "r2_std": 0.006,
+            "mean_within_target_pearson_mean": 0.6756,
+            "mean_within_target_pearson_std": 0.0141
+          },
+          "scaffold/one_hot": {
+            "rmse_mean": 0.7837,
+            "rmse_std": 0.0192,
+            "r2_mean": 0.6518,
+            "r2_std": 0.0075,
+            "mean_within_target_pearson_mean": 0.7576,
+            "mean_within_target_pearson_std": 0.0063
+          }
+        },
+        "esm_beats_shuffled_targets": {
+          "loto": 13,
+          "loto_strict": 11
+        },
+        "esm_beats_none_targets": {
+          "loto": 11,
+          "loto_strict": 9
+        }
+      },
+      "caveat": "Evaluated against one-hot, no-target and shuffled-embedding controls; not appended for coverage."
+    },
+    {
+      "skill": "AlphaFold",
+      "demonstrated": true,
+      "evidence": [
+        "scripts/pocket_comparison.py",
+        "results/structures/pocket_comparison.json",
+        "results/structures/HDAC2_alphafold_zn_crystal_frame.pdb"
+      ],
+      "numbers": {
+        "pocket_plddt": {
+          "mean": 96.96,
+          "min": 90.88
+        },
+        "pocket_ca_rmsd": 0.316,
+        "pocket_heavy_atom_rmsd": 0.959,
+        "zinc_coordination": [
+          {
+            "residue": "ASP181",
+            "uniprot": 177,
+            "atom": "OD2",
+            "crystal_distance": 2.0,
+            "alphafold_distance_to_transplanted_zinc": 1.93
+          },
+          {
+            "residue": "HIS183",
+            "uniprot": 179,
+            "atom": "ND1",
+            "crystal_distance": 2.07,
+            "alphafold_distance_to_transplanted_zinc": 1.96
+          },
+          {
+            "residue": "ASP269",
+            "uniprot": 265,
+            "atom": "OD2",
+            "crystal_distance": 1.9,
+            "alphafold_distance_to_transplanted_zinc": 2.02
+          }
+        ]
+      },
+      "caveat": "Retrieved predictions analysed; no local folding. AlphaFold models apo HDAC2, so the zinc is transplanted."
+    },
+    {
+      "skill": "PDB structures",
+      "demonstrated": true,
+      "evidence": [
+        "scripts/structure_inventory.py",
+        "results/structures/inventory.json",
+        "scripts/docking_validation.py"
+      ],
+      "numbers": {
+        "experimental_chains": 3,
+        "validation_structures": [
+          "4LXZ",
+          "6G3O",
+          "4LY1",
+          "5IWG",
+          "3MAX",
+          "9NTB"
+        ]
+      },
+      "caveat": "Ligand-bound chains selected by proximity of the ligand to that chain's catalytic zinc."
+    },
+    {
+      "skill": "Docking",
+      "demonstrated": true,
+      "evidence": [
+        "cell2compound/docking.py",
+        "scripts/docking_validation.py",
+        "results/docking/validation/summary.json",
+        "scripts/dock_candidates.py",
+        "results/docking/candidates/summary.json"
+      ],
+      "numbers": {
+        "success_rates": {
+          "alphafold/vina": {
+            "top1_success": 0.0,
+            "top3_success": 0.0,
+            "sampled": 0.0,
+            "top1_zinc_engaged": 0.0
+          },
+          "alphafold/vinardo": {
+            "top1_success": 0.0,
+            "top3_success": 0.0,
+            "sampled": 0.0,
+            "top1_zinc_engaged": 0.0
+          },
+          "crossdock/vina": {
+            "top1_success": 0.0,
+            "top3_success": 0.0,
+            "sampled": 0.16,
+            "top1_zinc_engaged": 0.4
+          },
+          "crossdock/vinardo": {
+            "top1_success": 0.0,
+            "top3_success": 0.0,
+            "sampled": 0.0,
+            "top1_zinc_engaged": 0.32
+          },
+          "redock/vina": {
+            "top1_success": 0.633,
+            "top3_success": 0.667,
+            "sampled": 0.867,
+            "top1_zinc_engaged": 0.967
+          },
+          "redock/vinardo": {
+            "top1_success": 0.533,
+            "top3_success": 0.7,
+            "sampled": 0.833,
+            "top1_zinc_engaged": 0.9
+          }
+        },
+        "scoring_used_for_candidates": "vina",
+        "library": {
+          "zbg": 21,
+          "comparators": 21,
+          "failed": []
+        },
+        "auroc_zbg_vs_comparator": 0.846,
+        "zinc_engaged_fraction": {
+          "comparator": 0.143,
+          "zbg": 0.698
+        }
+      },
+      "caveat": "Cognate redocking validates the protocol before candidate runs; scores are not affinities."
+    },
+    {
+      "skill": "Benchmark measurability",
+      "demonstrated": true,
+      "evidence": [
+        "cell2compound/measurability.py",
+        "scripts/dose_regime_gate.py",
+        "scripts/dose_regime_noise.py",
+        "scripts/dose_regime_ablation.py",
+        "scripts/dose_regime_time.py",
+        "scripts/dose_regime_matched.py",
+        "scripts/dose_regime_summary.py",
+        "results/dose_regime/summary_snr_by_dose.csv",
+        "results/dose_regime/summary_onehot_vs_fingerprint.csv",
+        "results/dose_regime/summary_measurability.csv",
+        "results/dose_regime/summary_mediation.csv",
+        "results/dose_regime/summary_calibrated.csv",
+        "docs/dose_regime_findings.md"
+      ],
+      "numbers": {
+        "datasets": [
+          "A549_24h",
+          "A549_72h",
+          "K562_24h",
+          "MCF7_24h"
+        ],
+        "median_snr_by_dose": {
+          "A549_24h": {
+            "10nM": 0.258,
+            "100nM": 0.321,
+            "1000nM": 0.39,
+            "10000nM": 0.698
+          },
+          "K562_24h": {
+            "10nM": 0.215,
+            "100nM": 0.218,
+            "1000nM": 0.248,
+            "10000nM": 0.605
+          },
+          "MCF7_24h": {
+            "10nM": 0.0,
+            "100nM": 0.0,
+            "1000nM": 0.345,
+            "10000nM": 0.619
+          },
+          "A549_72h": {
+            "10nM": 0.87,
+            "100nM": 0.996,
+            "1000nM": 0.739,
+            "10000nM": 1.256
+          }
+        },
+        "floor_is_depth_limited": {
+          "A549_24h": {
+            "log_floor_on_log_cells_slope": -0.543,
+            "slope_expected_if_pure_counting_noise": -0.5,
+            "r2": 0.633,
+            "r2_adding_log_dose": 0.65,
+            "log_dose_coefficient_after_controlling_cells": 0.0226
+          },
+          "K562_24h": {
+            "log_floor_on_log_cells_slope": -0.454,
+            "slope_expected_if_pure_counting_noise": -0.5,
+            "r2": 0.851,
+            "r2_adding_log_dose": 0.852,
+            "log_dose_coefficient_after_controlling_cells": 0.0041
+          },
+          "MCF7_24h": {
+            "log_floor_on_log_cells_slope": -0.354,
+            "slope_expected_if_pure_counting_noise": -0.5,
+            "r2": 0.385,
+            "r2_adding_log_dose": 0.417,
+            "log_dose_coefficient_after_controlling_cells": 0.0249
+          },
+          "A549_72h": {
+            "log_floor_on_log_cells_slope": -0.421,
+            "slope_expected_if_pure_counting_noise": -0.5,
+            "r2": 0.789,
+            "r2_adding_log_dose": 0.846,
+            "log_dose_coefficient_after_controlling_cells": 0.0613
+          }
+        },
+        "magnitude_dose_overlap_gate": "PASS - magnitude is separable from dose; OQ2 answerable by stratification",
+        "class_onehot_vs_fingerprint_sd_units": {
+          "A549_24h/mlp": -1.73,
+          "A549_24h/ridge": -1.25,
+          "A549_24h/tanimoto_kernel_ridge": 0.15,
+          "A549_24h/tanimoto_knn": -0.02,
+          "K562_24h/mlp": -1.07,
+          "K562_24h/ridge": -0.83,
+          "K562_24h/tanimoto_kernel_ridge": 0.26,
+          "K562_24h/tanimoto_knn": -0.05,
+          "MCF7_24h/mlp": -0.67,
+          "MCF7_24h/ridge": -1.14,
+          "MCF7_24h/tanimoto_kernel_ridge": 0.36,
+          "MCF7_24h/tanimoto_knn": 0.29,
+          "A549_72h/mlp": -1.18,
+          "A549_72h/ridge": -0.13,
+          "A549_72h/tanimoto_kernel_ridge": 0.54,
+          "A549_72h/tanimoto_knn": -0.44
+        },
+        "dose_mediated_by_snr": {
+          "A549_24h": {
+            "dose_alone": 0.00345,
+            "dose_given_snr": -0.00154,
+            "ci95_given_snr": [
+              -0.00345,
+              8e-05
+            ],
+            "ci_includes_zero": true,
+            "attenuation": 1.445,
+            "r2_dose_only": 0.016,
+            "r2_snr_only": 0.332
+          },
+          "K562_24h": {
+            "dose_alone": 0.00354,
+            "dose_given_snr": 0.00014,
+            "ci95_given_snr": [
+              -0.00116,
+              0.00133
+            ],
+            "ci_includes_zero": true,
+            "attenuation": 0.96,
+            "r2_dose_only": 0.028,
+            "r2_snr_only": 0.336
+          },
+          "MCF7_24h": {
+            "dose_alone": 0.0049,
+            "dose_given_snr": 0.00014,
+            "ci95_given_snr": [
+              -0.00138,
+              0.00159
+            ],
+            "ci_includes_zero": true,
+            "attenuation": 0.971,
+            "r2_dose_only": 0.047,
+            "r2_snr_only": 0.356
+          },
+          "A549_72h": {
+            "dose_alone": 0.0037,
+            "dose_given_snr": 0.00294,
+            "ci95_given_snr": [
+              0.00052,
+              0.00539
+            ],
+            "ci_includes_zero": false,
+            "attenuation": 0.204,
+            "r2_dose_only": 0.029,
+            "r2_snr_only": 0.118
+          }
+        },
+        "strata_with_no_dynamic_range": [
+          "A549_24h/snr_q1",
+          "A549_24h/snr_q2",
+          "A549_24h/snr_q3",
+          "A549_24h/dose_10nM",
+          "K562_24h/snr_q2",
+          "K562_24h/snr_q3",
+          "K562_24h/dose_10nM",
+          "K562_24h/dose_100nM",
+          "MCF7_24h/snr_q3",
+          "MCF7_24h/dose_10nM",
+          "MCF7_24h/dose_100nM",
+          "A549_72h/snr_q1",
+          "A549_72h/snr_q2",
+          "A549_72h/dose_10nM"
+        ]
+      },
+      "caveat": "snr = sqrt(rms^2 - floor^2)/floor per group. The median group is below snr 1 at every dose in all three 24 h lines, so most of this benchmark is below its own measurement error; a 24-dim mechanism-class one-hot matches a 2048-bit fingerprint across 4 datasets x 4 learned models. The matched test shows dose predicts model skill only through measurability in the 24 h lines (attenuation 96-144%, conditional CI straddling zero) but NOT at 72 h, where the assay already clears its floor. A Dynamic Range Fraction against an interpolated duplicate -- a calibrated metric that is not ours -- agrees, and more strongly: the dynamic range is negative at low dose and low snr, so even a reliability-shrunk technical duplicate cannot beat the dose-mean baseline."
+    },
+    {
+      "skill": "External validation",
+      "demonstrated": true,
+      "evidence": [
+        "scripts/lincs_gate.py",
+        "scripts/lincs_measurability.py",
+        "results/lincs/summary.json",
+        "results/lincs/summary_by_cell.csv",
+        "results/lincs/summary_by_dose.csv",
+        "results/lincs/conditions.csv"
+      ],
+      "numbers": {
+        "source": "LINCS L1000 Phase II, GSE70138 Level 3 (per-instance)",
+        "conditions": 76397,
+        "compounds": 1750,
+        "cell_lines": [
+          "A375",
+          "A549",
+          "HA1E",
+          "HELA",
+          "HEPG2",
+          "HT29",
+          "MCF7",
+          "PC3",
+          "YAPC"
+        ],
+        "median_replicates": 3.0,
+        "median_snr": 0.0,
+        "fraction_snr_above_1": 0.06527743235990942,
+        "fraction_signal_exactly_zero": 0.7441784363260338,
+        "median_snr_by_cell": {
+          "A375": 0.0,
+          "A549": 0.2434,
+          "HA1E": 0.0,
+          "HELA": 0.0,
+          "HEPG2": 0.2852,
+          "HT29": 0.0,
+          "MCF7": 0.0,
+          "PC3": 0.0,
+          "YAPC": 0.0
+        },
+        "fraction_above_snr1_by_dose_decade": {
+          "-3": 0.0,
+          "-2": 0.0294,
+          "-1": 0.0429,
+          "0": 0.0717,
+          "1": 0.137
+        },
+        "not_testable_here": "the 1/sqrt(cells) depth law of section 2 -- L1000 is bulk, so there is no cell count per condition",
+        "not_comparable_in_level": "L1000 floors ~0.42 vs sci-Plex ~0.09; units and preprocessing differ, so only the verdict and the dose ordering carry across"
+      },
+      "caveat": "Independent platform, lab and scale: 1,750 compounds over 9 cell lines at a median of 3 replicates. The median condition has snr 0.000 and 74% have exactly zero noise-corrected signal, so the measurability result is not a property of sci-Plex; it holds more strongly here, which makes the sci-Plex figures the optimistic ones."
+    },
+    {
+      "skill": "chemCPA baseline",
+      "demonstrated": true,
+      "evidence": [
+        "scripts/build_chemcpa_input.py",
+        "scripts/build_chemcpa_embedding.py",
+        "scripts/chemcpa_predict.py",
+        "scripts/chemcpa_compare.py",
+        "scripts/chemcpa_snr_strata.py",
+        "results/chemcpa/comparison.json",
+        "results/chemcpa/snr_strata.json",
+        "docs/chemcpa_integration.md"
+      ],
+      "numbers": {
+        "pooled": {
+          "chemcpa": 0.1016,
+          "tanimoto_knn": 0.107,
+          "tanimoto_kernel_ridge": 0.1071,
+          "ridge": 0.1126,
+          "dose_mean_response": 0.116,
+          "mlp": 0.1163,
+          "training_mean_response": 0.1174,
+          "zero_response": 0.1213
+        },
+        "alignment_check": {
+          "mean_abs_observed_difference": 0.01107,
+          "tolerance": 0.02,
+          "passed": true
+        },
+        "advantage_by_stratum": {
+          "all": -0.00551,
+          "snr_q1": -0.00114,
+          "snr_q2": -0.00147,
+          "snr_q3": -0.00028,
+          "snr_q4": -0.01282,
+          "dose_10nM": 0.00025,
+          "dose_100nM": -0.00023,
+          "dose_1000nM": -0.00698,
+          "dose_10000nM": -0.01152
+        },
+        "unmeasurable_strata": [
+          "snr_q1",
+          "snr_q2"
+        ],
+        "seed_variance": {
+          "comparator": "tanimoto_kernel_ridge",
+          "seeds_used": [
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "seeds_missing": [],
+          "chemcpa_rmse_mean": 0.11462,
+          "ours_rmse_mean": 0.11174,
+          "paired_margin_mean": 0.00288,
+          "paired_margin_sd": 0.00631,
+          "paired_margin_se": 0.00282,
+          "margin_in_se_units": 1.02,
+          "margin_ci95_bootstrap": [
+            -0.00186,
+            0.00768
+          ],
+          "chemcpa_wins_seeds": 1,
+          "our_wins_seeds": 3,
+          "selection_effect_mean": 2e-05,
+          "alignment_all_passed": true,
+          "significant_at_95": false
+        }
+      },
+      "caveat": "Trained from scratch on our split, since the released checkpoints would leak held-out compounds. Over five paired split seeds it is statistically indistinguishable from the Tanimoto-kernel ridge: mean margin +0.0029 in the kernel ridge's favour, bootstrap 95% CI [-0.0019, +0.0077], chemCPA ahead on 1 of 5 seeds. The single-seed 0.0055 advantage, and its apparent concentration in the top snr quartile, were both properties of split 42 -- the q4 margin flips sign in 3 of 5 seeds. The same model ranges 0.1016-0.1247 across seeds from the held-out set alone, which is larger than the gap between models, and is the measurability result appearing in a model comparison."
+    },
+    {
+      "skill": "Generalisation stress test",
+      "demonstrated": true,
+      "evidence": [
+        "cell2compound/pipeline.py",
+        "cell2compound/mechanism.py",
+        "scripts/mechanism_stress_test.py",
+        "results/stress_test/summary.json",
+        "results/stress_test/arms.csv",
+        "results/stress_test/strata.csv"
+      ],
+      "numbers": {
+        "arms": [
+          "loco",
+          "no_hdac",
+          "reference"
+        ],
+        "reference_reproduces_headline": true,
+        "classes_held_out": 17
+      },
+      "caveat": "Asks whether the response model generalises or recognises mechanism classes; the reference arm must reproduce the headline result before any arm is interpreted."
+    }
+  ],
+  "reproduce": [
+    "/home/ruman/venvs/general/bin/python scripts/environment_audit.py",
+    "/home/ruman/venvs/general/bin/python -m pytest tests -q",
+    "/home/ruman/venvs/general/bin/python scripts/verify_sciplex.py",
+    "/home/ruman/venvs/general/bin/python scripts/pseudobulk.py data/raw/sciplex3.h5ad",
+    "/home/ruman/venvs/general/bin/python scripts/subset_single_cell.py data/raw/sciplex3.h5ad --cell-key cell_line --cell-line A549 --drug-key perturbation --dose-key dose_value --per-group 36 --control control --control-cap 1500 --stratify-key replicate --out data/sciplex_subset_v2.h5ad",
+    "/home/ruman/venvs/general/bin/python scripts/single_cell_qc.py data/sciplex_subset_v2.h5ad",
+    "/home/ruman/venvs/general/bin/python -m scripts.expression_baseline data/pseudobulk_A549_24h.npz",
+    "/home/ruman/venvs/general/bin/python -m scripts.property_baseline",
+    "/home/ruman/venvs/general/bin/python -m scripts.chembl_targets",
+    "/home/ruman/venvs/general/bin/python -m scripts.bioactivity_dataset",
+    "/home/ruman/venvs/general/bin/python scripts/esm_embeddings.py data/bioactivity/targets.fasta --out results/esm_panel",
+    "/home/ruman/venvs/general/bin/python -m scripts.target_aware_model",
+    "/home/ruman/venvs/general/bin/python -m scripts.pocket_comparison",
+    "/home/ruman/venvs/general/bin/python -m scripts.docking_validation",
+    "/home/ruman/venvs/general/bin/python -m scripts.dock_candidates"
+  ],
+  "open_limitations": [
+    "Four datasets are now analysed (A549 24 h and 72 h, K562 24 h, MCF7 24 h), but the models are fitted and compared within a dataset; no cross-cell-line transfer model is trained.",
+    "The 72 h arm covers one cell line and a 47-compound subset enriched for HDAC and Aurora, so the time comparison is run on compounds matched to the 24 h panel.",
+    "Pseudobulk group means only; single-cell distributions and dose-response shape are not modelled.",
+    "Two replicates per compound/dose, so the replicate noise floor is itself imprecise; the measurability conclusions rest on medians over 183-188 groups per dose, not on single groups.",
+    "The replicate floor scales as ~1/sqrt(cells), so \"low dose is unmeasurable\" is a statement about this assay depth, not evidence that low-dose responses are biologically absent.",
+    "chemCPA vs our kernel ridge is not resolved by this benchmark: over 5 paired seeds the margin is +0.0029 with a 95% CI of [-0.0019, +0.0077]. Split-to-split variation (same model, 0.1016-0.1247) exceeds the between-model difference, so no ranking is supportable. chemCPA also ran at its shipped hyperparameters; a tuned configuration was not tried.",
+    "Cytotoxic compounds lose cells at QC; their responses describe surviving cells.",
+    "Docking is rigid-receptor with no explicit zinc chemistry; AutoDock4Zn needs autogrid4, not installed.",
+    "ESOL property model uses one seeded split; no uncertainty estimate.",
+    "No claim of disease rescue, direct binding, or efficacy is made anywhere in these outputs."
+  ]
+}

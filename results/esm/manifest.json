@@ -1,0 +1,14 @@
+{
+  "model": "facebook/esm2_t6_8M_UR50D",
+  "revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+  "device": "cuda",
+  "targets": [
+    {
+      "id": "sp|Q92769|HDAC2_HUMAN",
+      "length": 488,
+      "file": "target_0.npz",
+      "sequence_sha256": "955979c609c58538ca00aee39b91bfe3f7988d4c5d7ac63d68ced1c874449011"
+    }
+  ],
+  "status": "Embeddings extracted; biological/model utility not yet evaluated"
+}

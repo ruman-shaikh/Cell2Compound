@@ -1,0 +1,21 @@
+{
+ "source": "GSE70138_Broad_LINCS_Level3_INF_mlr12k_n345976x12328_2017-03-06.gctx",
+ "time_h": 24.0,
+ "conditions": 76397,
+ "compounds": 1750,
+ "cell_lines": [
+  "A375",
+  "A549",
+  "HA1E",
+  "HELA",
+  "HEPG2",
+  "HT29",
+  "MCF7",
+  "PC3",
+  "YAPC"
+ ],
+ "median_replicates": 3.0,
+ "median_snr": 0.0,
+ "fraction_snr_above_1": 0.06527743235990942,
+ "fraction_signal_exactly_zero": 0.7441784363260338
+}

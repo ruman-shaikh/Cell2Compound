@@ -1,0 +1,156 @@
+{
+  "input": "data/pseudobulk_A549_72h.npz",
+  "label": "A549_72h",
+  "genes_used": 5638,
+  "definitions": {
+    "floor": "RMSE(rep1-rep2)/2",
+    "signal": "sqrt(rms^2 - floor^2)",
+    "snr": "signal/floor; <1 means response below its own measurement error"
+  },
+  "per_dose": [
+    {
+      "dose_nM": 10.0,
+      "groups": 47,
+      "floor_median": 0.037,
+      "signal_median": 0.0287,
+      "snr_median": 0.87,
+      "snr_ci_low": 0.725,
+      "snr_ci_high": 1.049,
+      "frac_groups_snr_above_1": 0.362,
+      "cells_median": 488
+    },
+    {
+      "dose_nM": 100.0,
+      "groups": 47,
+      "floor_median": 0.0381,
+      "signal_median": 0.0366,
+      "snr_median": 0.996,
+      "snr_ci_low": 0.715,
+      "snr_ci_high": 1.193,
+      "frac_groups_snr_above_1": 0.489,
+      "cells_median": 475
+    },
+    {
+      "dose_nM": 1000.0,
+      "groups": 47,
+      "floor_median": 0.0471,
+      "signal_median": 0.0363,
+      "snr_median": 0.739,
+      "snr_ci_low": 0.335,
+      "snr_ci_high": 1.195,
+      "frac_groups_snr_above_1": 0.468,
+      "cells_median": 496
+    },
+    {
+      "dose_nM": 10000.0,
+      "groups": 43,
+      "floor_median": 0.046,
+      "signal_median": 0.0585,
+      "snr_median": 1.256,
+      "snr_ci_low": 0.909,
+      "snr_ci_high": 1.426,
+      "frac_groups_snr_above_1": 0.535,
+      "cells_median": 423
+    }
+  ],
+  "depth_limitation": {
+    "log_floor_on_log_cells_slope": -0.421,
+    "slope_expected_if_pure_counting_noise": -0.5,
+    "r2": 0.789,
+    "r2_adding_log_dose": 0.846,
+    "log_dose_coefficient_after_controlling_cells": 0.0613
+  },
+  "per_class": [
+    {
+      "mechanism_class": "Epigenetic Reader Domain",
+      "groups": 12,
+      "snr_10nM": 0.489,
+      "snr_100nM": 0.769,
+      "snr_1000nM": 1.188,
+      "snr_10000nM": 3.052,
+      "snr_all": 1.029
+    },
+    {
+      "mechanism_class": "HIF",
+      "groups": 8,
+      "snr_10nM": 0.499,
+      "snr_100nM": 0.558,
+      "snr_1000nM": 0.279,
+      "snr_10000nM": 1.498,
+      "snr_all": 0.691
+    },
+    {
+      "mechanism_class": "HDAC",
+      "groups": 49,
+      "snr_10nM": 0.999,
+      "snr_100nM": 1.137,
+      "snr_1000nM": 1.582,
+      "snr_10000nM": 0.967,
+      "snr_all": 1.099
+    },
+    {
+      "mechanism_class": "Aurora Kinase",
+      "groups": 32,
+      "snr_10nM": 1.271,
+      "snr_100nM": 1.507,
+      "snr_1000nM": 1.662,
+      "snr_10000nM": 1.745,
+      "snr_all": 1.6
+    },
+    {
+      "mechanism_class": "DNA Methyltransferase",
+      "groups": 8,
+      "snr_10nM": 0.5,
+      "snr_100nM": 0.685,
+      "snr_1000nM": 0.933,
+      "snr_10000nM": 1.611,
+      "snr_all": 0.998
+    },
+    {
+      "mechanism_class": "JAK",
+      "groups": 12,
+      "snr_10nM": 0.731,
+      "snr_100nM": 0.685,
+      "snr_1000nM": 0.0,
+      "snr_10000nM": 0.938,
+      "snr_all": 0.708
+    },
+    {
+      "mechanism_class": "Topoisomerase",
+      "groups": 8,
+      "snr_10nM": 0.786,
+      "snr_100nM": 0.792,
+      "snr_1000nM": 0.598,
+      "snr_10000nM": 0.484,
+      "snr_all": 0.669
+    },
+    {
+      "mechanism_class": "PARP",
+      "groups": 12,
+      "snr_10nM": 0.653,
+      "snr_100nM": 0.615,
+      "snr_1000nM": 0.0,
+      "snr_10000nM": 0.709,
+      "snr_all": 0.584
+    },
+    {
+      "mechanism_class": "Sirtuin",
+      "groups": 12,
+      "snr_10nM": 0.88,
+      "snr_100nM": 0.576,
+      "snr_1000nM": 0.162,
+      "snr_10000nM": 0.25,
+      "snr_all": 0.413
+    },
+    {
+      "mechanism_class": "Histone Methyltransferase",
+      "groups": 8,
+      "snr_10nM": 0.943,
+      "snr_100nM": 0.824,
+      "snr_1000nM": 0.406,
+      "snr_10000nM": 1.064,
+      "snr_all": 0.795
+    }
+  ],
+  "finding": "SNR rises from 0.87 at 10 nM to 1.256 at 10000 nM; the ceiling is dose-dependent in the OPPOSITE direction to the hypothesis (low dose is the unmeasurable regime, not high dose)."
+}

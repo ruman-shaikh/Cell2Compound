@@ -1,0 +1,186 @@
+{
+  "source_url": "https://raw.githubusercontent.com/deepchem/deepchem/master/datasets/delaney-processed.csv",
+  "sha256": "8c06a76f0c6487d29ab0f903e6a7a7139f189ab3c1178f159c8be8964602f189",
+  "target": "measured log solubility in mols per litre",
+  "input_rows": 1128,
+  "unique_structures": 1117,
+  "acyclic_structures_sharing_empty_scaffold": 316,
+  "empty_scaffold_policy": "group",
+  "scaffold_groups": 269,
+  "split_sizes": {
+    "train": 822,
+    "validation": 82,
+    "test_mean": 212,
+    "test_min": 79,
+    "test_max": 437
+  },
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "models_selected": {
+    "rf_descriptors_leaf2": 2,
+    "rf_descriptors_leaf1": 2,
+    "rf_descriptors_leaf5": 1
+  },
+  "summary_over_seeds": {
+    "comparator": {
+      "test_rmse": {
+        "mean": 2.068540851343147,
+        "sd": 0.2866549729984132
+      },
+      "test_mae": {
+        "mean": 1.6425162890623013,
+        "sd": 0.2816010888613705
+      },
+      "test_r2": {
+        "mean": -0.09749134886470005,
+        "sd": 0.12274952947371635
+      }
+    },
+    "selected": {
+      "test_rmse": {
+        "mean": 0.8796965627513851,
+        "sd": 0.1306330797390591
+      },
+      "test_mae": {
+        "mean": 0.6605188088461913,
+        "sd": 0.1197827388980664
+      },
+      "test_r2": {
+        "mean": 0.7967526492524419,
+        "sd": 0.05579550802882732
+      }
+    }
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "role": "comparator",
+      "model": "mean",
+      "validation_rmse": 3.3422129050616016,
+      "test_rmse": 1.976449895313201,
+      "test_mae": 1.465281636726547,
+      "test_r2": -0.09579815304000028,
+      "n_train": 902,
+      "n_validation": 100,
+      "n_test": 115
+    },
+    {
+      "seed": 42,
+      "role": "selected",
+      "model": "rf_descriptors_leaf2",
+      "validation_rmse": 0.9098733302468766,
+      "test_rmse": 0.987462022878283,
+      "test_mae": 0.7335439466354906,
+      "test_r2": 0.7264732849332982,
+      "n_train": 902,
+      "n_validation": 100,
+      "n_test": 115
+    },
+    {
+      "seed": 43,
+      "role": "comparator",
+      "model": "mean",
+      "validation_rmse": 2.601271708108106,
+      "test_rmse": 2.2188419424866317,
+      "test_mae": 1.8494935119127744,
+      "test_r2": -0.3010565040773525,
+      "n_train": 608,
+      "n_validation": 72,
+      "n_test": 437
+    },
+    {
+      "seed": 43,
+      "role": "selected",
+      "model": "rf_descriptors_leaf1",
+      "validation_rmse": 0.9371635468215064,
+      "test_rmse": 0.7404597768844589,
+      "test_mae": 0.5172172888007737,
+      "test_r2": 0.8551073456946175,
+      "n_train": 608,
+      "n_validation": 72,
+      "n_test": 437
+    },
+    {
+      "seed": 44,
+      "role": "comparator",
+      "model": "mean",
+      "validation_rmse": 2.016818084229261,
+      "test_rmse": 2.0516965044666855,
+      "test_mae": 1.6035492427013978,
+      "test_r2": -0.08932563483066946,
+      "n_train": 947,
+      "n_validation": 91,
+      "n_test": 79
+    },
+    {
+      "seed": 44,
+      "role": "selected",
+      "model": "rf_descriptors_leaf5",
+      "validation_rmse": 0.7236145083079775,
+      "test_rmse": 0.7942506681336471,
+      "test_mae": 0.5928080953906165,
+      "test_r2": 0.8367524528788143,
+      "n_train": 947,
+      "n_validation": 91,
+      "n_test": 79
+    },
+    {
+      "seed": 45,
+      "role": "comparator",
+      "model": "mean",
+      "validation_rmse": 2.401847423005595,
+      "test_rmse": 2.432873434678127,
+      "test_mae": 1.9945360859451522,
+      "test_r2": -0.00018271275188719294,
+      "n_train": 954,
+      "n_validation": 67,
+      "n_test": 96
+    },
+    {
+      "seed": 45,
+      "role": "selected",
+      "model": "rf_descriptors_leaf1",
+      "validation_rmse": 0.8856240645520554,
+      "test_rmse": 1.0456817046292224,
+      "test_mae": 0.8228361525610767,
+      "test_r2": 0.8152266508953457,
+      "n_train": 954,
+      "n_validation": 67,
+      "n_test": 96
+    },
+    {
+      "seed": 46,
+      "role": "comparator",
+      "model": "mean",
+      "validation_rmse": 1.9780382319393424,
+      "test_rmse": 1.6628424797710915,
+      "test_mae": 1.2997209680256345,
+      "test_r2": -0.001093739623590828,
+      "n_train": 700,
+      "n_validation": 83,
+      "n_test": 334
+    },
+    {
+      "seed": 46,
+      "role": "selected",
+      "model": "rf_descriptors_leaf2",
+      "validation_rmse": 1.0571592289412515,
+      "test_rmse": 0.8306286412313142,
+      "test_mae": 0.6361885608429995,
+      "test_r2": 0.7502035118601338,
+      "n_train": 700,
+      "n_validation": 83,
+      "n_test": 334
+    }
+  ],
+  "limitations": [
+    "Solubility only; not comprehensive ADMET validation.",
+    "Scaffold-disjoint splits still leave analogue series split across train and test.",
+    "Split sizes vary between seeds because scaffold groups differ in size."
+  ]
+}

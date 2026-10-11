@@ -1,0 +1,26 @@
+{
+ "comparator": "tanimoto_kernel_ridge",
+ "seeds_used": [
+  42,
+  43,
+  44,
+  45,
+  46
+ ],
+ "seeds_missing": [],
+ "chemcpa_rmse_mean": 0.11462,
+ "ours_rmse_mean": 0.11174,
+ "paired_margin_mean": 0.00288,
+ "paired_margin_sd": 0.00631,
+ "paired_margin_se": 0.00282,
+ "margin_in_se_units": 1.02,
+ "margin_ci95_bootstrap": [
+  -0.00186,
+  0.00768
+ ],
+ "chemcpa_wins_seeds": 1,
+ "our_wins_seeds": 3,
+ "selection_effect_mean": 2e-05,
+ "alignment_all_passed": true,
+ "significant_at_95": false
+}

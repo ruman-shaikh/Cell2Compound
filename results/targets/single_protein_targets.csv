@@ -1,0 +1,77 @@
+target_chembl_id,target_name,uniprot,compounds
+CHEMBL2971,Tyrosine-protein kinase JAK2,O60674,8
+CHEMBL4722,Aurora kinase A,O14965,6
+CHEMBL1862,Tyrosine-protein kinase ABL1,P00519,5
+CHEMBL1936,Mast/stem cell growth factor receptor Kit,P10721,5
+CHEMBL1974,Receptor-type tyrosine-protein kinase FLT3,P36888,5
+CHEMBL2185,Aurora kinase B,Q96GD4,5
+CHEMBL2835,Tyrosine-protein kinase JAK1,P23458,4
+CHEMBL2041,Proto-oncogene tyrosine-protein kinase receptor Ret,P07949,3
+CHEMBL1952,Thymidylate synthase,P04818,3
+CHEMBL2034,Glucocorticoid receptor,P04150,3
+CHEMBL203,Epidermal growth factor receptor,P00533,3
+CHEMBL2148,Tyrosine-protein kinase JAK3,P52333,3
+CHEMBL4128,Angiopoietin-1 receptor,Q02763,3
+CHEMBL3116,Cyclin-dependent kinase 9,P50750,2
+CHEMBL308,Cyclin-dependent kinase 1,P06493,2
+CHEMBL3717,Hepatocyte growth factor receptor,P08581,2
+CHEMBL1993,DNA (cytosine-5)-methyltransferase 1,P26358,2
+CHEMBL3055,Cyclin-dependent kinase 7,P50613,2
+CHEMBL1992,DNA (cytosine-5)-methyltransferase 3A,Q9Y6K1,2
+CHEMBL279,Vascular endothelial growth factor receptor 2,P35968,2
+CHEMBL1824,Receptor tyrosine-protein kinase erbB-2,P04626,2
+CHEMBL1844,Macrophage colony-stimulating factor 1 receptor,P07333,2
+CHEMBL3553,Non-receptor tyrosine-protein kinase TYK2,P29597,2
+CHEMBL2068,Ephrin type-A receptor 2,P29317,2
+CHEMBL267,Proto-oncogene tyrosine-protein kinase Src,P12931,2
+CHEMBL2689,Macrophage-stimulating protein receptor,Q04912,2
+CHEMBL301,Cyclin-dependent kinase 2,P24941,2
+CHEMBL1829,Histone deacetylase 3,O15379,1
+CHEMBL1941,Histamine H2 receptor,P25021,1
+CHEMBL1937,Histone deacetylase 2,Q92769,1
+CHEMBL1935,"Aldehyde dehydrogenase, mitochondrial",P05091,1
+CHEMBL1913,Platelet-derived growth factor receptor beta,P09619,1
+CHEMBL1906,RAF proto-oncogene serine/threonine-protein kinase,P04049,1
+CHEMBL1911,"Succinate-semialdehyde dehydrogenase, mitochondrial",P51649,1
+CHEMBL1902,Peptidyl-prolyl cis-trans isomerase FKBP1A,P62942,1
+CHEMBL206,Estrogen receptor,P03372,1
+CHEMBL274,C-C chemokine receptor type 5,P51681,1
+CHEMBL2033,"Cholesterol side-chain cleavage enzyme, mitochondrial",P05108,1
+CHEMBL2023,Catechol O-methyltransferase,P21964,1
+CHEMBL2007625,Isocitrate dehydrogenase [NADP] cytoplasmic,O75874,1
+CHEMBL1978,Aromatase,P11511,1
+CHEMBL1957,Insulin-like growth factor 1 receptor,P08069,1
+CHEMBL1981,Insulin receptor,P06213,1
+CHEMBL215,Polyunsaturated fatty acid 5-lipoxygenase,P09917,1
+CHEMBL3045,Protein kinase C beta type,P05771,1
+CHEMBL3009,Receptor tyrosine-protein kinase erbB-4,Q15303,1
+CHEMBL2742,Fibroblast growth factor receptor 3,P22607,1
+CHEMBL2815,High affinity nerve growth factor receptor,P04629,1
+CHEMBL2508,Cyclin-dependent kinase 6,Q00534,1
+CHEMBL230,Prostaglandin G/H synthase 2,P35354,1
+CHEMBL2599,Tyrosine-protein kinase SYK,P43405,1
+CHEMBL3192,Histone deacetylase 8,Q9BY41,1
+CHEMBL325,Histone deacetylase 1,Q13547,1
+CHEMBL3234,Tyrosine-protein kinase HCK,P08631,1
+CHEMBL3310,Histone deacetylase 11,Q96DB2,1
+CHEMBL331,Cyclin-dependent kinase 4,P11802,1
+CHEMBL3650,Fibroblast growth factor receptor 1,P11362,1
+CHEMBL3833482,Protein P,P03159,1
+CHEMBL3145,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",P42338,1
+CHEMBL3130,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform",O00329,1
+CHEMBL3935,Aurora kinase C,Q9UQB9,1
+CHEMBL3905,Tyrosine-protein kinase Lyn,P07948,1
+CHEMBL4005,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",P42336,1
+CHEMBL3961,Mitogen-activated protein kinase 11,Q15759,1
+CHEMBL4142,Fibroblast growth factor receptor 2,P21802,1
+CHEMBL4223,Tyrosine-protein kinase FRK,P42685,1
+CHEMBL4247,ALK tyrosine kinase receptor,Q9UM73,1
+CHEMBL4036,Cyclin-dependent kinase 5,Q00535,1
+CHEMBL4506,NAD-dependent protein deacetylase sirtuin-1,Q96EB6,1
+CHEMBL4601,Protein-tyrosine kinase 6,Q13882,1
+CHEMBL4625,Bcl-2-like protein 1,Q07817,1
+CHEMBL4677,Bcl-2-like protein 2,Q92843,1
+CHEMBL4860,Apoptosis regulator Bcl-2,P10415,1
+CHEMBL5122,Discoidin domain-containing receptor 2,Q16832,1
+CHEMBL5145,Serine/threonine-protein kinase B-raf,P15056,1
+CHEMBL5568,Proto-oncogene tyrosine-protein kinase ROS,P08922,1

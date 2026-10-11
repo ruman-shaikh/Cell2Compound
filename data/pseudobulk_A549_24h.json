@@ -1,0 +1,21 @@
+{
+  "input": "data/raw/sciplex3.h5ad",
+  "output": "data/pseudobulk_A549_24h.npz",
+  "cell_line": "A549",
+  "time_hours": 24.0,
+  "cells_selected": 162171,
+  "cells_kept": 159909,
+  "thresholds": {
+    "log_nmads": 5.0,
+    "pct_mito_cap": 46.57902526855469
+  },
+  "genes_kept": 17808,
+  "groups": 1520,
+  "group_keys": [
+    "perturbation",
+    "dose_value",
+    "replicate",
+    "plate"
+  ],
+  "normalisation": "per-cell 1e4 by full library size, log1p; summed (divide by cells for means)"
+}

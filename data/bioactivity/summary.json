@@ -1,0 +1,163 @@
+{
+  "chembl_release": "ChEMBL_37",
+  "raw_records": 132339,
+  "clean_records": 132170,
+  "pairs": 88011,
+  "structures": 54697,
+  "filters": [
+    "assay_type=B",
+    "standard_relation==",
+    "pchembl_value present",
+    "no data_validity_comment",
+    "salt-stripped parent structure",
+    "median per structure/target"
+  ],
+  "max_pages_per_target": 30,
+  "replicate_sd_median": 0.011547005383792526,
+  "targets": [
+    {
+      "gene": "HDAC1",
+      "accession": "Q13547",
+      "target_chembl_id": "CHEMBL325",
+      "target_name": "Histone deacetylase 1",
+      "length": 482,
+      "pairs": 8094,
+      "median_pchembl": 6.58
+    },
+    {
+      "gene": "HDAC2",
+      "accession": "Q92769",
+      "target_chembl_id": "CHEMBL1937",
+      "target_name": "Histone deacetylase 2",
+      "length": 488,
+      "pairs": 2788,
+      "median_pchembl": 6.46
+    },
+    {
+      "gene": "HDAC3",
+      "accession": "O15379",
+      "target_chembl_id": "CHEMBL1829",
+      "target_name": "Histone deacetylase 3",
+      "length": 428,
+      "pairs": 2596,
+      "median_pchembl": 6.575
+    },
+    {
+      "gene": "HDAC6",
+      "accession": "Q9UBN7",
+      "target_chembl_id": "CHEMBL1865",
+      "target_name": "Protein deacetylase HDAC6",
+      "length": 1215,
+      "pairs": 6448,
+      "median_pchembl": 7.17
+    },
+    {
+      "gene": "HDAC8",
+      "accession": "Q9BY41",
+      "target_chembl_id": "CHEMBL3192",
+      "target_name": "Histone deacetylase 8",
+      "length": 377,
+      "pairs": 2999,
+      "median_pchembl": 5.98
+    },
+    {
+      "gene": "JAK1",
+      "accession": "P23458",
+      "target_chembl_id": "CHEMBL2835",
+      "target_name": "Tyrosine-protein kinase JAK1",
+      "length": 1154,
+      "pairs": 10401,
+      "median_pchembl": 8.0
+    },
+    {
+      "gene": "JAK2",
+      "accession": "O60674",
+      "target_chembl_id": "CHEMBL2971",
+      "target_name": "Tyrosine-protein kinase JAK2",
+      "length": 1132,
+      "pairs": 12026,
+      "median_pchembl": 7.43
+    },
+    {
+      "gene": "JAK3",
+      "accession": "P52333",
+      "target_chembl_id": "CHEMBL2148",
+      "target_name": "Tyrosine-protein kinase JAK3",
+      "length": 1124,
+      "pairs": 7198,
+      "median_pchembl": 7.26
+    },
+    {
+      "gene": "TYK2",
+      "accession": "P29597",
+      "target_chembl_id": "CHEMBL3553",
+      "target_name": "Non-receptor tyrosine-protein kinase TYK2",
+      "length": 1187,
+      "pairs": 6058,
+      "median_pchembl": 7.69
+    },
+    {
+      "gene": "AURKA",
+      "accession": "O14965",
+      "target_chembl_id": "CHEMBL4722",
+      "target_name": "Aurora kinase A",
+      "length": 403,
+      "pairs": 3058,
+      "median_pchembl": 7.02
+    },
+    {
+      "gene": "AURKB",
+      "accession": "Q96GD4",
+      "target_chembl_id": "CHEMBL2185",
+      "target_name": "Aurora kinase B",
+      "length": 344,
+      "pairs": 2046,
+      "median_pchembl": 6.9
+    },
+    {
+      "gene": "ABL1",
+      "accession": "P00519",
+      "target_chembl_id": "CHEMBL1862",
+      "target_name": "Tyrosine-protein kinase ABL1",
+      "length": 1130,
+      "pairs": 2878,
+      "median_pchembl": 7.46
+    },
+    {
+      "gene": "KIT",
+      "accession": "P10721",
+      "target_chembl_id": "CHEMBL1936",
+      "target_name": "Mast/stem cell growth factor receptor Kit",
+      "length": 976,
+      "pairs": 2980,
+      "median_pchembl": 6.56
+    },
+    {
+      "gene": "FLT3",
+      "accession": "P36888",
+      "target_chembl_id": "CHEMBL1974",
+      "target_name": "Receptor-type tyrosine-protein kinase FLT3",
+      "length": 993,
+      "pairs": 3962,
+      "median_pchembl": 7.14
+    },
+    {
+      "gene": "EGFR",
+      "accession": "P00533",
+      "target_chembl_id": "CHEMBL203",
+      "target_name": "Epidermal growth factor receptor",
+      "length": 1210,
+      "pairs": 10701,
+      "median_pchembl": 7.06
+    },
+    {
+      "gene": "SRC",
+      "accession": "P12931",
+      "target_chembl_id": "CHEMBL267",
+      "target_name": "Proto-oncogene tyrosine-protein kinase Src",
+      "length": 536,
+      "pairs": 3778,
+      "median_pchembl": 6.62
+    }
+  ]
+}

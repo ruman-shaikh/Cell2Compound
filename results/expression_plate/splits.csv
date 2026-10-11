@@ -1,0 +1,745 @@
+compound,dose,rep_cells,canonical_smiles,split,cells
+(+)-JQ1,10.0,"[63, 109]",Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)OC(C)(C)C)c1nnc(C)n1-2,test,172
+(+)-JQ1,100.0,"[60, 121]",Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)OC(C)(C)C)c1nnc(C)n1-2,test,181
+(+)-JQ1,1000.0,"[100, 116]",Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)OC(C)(C)C)c1nnc(C)n1-2,test,216
+(+)-JQ1,10000.0,"[66, 156]",Cc1sc2c(c1C)C(c1ccc(Cl)cc1)=N[C@@H](CC(=O)OC(C)(C)C)c1nnc(C)n1-2,test,222
+2-Methoxyestradiol (2-MeOE2),10.0,"[71, 134]",COc1cc2c(cc1O)CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](O)CC[C@@H]12,validation,205
+2-Methoxyestradiol (2-MeOE2),100.0,"[65, 128]",COc1cc2c(cc1O)CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](O)CC[C@@H]12,validation,193
+2-Methoxyestradiol (2-MeOE2),1000.0,"[72, 128]",COc1cc2c(cc1O)CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](O)CC[C@@H]12,validation,200
+2-Methoxyestradiol (2-MeOE2),10000.0,"[48, 115]",COc1cc2c(cc1O)CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](O)CC[C@@H]12,validation,163
+A-366,10.0,"[101, 161]",COc1cc2c(cc1OCCCN1CCCC1)N=C(N)C21CCC1,train,262
+A-366,100.0,"[89, 151]",COc1cc2c(cc1OCCCN1CCCC1)N=C(N)C21CCC1,train,240
+A-366,1000.0,"[54, 139]",COc1cc2c(cc1OCCCN1CCCC1)N=C(N)C21CCC1,train,193
+A-366,10000.0,"[99, 177]",COc1cc2c(cc1OCCCN1CCCC1)N=C(N)C21CCC1,train,276
+ABT-737,10.0,"[101, 103]",CN(C)CCC(CSc1ccccc1)Nc1ccc(S(=O)(=O)NC(=O)c2ccc(N3CCN(Cc4ccccc4-c4ccc(Cl)cc4)CC3)cc2)cc1[N+](=O)[O-],validation,204
+ABT-737,100.0,"[95, 132]",CN(C)CCC(CSc1ccccc1)Nc1ccc(S(=O)(=O)NC(=O)c2ccc(N3CCN(Cc4ccccc4-c4ccc(Cl)cc4)CC3)cc2)cc1[N+](=O)[O-],validation,227
+ABT-737,1000.0,"[91, 110]",CN(C)CCC(CSc1ccccc1)Nc1ccc(S(=O)(=O)NC(=O)c2ccc(N3CCN(Cc4ccccc4-c4ccc(Cl)cc4)CC3)cc2)cc1[N+](=O)[O-],validation,201
+ABT-737,10000.0,"[57, 102]",CN(C)CCC(CSc1ccccc1)Nc1ccc(S(=O)(=O)NC(=O)c2ccc(N3CCN(Cc4ccccc4-c4ccc(Cl)cc4)CC3)cc2)cc1[N+](=O)[O-],validation,159
+AC480 (BMS-599626),10.0,"[99, 132]",Cc1c(NC(=O)OCC2COCCN2)cn2ncnc(Nc3ccc4c(cnn4Cc4cccc(F)c4)c3)c12,train,231
+AC480 (BMS-599626),100.0,"[80, 111]",Cc1c(NC(=O)OCC2COCCN2)cn2ncnc(Nc3ccc4c(cnn4Cc4cccc(F)c4)c3)c12,train,191
+AC480 (BMS-599626),1000.0,"[107, 126]",Cc1c(NC(=O)OCC2COCCN2)cn2ncnc(Nc3ccc4c(cnn4Cc4cccc(F)c4)c3)c12,train,233
+AC480 (BMS-599626),10000.0,"[97, 138]",Cc1c(NC(=O)OCC2COCCN2)cn2ncnc(Nc3ccc4c(cnn4Cc4cccc(F)c4)c3)c12,train,235
+AG-14361,10.0,"[102, 154]",CN(C)Cc1ccc(-c2nc3cccc4c3n2CCNC4=O)cc1,train,256
+AG-14361,100.0,"[106, 144]",CN(C)Cc1ccc(-c2nc3cccc4c3n2CCNC4=O)cc1,train,250
+AG-14361,1000.0,"[91, 116]",CN(C)Cc1ccc(-c2nc3cccc4c3n2CCNC4=O)cc1,train,207
+AG-14361,10000.0,"[88, 144]",CN(C)Cc1ccc(-c2nc3cccc4c3n2CCNC4=O)cc1,train,232
+AG-490 (Tyrphostin B42),10.0,"[85, 120]",N#C/C(=C\c1ccc(O)c(O)c1)C(=O)NCc1ccccc1,validation,205
+AG-490 (Tyrphostin B42),100.0,"[111, 142]",N#C/C(=C\c1ccc(O)c(O)c1)C(=O)NCc1ccccc1,validation,253
+AG-490 (Tyrphostin B42),1000.0,"[108, 93]",N#C/C(=C\c1ccc(O)c(O)c1)C(=O)NCc1ccccc1,validation,201
+AG-490 (Tyrphostin B42),10000.0,"[90, 119]",N#C/C(=C\c1ccc(O)c(O)c1)C(=O)NCc1ccccc1,validation,209
+AICAR (Acadesine),10.0,"[126, 144]",NC(=O)c1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c1N,train,270
+AICAR (Acadesine),100.0,"[119, 105]",NC(=O)c1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c1N,train,224
+AICAR (Acadesine),1000.0,"[122, 119]",NC(=O)c1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c1N,train,241
+AICAR (Acadesine),10000.0,"[112, 154]",NC(=O)c1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c1N,train,266
+AMG-900,10.0,"[64, 99]",Cc1csc(-c2nnc(Nc3ccc(Oc4ncccc4-c4ccnc(N)n4)cc3)c3ccccc23)c1,train,163
+AMG-900,100.0,"[66, 92]",Cc1csc(-c2nnc(Nc3ccc(Oc4ncccc4-c4ccnc(N)n4)cc3)c3ccccc23)c1,train,158
+AMG-900,1000.0,"[76, 71]",Cc1csc(-c2nnc(Nc3ccc(Oc4ncccc4-c4ccnc(N)n4)cc3)c3ccccc23)c1,train,147
+AMG-900,10000.0,"[71, 105]",Cc1csc(-c2nnc(Nc3ccc(Oc4ncccc4-c4ccnc(N)n4)cc3)c3ccccc23)c1,train,176
+AR-42,10.0,"[106, 103]",CC(C)[C@H](C(=O)Nc1ccc(C(=O)NO)cc1)c1ccccc1,train,209
+AR-42,100.0,"[103, 123]",CC(C)[C@H](C(=O)Nc1ccc(C(=O)NO)cc1)c1ccccc1,train,226
+AR-42,1000.0,"[66, 102]",CC(C)[C@H](C(=O)Nc1ccc(C(=O)NO)cc1)c1ccccc1,train,168
+AR-42,10000.0,"[49, 72]",CC(C)[C@H](C(=O)Nc1ccc(C(=O)NO)cc1)c1ccccc1,train,121
+AT9283,10.0,"[33, 79]",O=C(Nc1c[nH]nc1-c1nc2cc(CN3CCOCC3)ccc2[nH]1)NC1CC1,train,112
+AT9283,100.0,"[38, 66]",O=C(Nc1c[nH]nc1-c1nc2cc(CN3CCOCC3)ccc2[nH]1)NC1CC1,train,104
+AT9283,1000.0,"[63, 85]",O=C(Nc1c[nH]nc1-c1nc2cc(CN3CCOCC3)ccc2[nH]1)NC1CC1,train,148
+AT9283,10000.0,"[43, 64]",O=C(Nc1c[nH]nc1-c1nc2cc(CN3CCOCC3)ccc2[nH]1)NC1CC1,train,107
+AZ 960,10.0,"[83, 98]",Cc1cc(Nc2nc(N[C@@H](C)c3ccc(F)cc3)c(C#N)cc2F)n[nH]1,test,181
+AZ 960,100.0,"[98, 147]",Cc1cc(Nc2nc(N[C@@H](C)c3ccc(F)cc3)c(C#N)cc2F)n[nH]1,test,245
+AZ 960,1000.0,"[99, 108]",Cc1cc(Nc2nc(N[C@@H](C)c3ccc(F)cc3)c(C#N)cc2F)n[nH]1,test,207
+AZ 960,10000.0,"[44, 83]",Cc1cc(Nc2nc(N[C@@H](C)c3ccc(F)cc3)c(C#N)cc2F)n[nH]1,test,127
+AZD1480,10.0,"[80, 140]",Cc1cc(Nc2nc(N[C@@H](C)c3ncc(F)cn3)ncc2Cl)n[nH]1,train,220
+AZD1480,100.0,"[88, 126]",Cc1cc(Nc2nc(N[C@@H](C)c3ncc(F)cn3)ncc2Cl)n[nH]1,train,214
+AZD1480,1000.0,"[92, 75]",Cc1cc(Nc2nc(N[C@@H](C)c3ncc(F)cn3)ncc2Cl)n[nH]1,train,167
+AZD1480,10000.0,"[55, 99]",Cc1cc(Nc2nc(N[C@@H](C)c3ncc(F)cn3)ncc2Cl)n[nH]1,train,154
+Abexinostat (PCI-24781),10.0,"[81, 127]",CN(C)Cc1c(C(=O)NCCOc2ccc(C(=O)NO)cc2)oc2ccccc12,train,208
+Abexinostat (PCI-24781),100.0,"[82, 124]",CN(C)Cc1c(C(=O)NCCOc2ccc(C(=O)NO)cc2)oc2ccccc12,train,206
+Abexinostat (PCI-24781),1000.0,"[73, 124]",CN(C)Cc1c(C(=O)NCCOc2ccc(C(=O)NO)cc2)oc2ccccc12,train,197
+Abexinostat (PCI-24781),10000.0,"[52, 104]",CN(C)Cc1c(C(=O)NCCOc2ccc(C(=O)NO)cc2)oc2ccccc12,train,156
+Alendronate sodium trihydrate,10.0,"[117, 130]",NCCCC(O)(P(=O)(O)O)P(=O)(O)O,test,247
+Alendronate sodium trihydrate,100.0,"[96, 128]",NCCCC(O)(P(=O)(O)O)P(=O)(O)O,test,224
+Alendronate sodium trihydrate,1000.0,"[74, 100]",NCCCC(O)(P(=O)(O)O)P(=O)(O)O,test,174
+Alendronate sodium trihydrate,10000.0,"[77, 109]",NCCCC(O)(P(=O)(O)O)P(=O)(O)O,test,186
+Alisertib (MLN8237),10.0,"[45, 118]",COc1cc(Nc2ncc3c(n2)-c2ccc(Cl)cc2C(c2c(F)cccc2OC)=NC3)ccc1C(=O)O,train,163
+Alisertib (MLN8237),100.0,"[41, 77]",COc1cc(Nc2ncc3c(n2)-c2ccc(Cl)cc2C(c2c(F)cccc2OC)=NC3)ccc1C(=O)O,train,118
+Alisertib (MLN8237),1000.0,"[31, 93]",COc1cc(Nc2ncc3c(n2)-c2ccc(Cl)cc2C(c2c(F)cccc2OC)=NC3)ccc1C(=O)O,train,124
+Alisertib (MLN8237),10000.0,"[13, 71]",COc1cc(Nc2ncc3c(n2)-c2ccc(Cl)cc2C(c2c(F)cccc2OC)=NC3)ccc1C(=O)O,train,84
+Altretamine,10.0,"[132, 132]",CN(C)c1nc(N(C)C)nc(N(C)C)n1,train,264
+Altretamine,100.0,"[121, 194]",CN(C)c1nc(N(C)C)nc(N(C)C)n1,train,315
+Altretamine,1000.0,"[102, 191]",CN(C)c1nc(N(C)C)nc(N(C)C)n1,train,293
+Altretamine,10000.0,"[111, 132]",CN(C)c1nc(N(C)C)nc(N(C)C)n1,train,243
+Alvespimycin (17-DMAG) HCl,10.0,"[110, 119]",COC1/C=C\C=C(/C)C(=O)NC2=CC(=O)C(NCCN(C)C)=C(CC(C)CC(OC)C(O)C(C)/C=C(\C)C1OC(N)=O)C2=O,test,229
+Alvespimycin (17-DMAG) HCl,100.0,"[60, 68]",COC1/C=C\C=C(/C)C(=O)NC2=CC(=O)C(NCCN(C)C)=C(CC(C)CC(OC)C(O)C(C)/C=C(\C)C1OC(N)=O)C2=O,test,128
+Alvespimycin (17-DMAG) HCl,1000.0,"[50, 38]",COC1/C=C\C=C(/C)C(=O)NC2=CC(=O)C(NCCN(C)C)=C(CC(C)CC(OC)C(O)C(C)/C=C(\C)C1OC(N)=O)C2=O,test,88
+Alvespimycin (17-DMAG) HCl,10000.0,"[52, 43]",COC1/C=C\C=C(/C)C(=O)NC2=CC(=O)C(NCCN(C)C)=C(CC(C)CC(OC)C(O)C(C)/C=C(\C)C1OC(N)=O)C2=O,test,95
+Aminoglutethimide ,10.0,"[125, 129]",CCC1(c2ccc(N)cc2)CCC(=O)NC1=O,test,254
+Aminoglutethimide ,100.0,"[107, 101]",CCC1(c2ccc(N)cc2)CCC(=O)NC1=O,test,208
+Aminoglutethimide ,1000.0,"[125, 137]",CCC1(c2ccc(N)cc2)CCC(=O)NC1=O,test,262
+Aminoglutethimide ,10000.0,"[112, 111]",CCC1(c2ccc(N)cc2)CCC(=O)NC1=O,test,223
+Amisulpride,10.0,"[114, 126]",CCN1CCCC1CNC(=O)c1cc(S(=O)(=O)CC)c(N)cc1OC,train,240
+Amisulpride,100.0,"[100, 101]",CCN1CCCC1CNC(=O)c1cc(S(=O)(=O)CC)c(N)cc1OC,train,201
+Amisulpride,1000.0,"[103, 133]",CCN1CCCC1CNC(=O)c1cc(S(=O)(=O)CC)c(N)cc1OC,train,236
+Amisulpride,10000.0,"[99, 126]",CCN1CCCC1CNC(=O)c1cc(S(=O)(=O)CC)c(N)cc1OC,train,225
+Anacardic Acid,10.0,"[92, 169]",CCCCCCCCCCCCCCCc1cccc(O)c1C(=O)O,train,261
+Anacardic Acid,100.0,"[112, 109]",CCCCCCCCCCCCCCCc1cccc(O)c1C(=O)O,train,221
+Anacardic Acid,1000.0,"[98, 141]",CCCCCCCCCCCCCCCc1cccc(O)c1C(=O)O,train,239
+Anacardic Acid,10000.0,"[102, 166]",CCCCCCCCCCCCCCCc1cccc(O)c1C(=O)O,train,268
+Andarine,10.0,"[108, 143]",CC(=O)Nc1ccc(OCC(C)(O)C(=O)Nc2ccc([N+](=O)[O-])c(C(F)(F)F)c2)cc1,train,251
+Andarine,100.0,"[113, 112]",CC(=O)Nc1ccc(OCC(C)(O)C(=O)Nc2ccc([N+](=O)[O-])c(C(F)(F)F)c2)cc1,train,225
+Andarine,1000.0,"[101, 125]",CC(=O)Nc1ccc(OCC(C)(O)C(=O)Nc2ccc([N+](=O)[O-])c(C(F)(F)F)c2)cc1,train,226
+Andarine,10000.0,"[139, 138]",CC(=O)Nc1ccc(OCC(C)(O)C(=O)Nc2ccc([N+](=O)[O-])c(C(F)(F)F)c2)cc1,train,277
+Aurora A Inhibitor I,10.0,"[84, 153]",CCN1CCN(C(=O)Cc2ccc(Nc3ncc(F)c(Nc4ccc(C(=O)Nc5ccccc5Cl)cc4)n3)cc2)CC1,validation,237
+Aurora A Inhibitor I,100.0,"[45, 118]",CCN1CCN(C(=O)Cc2ccc(Nc3ncc(F)c(Nc4ccc(C(=O)Nc5ccccc5Cl)cc4)n3)cc2)CC1,validation,163
+Aurora A Inhibitor I,1000.0,"[56, 156]",CCN1CCN(C(=O)Cc2ccc(Nc3ncc(F)c(Nc4ccc(C(=O)Nc5ccccc5Cl)cc4)n3)cc2)CC1,validation,212
+Aurora A Inhibitor I,10000.0,"[52, 95]",CCN1CCN(C(=O)Cc2ccc(Nc3ncc(F)c(Nc4ccc(C(=O)Nc5ccccc5Cl)cc4)n3)cc2)CC1,validation,147
+Avagacestat (BMS-708163),10.0,"[105, 112]",NC(=O)C(CCC(F)(F)F)N(Cc1ccc(-c2ncon2)cc1F)S(=O)(=O)c1ccc(Cl)cc1,train,217
+Avagacestat (BMS-708163),100.0,"[114, 105]",NC(=O)C(CCC(F)(F)F)N(Cc1ccc(-c2ncon2)cc1F)S(=O)(=O)c1ccc(Cl)cc1,train,219
+Avagacestat (BMS-708163),1000.0,"[95, 120]",NC(=O)C(CCC(F)(F)F)N(Cc1ccc(-c2ncon2)cc1F)S(=O)(=O)c1ccc(Cl)cc1,train,215
+Avagacestat (BMS-708163),10000.0,"[96, 125]",NC(=O)C(CCC(F)(F)F)N(Cc1ccc(-c2ncon2)cc1F)S(=O)(=O)c1ccc(Cl)cc1,train,221
+Azacitidine ,10.0,"[69, 123]",Nc1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)n1,train,192
+Azacitidine ,100.0,"[85, 161]",Nc1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)n1,train,246
+Azacitidine ,1000.0,"[70, 153]",Nc1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)n1,train,223
+Azacitidine ,10000.0,"[49, 120]",Nc1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)n1,train,169
+BMS-265246,10.0,"[77, 153]",CCCCOc1c(C(=O)c2c(F)cc(C)cc2F)cnc2[nH]ncc12,test,230
+BMS-265246,100.0,"[108, 127]",CCCCOc1c(C(=O)c2c(F)cc(C)cc2F)cnc2[nH]ncc12,test,235
+BMS-265246,1000.0,"[92, 100]",CCCCOc1c(C(=O)c2c(F)cc(C)cc2F)cnc2[nH]ncc12,test,192
+BMS-265246,10000.0,"[71, 73]",CCCCOc1c(C(=O)c2c(F)cc(C)cc2F)cnc2[nH]ncc12,test,144
+BMS-536924,10.0,"[87, 115]",Cc1cc(N2CCOCC2)cc2[nH]c(-c3c(NCC(O)c4cccc(Cl)c4)cc[nH]c3=O)nc12,train,202
+BMS-536924,100.0,"[95, 110]",Cc1cc(N2CCOCC2)cc2[nH]c(-c3c(NCC(O)c4cccc(Cl)c4)cc[nH]c3=O)nc12,train,205
+BMS-536924,1000.0,"[79, 100]",Cc1cc(N2CCOCC2)cc2[nH]c(-c3c(NCC(O)c4cccc(Cl)c4)cc[nH]c3=O)nc12,train,179
+BMS-536924,10000.0,"[56, 83]",Cc1cc(N2CCOCC2)cc2[nH]c(-c3c(NCC(O)c4cccc(Cl)c4)cc[nH]c3=O)nc12,train,139
+BMS-754807,10.0,"[95, 84]",CC1(C(=O)Nc2ccc(F)nc2)CCCN1c1nc(Nc2cc(C3CC3)[nH]n2)c2cccn2n1,train,179
+BMS-754807,100.0,"[102, 114]",CC1(C(=O)Nc2ccc(F)nc2)CCCN1c1nc(Nc2cc(C3CC3)[nH]n2)c2cccn2n1,train,216
+BMS-754807,1000.0,"[73, 90]",CC1(C(=O)Nc2ccc(F)nc2)CCCN1c1nc(Nc2cc(C3CC3)[nH]n2)c2cccn2n1,train,163
+BMS-754807,10000.0,"[68, 71]",CC1(C(=O)Nc2ccc(F)nc2)CCCN1c1nc(Nc2cc(C3CC3)[nH]n2)c2cccn2n1,train,139
+BMS-911543,10.0,"[71, 96]",CCn1c(C(=O)N(C2CC2)C2CC2)cc2c3c(ncn3C)c(Nc3cc(C)n(C)n3)nc21,train,167
+BMS-911543,100.0,"[40, 148]",CCn1c(C(=O)N(C2CC2)C2CC2)cc2c3c(ncn3C)c(Nc3cc(C)n(C)n3)nc21,train,188
+BMS-911543,1000.0,"[53, 163]",CCn1c(C(=O)N(C2CC2)C2CC2)cc2c3c(ncn3C)c(Nc3cc(C)n(C)n3)nc21,train,216
+BMS-911543,10000.0,"[26, 128]",CCn1c(C(=O)N(C2CC2)C2CC2)cc2c3c(ncn3C)c(Nc3cc(C)n(C)n3)nc21,train,154
+BRD4770,10.0,"[106, 163]",COC(=O)c1ccc2c(c1)nc(NC(=O)c1ccccc1)n2CCCc1ccccc1,test,269
+BRD4770,100.0,"[85, 123]",COC(=O)c1ccc2c(c1)nc(NC(=O)c1ccccc1)n2CCCc1ccccc1,test,208
+BRD4770,1000.0,"[83, 137]",COC(=O)c1ccc2c(c1)nc(NC(=O)c1ccccc1)n2CCCc1ccccc1,test,220
+BRD4770,10000.0,"[111, 139]",COC(=O)c1ccc2c(c1)nc(NC(=O)c1ccccc1)n2CCCc1ccccc1,test,250
+Barasertib (AZD1152-HQPA),10.0,"[54, 109]",CCN(CCO)CCCOc1ccc2c(Nc3cc(CC(=O)Nc4cccc(F)c4)n[nH]3)ncnc2c1,train,163
+Barasertib (AZD1152-HQPA),100.0,"[53, 87]",CCN(CCO)CCCOc1ccc2c(Nc3cc(CC(=O)Nc4cccc(F)c4)n[nH]3)ncnc2c1,train,140
+Barasertib (AZD1152-HQPA),1000.0,"[57, 70]",CCN(CCO)CCCOc1ccc2c(Nc3cc(CC(=O)Nc4cccc(F)c4)n[nH]3)ncnc2c1,train,127
+Barasertib (AZD1152-HQPA),10000.0,"[30, 84]",CCN(CCO)CCCOc1ccc2c(Nc3cc(CC(=O)Nc4cccc(F)c4)n[nH]3)ncnc2c1,train,114
+"Baricitinib (LY3009104, INCB028050)",10.0,"[82, 149]",CCS(=O)(=O)N1CC(CC#N)(n2cc(-c3ncnc4[nH]ccc34)cn2)C1,test,231
+"Baricitinib (LY3009104, INCB028050)",100.0,"[93, 137]",CCS(=O)(=O)N1CC(CC#N)(n2cc(-c3ncnc4[nH]ccc34)cn2)C1,test,230
+"Baricitinib (LY3009104, INCB028050)",1000.0,"[80, 140]",CCS(=O)(=O)N1CC(CC#N)(n2cc(-c3ncnc4[nH]ccc34)cn2)C1,test,220
+"Baricitinib (LY3009104, INCB028050)",10000.0,"[121, 155]",CCS(=O)(=O)N1CC(CC#N)(n2cc(-c3ncnc4[nH]ccc34)cn2)C1,test,276
+Belinostat (PXD101),10.0,"[67, 120]",O=C(/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1)NO,train,187
+Belinostat (PXD101),100.0,"[93, 139]",O=C(/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1)NO,train,232
+Belinostat (PXD101),1000.0,"[66, 141]",O=C(/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1)NO,train,207
+Belinostat (PXD101),10000.0,"[38, 65]",O=C(/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1)NO,train,103
+Bisindolylmaleimide IX (Ro 31-8220 Mesylate),10.0,"[71, 157]",Cn1cc(C2=C(c3cn(CCCSC(=N)N)c4ccccc34)C(=O)NC2=O)c2ccccc21,validation,228
+Bisindolylmaleimide IX (Ro 31-8220 Mesylate),100.0,"[40, 140]",Cn1cc(C2=C(c3cn(CCCSC(=N)N)c4ccccc34)C(=O)NC2=O)c2ccccc21,validation,180
+Bisindolylmaleimide IX (Ro 31-8220 Mesylate),1000.0,"[49, 129]",Cn1cc(C2=C(c3cn(CCCSC(=N)N)c4ccccc34)C(=O)NC2=O)c2ccccc21,validation,178
+Bosutinib (SKI-606),10.0,"[114, 125]",COc1cc(Nc2c(C#N)cnc3cc(OCCCN4CCN(C)CC4)c(OC)cc23)c(Cl)cc1Cl,test,239
+Bosutinib (SKI-606),100.0,"[116, 133]",COc1cc(Nc2c(C#N)cnc3cc(OCCCN4CCN(C)CC4)c(OC)cc23)c(Cl)cc1Cl,test,249
+Bosutinib (SKI-606),1000.0,"[92, 137]",COc1cc(Nc2c(C#N)cnc3cc(OCCCN4CCN(C)CC4)c(OC)cc23)c(Cl)cc1Cl,test,229
+Bosutinib (SKI-606),10000.0,"[98, 131]",COc1cc(Nc2c(C#N)cnc3cc(OCCCN4CCN(C)CC4)c(OC)cc23)c(Cl)cc1Cl,test,229
+Busulfan ,10.0,"[113, 148]",CS(=O)(=O)OCCCCOS(C)(=O)=O,train,261
+Busulfan ,100.0,"[113, 105]",CS(=O)(=O)OCCCCOS(C)(=O)=O,train,218
+Busulfan ,1000.0,"[95, 138]",CS(=O)(=O)OCCCCOS(C)(=O)=O,train,233
+Busulfan ,10000.0,"[96, 131]",CS(=O)(=O)OCCCCOS(C)(=O)=O,train,227
+CEP-33779,10.0,"[79, 163]",CN1CCN(c2cccc(Nc3nc4c(-c5ccc(S(C)(=O)=O)cc5)cccn4n3)c2)CC1,train,242
+CEP-33779,100.0,"[126, 148]",CN1CCN(c2cccc(Nc3nc4c(-c5ccc(S(C)(=O)=O)cc5)cccn4n3)c2)CC1,train,274
+CEP-33779,1000.0,"[104, 148]",CN1CCN(c2cccc(Nc3nc4c(-c5ccc(S(C)(=O)=O)cc5)cccn4n3)c2)CC1,train,252
+CEP-33779,10000.0,"[99, 147]",CN1CCN(c2cccc(Nc3nc4c(-c5ccc(S(C)(=O)=O)cc5)cccn4n3)c2)CC1,train,246
+CUDC-101,10.0,"[97, 169]",C#Cc1cccc(Nc2ncnc3cc(OC)c(OCCCCCCC(=O)NO)cc23)c1,train,266
+CUDC-101,100.0,"[108, 108]",C#Cc1cccc(Nc2ncnc3cc(OC)c(OCCCCCCC(=O)NO)cc23)c1,train,216
+CUDC-101,1000.0,"[76, 134]",C#Cc1cccc(Nc2ncnc3cc(OC)c(OCCCCCCC(=O)NO)cc23)c1,train,210
+CUDC-101,10000.0,"[76, 80]",C#Cc1cccc(Nc2ncnc3cc(OC)c(OCCCCCCC(=O)NO)cc23)c1,train,156
+CUDC-907,10.0,"[87, 129]",COc1ccc(-c2nc(N3CCOCC3)c3sc(CN(C)c4ncc(C(=O)NO)cn4)cc3n2)cn1,validation,216
+CUDC-907,100.0,"[82, 93]",COc1ccc(-c2nc(N3CCOCC3)c3sc(CN(C)c4ncc(C(=O)NO)cn4)cc3n2)cn1,validation,175
+CUDC-907,1000.0,"[71, 93]",COc1ccc(-c2nc(N3CCOCC3)c3sc(CN(C)c4ncc(C(=O)NO)cn4)cc3n2)cn1,validation,164
+CUDC-907,10000.0,"[22, 47]",COc1ccc(-c2nc(N3CCOCC3)c3sc(CN(C)c4ncc(C(=O)NO)cn4)cc3n2)cn1,validation,69
+CYC116,10.0,"[102, 148]",Cc1nc(N)sc1-c1ccnc(Nc2ccc(N3CCOCC3)cc2)n1,validation,250
+CYC116,100.0,"[87, 118]",Cc1nc(N)sc1-c1ccnc(Nc2ccc(N3CCOCC3)cc2)n1,validation,205
+CYC116,1000.0,"[96, 56]",Cc1nc(N)sc1-c1ccnc(Nc2ccc(N3CCOCC3)cc2)n1,validation,152
+CYC116,10000.0,"[66, 82]",Cc1nc(N)sc1-c1ccnc(Nc2ccc(N3CCOCC3)cc2)n1,validation,148
+Capecitabine ,10.0,"[98, 131]",CCCCCOC(=O)Nc1nc(=O)n(C2OC(C)C(O)C2O)cc1F,train,229
+Capecitabine ,100.0,"[129, 133]",CCCCCOC(=O)Nc1nc(=O)n(C2OC(C)C(O)C2O)cc1F,train,262
+Capecitabine ,1000.0,"[102, 139]",CCCCCOC(=O)Nc1nc(=O)n(C2OC(C)C(O)C2O)cc1F,train,241
+Capecitabine ,10000.0,"[115, 109]",CCCCCOC(=O)Nc1nc(=O)n(C2OC(C)C(O)C2O)cc1F,train,224
+Carmofur,10.0,"[125, 118]",CCCCCCNC(=O)n1cc(F)c(=O)[nH]c1=O,train,243
+Carmofur,100.0,"[129, 146]",CCCCCCNC(=O)n1cc(F)c(=O)[nH]c1=O,train,275
+Carmofur,1000.0,"[83, 122]",CCCCCCNC(=O)n1cc(F)c(=O)[nH]c1=O,train,205
+Carmofur,10000.0,"[72, 86]",CCCCCCNC(=O)n1cc(F)c(=O)[nH]c1=O,train,158
+Cediranib (AZD2171),10.0,"[126, 142]",COc1cc2c(Oc3ccc4[nH]c(C)cc4c3F)ncnc2cc1OCCCN1CCCC1,validation,268
+Cediranib (AZD2171),100.0,"[101, 125]",COc1cc2c(Oc3ccc4[nH]c(C)cc4c3F)ncnc2cc1OCCCN1CCCC1,validation,226
+Cediranib (AZD2171),1000.0,"[75, 123]",COc1cc2c(Oc3ccc4[nH]c(C)cc4c3F)ncnc2cc1OCCCN1CCCC1,validation,198
+Cediranib (AZD2171),10000.0,"[69, 91]",COc1cc2c(Oc3ccc4[nH]c(C)cc4c3F)ncnc2cc1OCCCN1CCCC1,validation,160
+Celecoxib,10.0,"[125, 121]",Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,test,246
+Celecoxib,100.0,"[70, 107]",Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,test,177
+Celecoxib,1000.0,"[97, 99]",Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,test,196
+Celecoxib,10000.0,"[100, 135]",Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,test,235
+"Cerdulatinib (PRT062070, PRT2070)",10.0,"[90, 139]",CCS(=O)(=O)N1CCN(c2ccc(Nc3ncc(C(N)=O)c(NC4CC4)n3)cc2)CC1,train,229
+"Cerdulatinib (PRT062070, PRT2070)",100.0,"[116, 130]",CCS(=O)(=O)N1CCN(c2ccc(Nc3ncc(C(N)=O)c(NC4CC4)n3)cc2)CC1,train,246
+"Cerdulatinib (PRT062070, PRT2070)",1000.0,"[133, 121]",CCS(=O)(=O)N1CCN(c2ccc(Nc3ncc(C(N)=O)c(NC4CC4)n3)cc2)CC1,train,254
+"Cerdulatinib (PRT062070, PRT2070)",10000.0,"[69, 116]",CCS(=O)(=O)N1CCN(c2ccc(Nc3ncc(C(N)=O)c(NC4CC4)n3)cc2)CC1,train,185
+Cimetidine ,10.0,"[125, 154]",CNC(=NC#N)NCCSCc1nc[nH]c1C,train,279
+Cimetidine ,100.0,"[103, 117]",CNC(=NC#N)NCCSCc1nc[nH]c1C,train,220
+Cimetidine ,1000.0,"[41, 125]",CNC(=NC#N)NCCSCc1nc[nH]c1C,train,166
+Cimetidine ,10000.0,"[44, 130]",CNC(=NC#N)NCCSCc1nc[nH]c1C,train,174
+Clevudine ,10.0,"[123, 165]",Cc1cn([C@H]2O[C@@H](CO)[C@H](O)[C@H]2F)c(=O)[nH]c1=O,train,288
+Clevudine ,100.0,"[82, 133]",Cc1cn([C@H]2O[C@@H](CO)[C@H](O)[C@H]2F)c(=O)[nH]c1=O,train,215
+Clevudine ,1000.0,"[94, 143]",Cc1cn([C@H]2O[C@@H](CO)[C@H](O)[C@H]2F)c(=O)[nH]c1=O,train,237
+Clevudine ,10000.0,"[107, 183]",Cc1cn([C@H]2O[C@@H](CO)[C@H](O)[C@H]2F)c(=O)[nH]c1=O,train,290
+Costunolide,10.0,"[121, 119]",C=C1C(=O)OC2/C=C(\C)CC/C=C(\C)CCC12,train,240
+Costunolide,100.0,"[115, 129]",C=C1C(=O)OC2/C=C(\C)CC/C=C(\C)CCC12,train,244
+Costunolide,1000.0,"[93, 143]",C=C1C(=O)OC2/C=C(\C)CC/C=C(\C)CCC12,train,236
+Costunolide,10000.0,"[111, 131]",C=C1C(=O)OC2/C=C(\C)CC/C=C(\C)CCC12,train,242
+Crizotinib (PF-02341066),10.0,"[105, 121]",CC(Oc1cc(-c2cnn(C3CCNCC3)c2)cnc1N)c1c(Cl)ccc(F)c1Cl,validation,226
+Crizotinib (PF-02341066),100.0,"[108, 121]",CC(Oc1cc(-c2cnn(C3CCNCC3)c2)cnc1N)c1c(Cl)ccc(F)c1Cl,validation,229
+Crizotinib (PF-02341066),1000.0,"[102, 132]",CC(Oc1cc(-c2cnn(C3CCNCC3)c2)cnc1N)c1c(Cl)ccc(F)c1Cl,validation,234
+Crizotinib (PF-02341066),10000.0,"[59, 58]",CC(Oc1cc(-c2cnn(C3CCNCC3)c2)cnc1N)c1c(Cl)ccc(F)c1Cl,validation,117
+Curcumin,10.0,"[91, 142]",COc1cc(/C=C/C(=O)/C=C(O)/C=C/c2ccc(O)c(OC)c2)ccc1O,test,233
+Curcumin,100.0,"[96, 123]",COc1cc(/C=C/C(=O)/C=C(O)/C=C/c2ccc(O)c(OC)c2)ccc1O,test,219
+Curcumin,1000.0,"[99, 115]",COc1cc(/C=C/C(=O)/C=C(O)/C=C/c2ccc(O)c(OC)c2)ccc1O,test,214
+Curcumin,10000.0,"[109, 147]",COc1cc(/C=C/C(=O)/C=C(O)/C=C/c2ccc(O)c(OC)c2)ccc1O,test,256
+Cyclocytidine HCl,10.0,"[111, 117]",N=c1ccn2c(n1)OC1C(O)C(CO)OC12,train,228
+Cyclocytidine HCl,100.0,"[97, 76]",N=c1ccn2c(n1)OC1C(O)C(CO)OC12,train,173
+Cyclocytidine HCl,1000.0,"[77, 84]",N=c1ccn2c(n1)OC1C(O)C(CO)OC12,train,161
+Cyclocytidine HCl,10000.0,"[81, 82]",N=c1ccn2c(n1)OC1C(O)C(CO)OC12,train,163
+Dacinostat (LAQ824),10.0,"[87, 141]",O=C(/C=C/c1ccc(CN(CCO)CCc2c[nH]c3ccccc23)cc1)NO,test,228
+Dacinostat (LAQ824),100.0,"[61, 113]",O=C(/C=C/c1ccc(CN(CCO)CCc2c[nH]c3ccccc23)cc1)NO,test,174
+Dacinostat (LAQ824),1000.0,"[39, 76]",O=C(/C=C/c1ccc(CN(CCO)CCc2c[nH]c3ccccc23)cc1)NO,test,115
+Dacinostat (LAQ824),10000.0,"[33, 74]",O=C(/C=C/c1ccc(CN(CCO)CCc2c[nH]c3ccccc23)cc1)NO,test,107
+Danusertib (PHA-739358),10.0,"[75, 132]",CO[C@@H](C(=O)N1Cc2[nH]nc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2C1)c1ccccc1,train,207
+Danusertib (PHA-739358),100.0,"[61, 86]",CO[C@@H](C(=O)N1Cc2[nH]nc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2C1)c1ccccc1,train,147
+Danusertib (PHA-739358),1000.0,"[31, 106]",CO[C@@H](C(=O)N1Cc2[nH]nc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2C1)c1ccccc1,train,137
+Danusertib (PHA-739358),10000.0,"[23, 81]",CO[C@@H](C(=O)N1Cc2[nH]nc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2C1)c1ccccc1,train,104
+Daphnetin,10.0,"[106, 147]",O=c1ccc2ccc(O)c(O)c2o1,validation,253
+Daphnetin,100.0,"[120, 149]",O=c1ccc2ccc(O)c(O)c2o1,validation,269
+Daphnetin,1000.0,"[114, 149]",O=c1ccc2ccc(O)c(O)c2o1,validation,263
+Daphnetin,10000.0,"[95, 150]",O=c1ccc2ccc(O)c(O)c2o1,validation,245
+Dasatinib,10.0,"[112, 130]",Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1,validation,242
+Dasatinib,100.0,"[80, 126]",Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1,validation,206
+Dasatinib,1000.0,"[63, 96]",Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1,validation,159
+Dasatinib,10000.0,"[69, 95]",Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1,validation,164
+Decitabine,10.0,"[64, 125]",Nc1ncn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)n1,validation,189
+Decitabine,100.0,"[46, 110]",Nc1ncn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)n1,validation,156
+Decitabine,1000.0,"[64, 135]",Nc1ncn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)n1,validation,199
+Decitabine,10000.0,"[80, 120]",Nc1ncn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)n1,validation,200
+Disulfiram ,10.0,"[128, 132]",CCN(CC)C(=S)SSC(=S)N(CC)CC,train,260
+Disulfiram ,100.0,"[99, 104]",CCN(CC)C(=S)SSC(=S)N(CC)CC,train,203
+Disulfiram ,1000.0,"[97, 152]",CCN(CC)C(=S)SSC(=S)N(CC)CC,train,249
+Disulfiram ,10000.0,"[105, 141]",CCN(CC)C(=S)SSC(=S)N(CC)CC,train,246
+Divalproex Sodium,10.0,"[46, 136]",CCCC(CCC)C(=O)O,validation,182
+Divalproex Sodium,100.0,"[88, 127]",CCCC(CCC)C(=O)O,validation,215
+Divalproex Sodium,1000.0,"[30, 102]",CCCC(CCC)C(=O)O,validation,132
+Divalproex Sodium,10000.0,"[23, 145]",CCCC(CCC)C(=O)O,validation,168
+Droxinostat,10.0,"[104, 179]",Cc1cc(Cl)ccc1OCCCC(=O)NO,train,283
+Droxinostat,100.0,"[114, 157]",Cc1cc(Cl)ccc1OCCCC(=O)NO,train,271
+Droxinostat,1000.0,"[106, 148]",Cc1cc(Cl)ccc1OCCCC(=O)NO,train,254
+Droxinostat,10000.0,"[94, 144]",Cc1cc(Cl)ccc1OCCCC(=O)NO,train,238
+EED226,10.0,"[49, 120]",CS(=O)(=O)c1ccc(-c2cnc(NCc3ccco3)n3cnnc23)cc1,train,169
+EED226,100.0,"[35, 150]",CS(=O)(=O)c1ccc(-c2cnc(NCc3ccco3)n3cnnc23)cc1,train,185
+EED226,1000.0,"[67, 153]",CS(=O)(=O)c1ccc(-c2cnc(NCc3ccco3)n3cnnc23)cc1,train,220
+EED226,10000.0,"[43, 136]",CS(=O)(=O)c1ccc(-c2cnc(NCc3ccco3)n3cnnc23)cc1,train,179
+ENMD-2076,10.0,"[104, 141]",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(/C=C/c3ccccc3)n2)n[nH]1,train,245
+ENMD-2076,100.0,"[108, 139]",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(/C=C/c3ccccc3)n2)n[nH]1,train,247
+ENMD-2076,1000.0,"[75, 93]",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(/C=C/c3ccccc3)n2)n[nH]1,train,168
+ENMD-2076,10000.0,"[67, 71]",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(/C=C/c3ccccc3)n2)n[nH]1,train,138
+ENMD-2076 L-(+)-Tartaric acid ,10.0,"[104, 98]",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(/C=C/c3ccccc3)n2)n[nH]1,train,202
+ENMD-2076 L-(+)-Tartaric acid ,100.0,"[102, 162]",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(/C=C/c3ccccc3)n2)n[nH]1,train,264
+ENMD-2076 L-(+)-Tartaric acid ,1000.0,"[99, 70]",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(/C=C/c3ccccc3)n2)n[nH]1,train,169
+ENMD-2076 L-(+)-Tartaric acid ,10000.0,"[57, 69]",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(/C=C/c3ccccc3)n2)n[nH]1,train,126
+Ellagic acid,10.0,"[81, 120]",O=c1oc2c(O)c(O)cc3c(=O)oc4c(O)c(O)cc1c4c23,train,201
+Ellagic acid,100.0,"[51, 126]",O=c1oc2c(O)c(O)cc3c(=O)oc4c(O)c(O)cc1c4c23,train,177
+Ellagic acid,1000.0,"[84, 159]",O=c1oc2c(O)c(O)cc3c(=O)oc4c(O)c(O)cc1c4c23,train,243
+Ellagic acid,10000.0,"[50, 142]",O=c1oc2c(O)c(O)cc3c(=O)oc4c(O)c(O)cc1c4c23,train,192
+Entacapone,10.0,"[91, 153]",CCN(CC)C(=O)/C(C#N)=C/c1cc(O)c(O)c([N+](=O)[O-])c1,train,244
+Entacapone,100.0,"[95, 133]",CCN(CC)C(=O)/C(C#N)=C/c1cc(O)c(O)c([N+](=O)[O-])c1,train,228
+Entacapone,1000.0,"[101, 137]",CCN(CC)C(=O)/C(C#N)=C/c1cc(O)c(O)c([N+](=O)[O-])c1,train,238
+Entacapone,10000.0,"[92, 160]",CCN(CC)C(=O)/C(C#N)=C/c1cc(O)c(O)c([N+](=O)[O-])c1,train,252
+Entinostat (MS-275),10.0,"[124, 166]",Nc1ccccc1NC(=O)c1ccc(CNC(=O)OCc2cccnc2)cc1,train,290
+Entinostat (MS-275),100.0,"[136, 109]",Nc1ccccc1NC(=O)c1ccc(CNC(=O)OCc2cccnc2)cc1,train,245
+Entinostat (MS-275),1000.0,"[123, 139]",Nc1ccccc1NC(=O)c1ccc(CNC(=O)OCc2cccnc2)cc1,train,262
+Entinostat (MS-275),10000.0,"[106, 106]",Nc1ccccc1NC(=O)c1ccc(CNC(=O)OCc2cccnc2)cc1,train,212
+Enzastaurin (LY317615),10.0,"[108, 120]",Cn1cc(C2=C(c3cn(C4CCN(Cc5ccccn5)CC4)c4ccccc34)C(=O)NC2=O)c2ccccc21,train,228
+Enzastaurin (LY317615),100.0,"[121, 121]",Cn1cc(C2=C(c3cn(C4CCN(Cc5ccccn5)CC4)c4ccccc34)C(=O)NC2=O)c2ccccc21,train,242
+Enzastaurin (LY317615),1000.0,"[106, 103]",Cn1cc(C2=C(c3cn(C4CCN(Cc5ccccn5)CC4)c4ccccc34)C(=O)NC2=O)c2ccccc21,train,209
+Enzastaurin (LY317615),10000.0,"[115, 135]",Cn1cc(C2=C(c3cn(C4CCN(Cc5ccccn5)CC4)c4ccccc34)C(=O)NC2=O)c2ccccc21,train,250
+Epothilone A,10.0,"[40, 41]",C/C(=C\c1csc(C)n1)C1CC2OC2CCCC(C)C(O)C(C)C(=O)C(C)(C)C(O)CC(=O)O1,validation,81
+Epothilone A,100.0,"[19, 28]",C/C(=C\c1csc(C)n1)C1CC2OC2CCCC(C)C(O)C(C)C(=O)C(C)(C)C(O)CC(=O)O1,validation,47
+Epothilone A,10000.0,"[38, 71]",C/C(=C\c1csc(C)n1)C1CC2OC2CCCC(C)C(O)C(C)C(=O)C(C)(C)C(O)CC(=O)O1,validation,109
+FLLL32,10.0,"[51, 135]",COc1ccc(/C=C/C(=O)C2(C(=O)/C=C/c3ccc(OC)c(OC)c3)CCCCC2)cc1OC,train,186
+FLLL32,100.0,"[32, 149]",COc1ccc(/C=C/C(=O)C2(C(=O)/C=C/c3ccc(OC)c(OC)c3)CCCCC2)cc1OC,train,181
+FLLL32,1000.0,"[33, 158]",COc1ccc(/C=C/C(=O)C2(C(=O)/C=C/c3ccc(OC)c(OC)c3)CCCCC2)cc1OC,train,191
+FLLL32,10000.0,"[40, 144]",COc1ccc(/C=C/C(=O)C2(C(=O)/C=C/c3ccc(OC)c(OC)c3)CCCCC2)cc1OC,train,184
+Fasudil (HA-1077) HCl,10.0,"[45, 132]",O=S(=O)(c1cccc2cnccc12)N1CCCNCC1,train,177
+Fasudil (HA-1077) HCl,100.0,"[57, 154]",O=S(=O)(c1cccc2cnccc12)N1CCCNCC1,train,211
+Fasudil (HA-1077) HCl,1000.0,"[28, 139]",O=S(=O)(c1cccc2cnccc12)N1CCCNCC1,train,167
+Fasudil (HA-1077) HCl,10000.0,"[49, 150]",O=S(=O)(c1cccc2cnccc12)N1CCCNCC1,train,199
+"Fedratinib (SAR302503, TG101348)",10.0,"[83, 157]",Cc1cnc(Nc2ccc(OCCN3CCCC3)cc2)nc1Nc1cccc(S(=O)(=O)NC(C)(C)C)c1,test,240
+"Fedratinib (SAR302503, TG101348)",100.0,"[84, 128]",Cc1cnc(Nc2ccc(OCCN3CCCC3)cc2)nc1Nc1cccc(S(=O)(=O)NC(C)(C)C)c1,test,212
+"Fedratinib (SAR302503, TG101348)",1000.0,"[73, 115]",Cc1cnc(Nc2ccc(OCCN3CCCC3)cc2)nc1Nc1cccc(S(=O)(=O)NC(C)(C)C)c1,test,188
+"Fedratinib (SAR302503, TG101348)",10000.0,"[25, 88]",Cc1cnc(Nc2ccc(OCCN3CCCC3)cc2)nc1Nc1cccc(S(=O)(=O)NC(C)(C)C)c1,test,113
+Filgotinib (GLPG0634),10.0,"[110, 159]",O=C(Nc1nc2cccc(-c3ccc(CN4CCS(=O)(=O)CC4)cc3)n2n1)C1CC1,train,269
+Filgotinib (GLPG0634),100.0,"[106, 164]",O=C(Nc1nc2cccc(-c3ccc(CN4CCS(=O)(=O)CC4)cc3)n2n1)C1CC1,train,270
+Filgotinib (GLPG0634),1000.0,"[82, 119]",O=C(Nc1nc2cccc(-c3ccc(CN4CCS(=O)(=O)CC4)cc3)n2n1)C1CC1,train,201
+Filgotinib (GLPG0634),10000.0,"[117, 121]",O=C(Nc1nc2cccc(-c3ccc(CN4CCS(=O)(=O)CC4)cc3)n2n1)C1CC1,train,238
+Flavopiridol HCl,10.0,"[96, 124]",CN1CCC(c2c(O)cc(O)c3c(=O)cc(-c4ccccc4Cl)oc23)C(O)C1,train,220
+Flavopiridol HCl,100.0,"[68, 65]",CN1CCC(c2c(O)cc(O)c3c(=O)cc(-c4ccccc4Cl)oc23)C(O)C1,train,133
+"Fluorouracil (5-Fluoracil, 5-FU)",10.0,"[91, 126]",O=c1[nH]cc(F)c(=O)[nH]1,test,217
+"Fluorouracil (5-Fluoracil, 5-FU)",100.0,"[101, 123]",O=c1[nH]cc(F)c(=O)[nH]1,test,224
+"Fluorouracil (5-Fluoracil, 5-FU)",1000.0,"[92, 114]",O=c1[nH]cc(F)c(=O)[nH]1,test,206
+"Fluorouracil (5-Fluoracil, 5-FU)",10000.0,"[76, 97]",O=c1[nH]cc(F)c(=O)[nH]1,test,173
+Fulvestrant,10.0,"[104, 122]",CC12CCC3c4ccc(O)cc4CC(CCCCCCCCC[S+]([O-])CCCC(F)(F)C(F)(F)F)C3C1CCC2O,test,226
+Fulvestrant,100.0,"[129, 111]",CC12CCC3c4ccc(O)cc4CC(CCCCCCCCC[S+]([O-])CCCC(F)(F)C(F)(F)F)C3C1CCC2O,test,240
+Fulvestrant,1000.0,"[112, 89]",CC12CCC3c4ccc(O)cc4CC(CCCCCCCCC[S+]([O-])CCCC(F)(F)C(F)(F)F)C3C1CCC2O,test,201
+Fulvestrant,10000.0,"[111, 159]",CC12CCC3c4ccc(O)cc4CC(CCCCCCCCC[S+]([O-])CCCC(F)(F)C(F)(F)F)C3C1CCC2O,test,270
+G007-LK,10.0,"[58, 143]",CS(=O)(=O)c1ccc(-c2nnc(/C=C/c3nnc(-c4ccc(C#N)cc4)o3)n2-c2ccccc2Cl)nc1,train,201
+G007-LK,100.0,"[36, 150]",CS(=O)(=O)c1ccc(-c2nnc(/C=C/c3nnc(-c4ccc(C#N)cc4)o3)n2-c2ccccc2Cl)nc1,train,186
+G007-LK,1000.0,"[58, 128]",CS(=O)(=O)c1ccc(-c2nnc(/C=C/c3nnc(-c4ccc(C#N)cc4)o3)n2-c2ccccc2Cl)nc1,train,186
+G007-LK,10000.0,"[41, 136]",CS(=O)(=O)c1ccc(-c2nnc(/C=C/c3nnc(-c4ccc(C#N)cc4)o3)n2-c2ccccc2Cl)nc1,train,177
+GSK J1,10.0,"[124, 172]",O=C(O)CCNc1cc(N2CCc3ccccc3CC2)nc(-c2ccccn2)n1,test,296
+GSK J1,100.0,"[86, 137]",O=C(O)CCNc1cc(N2CCc3ccccc3CC2)nc(-c2ccccn2)n1,test,223
+GSK J1,1000.0,"[95, 138]",O=C(O)CCNc1cc(N2CCc3ccccc3CC2)nc(-c2ccccn2)n1,test,233
+GSK J1,10000.0,"[98, 147]",O=C(O)CCNc1cc(N2CCc3ccccc3CC2)nc(-c2ccccn2)n1,test,245
+GSK-LSD1 2HCl,10.0,"[83, 149]",c1ccc([C@@H]2C[C@H]2NC2CCNCC2)cc1,train,232
+GSK-LSD1 2HCl,100.0,"[97, 137]",c1ccc([C@@H]2C[C@H]2NC2CCNCC2)cc1,train,234
+GSK-LSD1 2HCl,1000.0,"[93, 140]",c1ccc([C@@H]2C[C@H]2NC2CCNCC2)cc1,train,233
+GSK-LSD1 2HCl,10000.0,"[120, 135]",c1ccc([C@@H]2C[C@H]2NC2CCNCC2)cc1,train,255
+GSK1070916,10.0,"[75, 69]",CCn1cc(-c2ccnc3[nH]c(-c4cccc(CN(C)C)c4)cc23)c(-c2ccc(NC(=O)N(C)C)cc2)n1,validation,144
+GSK1070916,100.0,"[80, 82]",CCn1cc(-c2ccnc3[nH]c(-c4cccc(CN(C)C)c4)cc23)c(-c2ccc(NC(=O)N(C)C)cc2)n1,validation,162
+GSK1070916,1000.0,"[51, 85]",CCn1cc(-c2ccnc3[nH]c(-c4cccc(CN(C)C)c4)cc23)c(-c2ccc(NC(=O)N(C)C)cc2)n1,validation,136
+GSK1070916,10000.0,"[50, 84]",CCn1cc(-c2ccnc3[nH]c(-c4cccc(CN(C)C)c4)cc23)c(-c2ccc(NC(=O)N(C)C)cc2)n1,validation,134
+Gandotinib (LY2784544),10.0,"[83, 131]",Cc1cc(Nc2cc(CN3CCOCC3)c3nc(C)c(Cc4ccc(Cl)cc4F)n3n2)[nH]n1,train,214
+Gandotinib (LY2784544),100.0,"[102, 161]",Cc1cc(Nc2cc(CN3CCOCC3)c3nc(C)c(Cc4ccc(Cl)cc4F)n3n2)[nH]n1,train,263
+Gandotinib (LY2784544),1000.0,"[90, 127]",Cc1cc(Nc2cc(CN3CCOCC3)c3nc(C)c(Cc4ccc(Cl)cc4F)n3n2)[nH]n1,train,217
+Gandotinib (LY2784544),10000.0,"[89, 80]",Cc1cc(Nc2cc(CN3CCOCC3)c3nc(C)c(Cc4ccc(Cl)cc4F)n3n2)[nH]n1,train,169
+Givinostat (ITF2357),10.0,"[88, 111]",CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)NO)cc3)ccc2c1,test,199
+Givinostat (ITF2357),100.0,"[89, 122]",CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)NO)cc3)ccc2c1,test,211
+Givinostat (ITF2357),1000.0,"[93, 123]",CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)NO)cc3)ccc2c1,test,216
+Givinostat (ITF2357),10000.0,"[41, 104]",CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(C(=O)NO)cc3)ccc2c1,test,145
+Glesatinib?(MGCD265),10.0,"[103, 139]",COCCNCc1ccc(-c2cc3nccc(Oc4ccc(NC(=S)NC(=O)Cc5ccc(F)cc5)cc4F)c3s2)nc1,train,242
+Glesatinib?(MGCD265),100.0,"[122, 100]",COCCNCc1ccc(-c2cc3nccc(Oc4ccc(NC(=S)NC(=O)Cc5ccc(F)cc5)cc4F)c3s2)nc1,train,222
+Glesatinib?(MGCD265),1000.0,"[130, 126]",COCCNCc1ccc(-c2cc3nccc(Oc4ccc(NC(=S)NC(=O)Cc5ccc(F)cc5)cc4F)c3s2)nc1,train,256
+Glesatinib?(MGCD265),10000.0,"[68, 109]",COCCNCc1ccc(-c2cc3nccc(Oc4ccc(NC(=S)NC(=O)Cc5ccc(F)cc5)cc4F)c3s2)nc1,train,177
+Hesperadin,10.0,"[27, 101]",CCS(=O)(=O)Nc1ccc2c(c1)/C(=C(/Nc1ccc(CN3CCCCC3)cc1)c1ccccc1)C(=O)N2,train,128
+Hesperadin,100.0,"[26, 88]",CCS(=O)(=O)Nc1ccc2c(c1)/C(=C(/Nc1ccc(CN3CCCCC3)cc1)c1ccccc1)C(=O)N2,train,114
+Hesperadin,1000.0,"[55, 80]",CCS(=O)(=O)Nc1ccc2c(c1)/C(=C(/Nc1ccc(CN3CCCCC3)cc1)c1ccccc1)C(=O)N2,train,135
+Hesperadin,10000.0,"[28, 87]",CCS(=O)(=O)Nc1ccc2c(c1)/C(=C(/Nc1ccc(CN3CCCCC3)cc1)c1ccccc1)C(=O)N2,train,115
+INO-1001 (3-Aminobenzamide),10.0,"[109, 66]",NC(=O)c1cccc(N)c1,train,175
+INO-1001 (3-Aminobenzamide),100.0,"[93, 120]",NC(=O)c1cccc(N)c1,train,213
+INO-1001 (3-Aminobenzamide),1000.0,"[97, 117]",NC(=O)c1cccc(N)c1,train,214
+INO-1001 (3-Aminobenzamide),10000.0,"[93, 120]",NC(=O)c1cccc(N)c1,train,213
+IOX2,10.0,"[102, 156]",O=C(O)CNC(=O)c1c(O)c2ccccc2n(Cc2ccccc2)c1=O,train,258
+IOX2,100.0,"[104, 128]",O=C(O)CNC(=O)c1c(O)c2ccccc2n(Cc2ccccc2)c1=O,train,232
+IOX2,1000.0,"[66, 142]",O=C(O)CNC(=O)c1c(O)c2ccccc2n(Cc2ccccc2)c1=O,train,208
+IOX2,10000.0,"[112, 175]",O=C(O)CNC(=O)c1c(O)c2ccccc2n(Cc2ccccc2)c1=O,train,287
+ITSA-1 (ITSA1),10.0,"[63, 102]",O=C(c1ccc(Cl)cc1Cl)n1nnc2ccccc21,test,165
+ITSA-1 (ITSA1),100.0,"[44, 151]",O=C(c1ccc(Cl)cc1Cl)n1nnc2ccccc21,test,195
+ITSA-1 (ITSA1),1000.0,"[86, 100]",O=C(c1ccc(Cl)cc1Cl)n1nnc2ccccc21,test,186
+ITSA-1 (ITSA1),10000.0,"[75, 140]",O=C(c1ccc(Cl)cc1Cl)n1nnc2ccccc21,test,215
+Iniparib (BSI-201),10.0,"[40, 100]",NC(=O)c1ccc(I)c([N+](=O)[O-])c1,train,140
+Iniparib (BSI-201),100.0,"[56, 130]",NC(=O)c1ccc(I)c([N+](=O)[O-])c1,train,186
+Iniparib (BSI-201),1000.0,"[46, 182]",NC(=O)c1ccc(I)c([N+](=O)[O-])c1,train,228
+Iniparib (BSI-201),10000.0,"[39, 99]",NC(=O)c1ccc(I)c([N+](=O)[O-])c1,train,138
+Ivosidenib (AG-120),10.0,"[99, 148]",N#Cc1ccnc(N2C(=O)CCC2C(=O)N(c2cncc(F)c2)C(C(=O)NC2CC(F)(F)C2)c2ccccc2Cl)c1,train,247
+Ivosidenib (AG-120),100.0,"[131, 116]",N#Cc1ccnc(N2C(=O)CCC2C(=O)N(c2cncc(F)c2)C(C(=O)NC2CC(F)(F)C2)c2ccccc2Cl)c1,train,247
+JNJ-26854165 (Serdemetan),10.0,"[109, 134]",c1ccc2c(CCNc3ccc(Nc4ccncc4)cc3)c[nH]c2c1,train,243
+JNJ-26854165 (Serdemetan),100.0,"[98, 130]",c1ccc2c(CCNc3ccc(Nc4ccncc4)cc3)c[nH]c2c1,train,228
+JNJ-26854165 (Serdemetan),1000.0,"[101, 128]",c1ccc2c(CCNc3ccc(Nc4ccncc4)cc3)c[nH]c2c1,train,229
+JNJ-26854165 (Serdemetan),10000.0,"[91, 132]",c1ccc2c(CCNc3ccc(Nc4ccncc4)cc3)c[nH]c2c1,train,223
+JNJ-7706621,10.0,"[65, 130]",Nc1nc(Nc2ccc(S(N)(=O)=O)cc2)nn1C(=O)c1c(F)cccc1F,train,195
+JNJ-7706621,100.0,"[81, 121]",Nc1nc(Nc2ccc(S(N)(=O)=O)cc2)nn1C(=O)c1c(F)cccc1F,train,202
+JNJ-7706621,1000.0,"[56, 120]",Nc1nc(Nc2ccc(S(N)(=O)=O)cc2)nn1C(=O)c1c(F)cccc1F,train,176
+JNJ-7706621,10000.0,"[25, 85]",Nc1nc(Nc2ccc(S(N)(=O)=O)cc2)nn1C(=O)c1c(F)cccc1F,train,110
+KW-2449,10.0,"[102, 133]",O=C(c1ccc(/C=C/c2n[nH]c3ccccc23)cc1)N1CCNCC1,train,235
+KW-2449,100.0,"[103, 134]",O=C(c1ccc(/C=C/c2n[nH]c3ccccc23)cc1)N1CCNCC1,train,237
+KW-2449,1000.0,"[85, 82]",O=C(c1ccc(/C=C/c2n[nH]c3ccccc23)cc1)N1CCNCC1,train,167
+KW-2449,10000.0,"[55, 60]",O=C(c1ccc(/C=C/c2n[nH]c3ccccc23)cc1)N1CCNCC1,train,115
+Ki16425,10.0,"[101, 121]",Cc1noc(-c2ccc(CSCCC(=O)O)cc2)c1NC(=O)OC(C)c1ccccc1Cl,validation,222
+Ki16425,100.0,"[110, 103]",Cc1noc(-c2ccc(CSCCC(=O)O)cc2)c1NC(=O)OC(C)c1ccccc1Cl,validation,213
+Ki16425,1000.0,"[94, 139]",Cc1noc(-c2ccc(CSCCC(=O)O)cc2)c1NC(=O)OC(C)c1ccccc1Cl,validation,233
+Ki16425,10000.0,"[104, 124]",Cc1noc(-c2ccc(CSCCC(=O)O)cc2)c1NC(=O)OC(C)c1ccccc1Cl,validation,228
+Ki8751,10.0,"[143, 168]",COc1cc2nccc(Oc3ccc(NC(=O)Nc4ccc(F)cc4F)c(F)c3)c2cc1OC,train,311
+Ki8751,100.0,"[113, 131]",COc1cc2nccc(Oc3ccc(NC(=O)Nc4ccc(F)cc4F)c(F)c3)c2cc1OC,train,244
+Ki8751,1000.0,"[99, 131]",COc1cc2nccc(Oc3ccc(NC(=O)Nc4ccc(F)cc4F)c(F)c3)c2cc1OC,train,230
+Ki8751,10000.0,"[114, 145]",COc1cc2nccc(Oc3ccc(NC(=O)Nc4ccc(F)cc4F)c(F)c3)c2cc1OC,train,259
+Lapatinib (GW-572016) Ditosylate,10.0,"[112, 166]",CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1,train,278
+Lapatinib (GW-572016) Ditosylate,100.0,"[118, 148]",CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1,train,266
+Lapatinib (GW-572016) Ditosylate,1000.0,"[84, 154]",CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1,train,238
+Lapatinib (GW-572016) Ditosylate,10000.0,"[58, 74]",CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1,train,132
+Lenalidomide (CC-5013),10.0,"[119, 123]",Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O,train,242
+Lenalidomide (CC-5013),100.0,"[132, 117]",Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O,train,249
+Lenalidomide (CC-5013),1000.0,"[104, 123]",Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O,train,227
+Lenalidomide (CC-5013),10000.0,"[74, 100]",Nc1cccc2c1CN(C1CCC(=O)NC1=O)C2=O,train,174
+Linifanib (ABT-869),10.0,"[128, 90]",Cc1ccc(F)c(NC(=O)Nc2ccc(-c3cccc4[nH]nc(N)c34)cc2)c1,train,218
+Linifanib (ABT-869),100.0,"[93, 147]",Cc1ccc(F)c(NC(=O)Nc2ccc(-c3cccc4[nH]nc(N)c34)cc2)c1,train,240
+Linifanib (ABT-869),1000.0,"[109, 130]",Cc1ccc(F)c(NC(=O)Nc2ccc(-c3cccc4[nH]nc(N)c34)cc2)c1,train,239
+Linifanib (ABT-869),10000.0,"[105, 130]",Cc1ccc(F)c(NC(=O)Nc2ccc(-c3cccc4[nH]nc(N)c34)cc2)c1,train,235
+Lomustine ,10.0,"[118, 122]",O=NN(CCCl)C(=O)NC1CCCCC1,train,240
+Lomustine ,100.0,"[100, 110]",O=NN(CCCl)C(=O)NC1CCCCC1,train,210
+Lomustine ,1000.0,"[111, 154]",O=NN(CCCl)C(=O)NC1CCCCC1,train,265
+Lomustine ,10000.0,"[102, 114]",O=NN(CCCl)C(=O)NC1CCCCC1,train,216
+"Luminespib (AUY-922, NVP-AUY922)",10.0,"[102, 144]",CCNC(=O)c1noc(-c2cc(C(C)C)c(O)cc2O)c1-c1ccc(CN2CCOCC2)cc1,train,246
+"Luminespib (AUY-922, NVP-AUY922)",100.0,"[73, 85]",CCNC(=O)c1noc(-c2cc(C(C)C)c(O)cc2O)c1-c1ccc(CN2CCOCC2)cc1,train,158
+"Luminespib (AUY-922, NVP-AUY922)",1000.0,"[104, 45]",CCNC(=O)c1noc(-c2cc(C(C)C)c(O)cc2O)c1-c1ccc(CN2CCOCC2)cc1,train,149
+"Luminespib (AUY-922, NVP-AUY922)",10000.0,"[124, 74]",CCNC(=O)c1noc(-c2cc(C(C)C)c(O)cc2O)c1-c1ccc(CN2CCOCC2)cc1,train,198
+M344,10.0,"[100, 150]",CN(C)c1ccc(C(=O)NCCCCCCC(=O)NO)cc1,train,250
+M344,100.0,"[73, 141]",CN(C)c1ccc(C(=O)NCCCCCCC(=O)NO)cc1,train,214
+M344,1000.0,"[108, 115]",CN(C)c1ccc(C(=O)NCCCCCCC(=O)NO)cc1,train,223
+M344,10000.0,"[58, 106]",CN(C)c1ccc(C(=O)NCCCCCCC(=O)NO)cc1,train,164
+MC1568,10.0,"[64, 143]",Cn1cc(/C=C/C(=O)c2cccc(F)c2)cc1/C=C/C(=O)NO,train,207
+MC1568,100.0,"[57, 150]",Cn1cc(/C=C/C(=O)c2cccc(F)c2)cc1/C=C/C(=O)NO,train,207
+MC1568,1000.0,"[80, 147]",Cn1cc(/C=C/C(=O)c2cccc(F)c2)cc1/C=C/C(=O)NO,train,227
+MC1568,10000.0,"[43, 117]",Cn1cc(/C=C/C(=O)c2cccc(F)c2)cc1/C=C/C(=O)NO,train,160
+MK-0752,10.0,"[128, 149]",O=C(O)CCC1CCC(c2cc(F)ccc2F)(S(=O)(=O)c2ccc(Cl)cc2)CC1,train,277
+MK-0752,100.0,"[105, 144]",O=C(O)CCC1CCC(c2cc(F)ccc2F)(S(=O)(=O)c2ccc(Cl)cc2)CC1,train,249
+MK-0752,1000.0,"[118, 120]",O=C(O)CCC1CCC(c2cc(F)ccc2F)(S(=O)(=O)c2ccc(Cl)cc2)CC1,train,238
+MK-0752,10000.0,"[123, 134]",O=C(O)CCC1CCC(c2cc(F)ccc2F)(S(=O)(=O)c2ccc(Cl)cc2)CC1,train,257
+MK-5108 (VX-689),10.0,"[89, 135]",O=C(O)[C@]1(Cc2cccc(Nc3nccs3)n2)CC[C@@H](Oc2cccc(Cl)c2F)CC1,train,224
+MK-5108 (VX-689),100.0,"[91, 140]",O=C(O)[C@]1(Cc2cccc(Nc3nccs3)n2)CC[C@@H](Oc2cccc(Cl)c2F)CC1,train,231
+MK-5108 (VX-689),1000.0,"[96, 135]",O=C(O)[C@]1(Cc2cccc(Nc3nccs3)n2)CC[C@@H](Oc2cccc(Cl)c2F)CC1,train,231
+MK-5108 (VX-689),10000.0,"[50, 85]",O=C(O)[C@]1(Cc2cccc(Nc3nccs3)n2)CC[C@@H](Oc2cccc(Cl)c2F)CC1,train,135
+MLN8054,10.0,"[40, 154]",O=C(O)c1ccc(Nc2ncc3c(n2)-c2ccc(Cl)cc2C(c2c(F)cccc2F)=NC3)cc1,test,194
+MLN8054,100.0,"[38, 97]",O=C(O)c1ccc(Nc2ncc3c(n2)-c2ccc(Cl)cc2C(c2c(F)cccc2F)=NC3)cc1,test,135
+MLN8054,1000.0,"[34, 72]",O=C(O)c1ccc(Nc2ncc3c(n2)-c2ccc(Cl)cc2C(c2c(F)cccc2F)=NC3)cc1,test,106
+MLN8054,10000.0,"[41, 87]",O=C(O)c1ccc(Nc2ncc3c(n2)-c2ccc(Cl)cc2C(c2c(F)cccc2F)=NC3)cc1,test,128
+Maraviroc,10.0,"[115, 141]",Cc1nnc(C(C)C)n1C1CC2CCC(C1)N2CCC(NC(=O)C1CCC(F)(F)CC1)c1ccccc1,test,256
+Maraviroc,100.0,"[106, 109]",Cc1nnc(C(C)C)n1C1CC2CCC(C1)N2CCC(NC(=O)C1CCC(F)(F)CC1)c1ccccc1,test,215
+Maraviroc,1000.0,"[100, 106]",Cc1nnc(C(C)C)n1C1CC2CCC(C1)N2CCC(NC(=O)C1CCC(F)(F)CC1)c1ccccc1,test,206
+Maraviroc,10000.0,"[114, 153]",Cc1nnc(C(C)C)n1C1CC2CCC(C1)N2CCC(NC(=O)C1CCC(F)(F)CC1)c1ccccc1,test,267
+Meprednisone,10.0,"[108, 133]",CC1CC2C3CCC4=CC(=O)C=CC4(C)C3C(=O)CC2(C)C1(O)C(=O)CO,validation,241
+Meprednisone,100.0,"[103, 129]",CC1CC2C3CCC4=CC(=O)C=CC4(C)C3C(=O)CC2(C)C1(O)C(=O)CO,validation,232
+Meprednisone,1000.0,"[97, 130]",CC1CC2C3CCC4=CC(=O)C=CC4(C)C3C(=O)CC2(C)C1(O)C(=O)CO,validation,227
+Meprednisone,10000.0,"[102, 131]",CC1CC2C3CCC4=CC(=O)C=CC4(C)C3C(=O)CC2(C)C1(O)C(=O)CO,validation,233
+Mercaptopurine (6-MP),10.0,"[98, 156]",S=c1nc[nH]c2nc[nH]c12,train,254
+Mercaptopurine (6-MP),100.0,"[122, 195]",S=c1nc[nH]c2nc[nH]c12,train,317
+Mercaptopurine (6-MP),1000.0,"[104, 165]",S=c1nc[nH]c2nc[nH]c12,train,269
+Mercaptopurine (6-MP),10000.0,"[65, 94]",S=c1nc[nH]c2nc[nH]c12,train,159
+Mesna ,10.0,"[113, 121]",O=S(=O)(O)CCS,train,234
+Mesna ,100.0,"[116, 107]",O=S(=O)(O)CCS,train,223
+Mesna ,1000.0,"[83, 97]",O=S(=O)(O)CCS,train,180
+Mesna ,10000.0,"[103, 139]",O=S(=O)(O)CCS,train,242
+Mocetinostat (MGCD0103),10.0,"[38, 102]",Nc1ccccc1NC(=O)c1ccc(CNc2nccc(-c3cccnc3)n2)cc1,test,140
+Mocetinostat (MGCD0103),100.0,"[68, 135]",Nc1ccccc1NC(=O)c1ccc(CNc2nccc(-c3cccnc3)n2)cc1,test,203
+Mocetinostat (MGCD0103),1000.0,"[62, 145]",Nc1ccccc1NC(=O)c1ccc(CNc2nccc(-c3cccnc3)n2)cc1,test,207
+Mocetinostat (MGCD0103),10000.0,"[61, 83]",Nc1ccccc1NC(=O)c1ccc(CNc2nccc(-c3cccnc3)n2)cc1,test,144
+Momelotinib (CYT387),10.0,"[111, 153]",N#CCNC(=O)c1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1,test,264
+Momelotinib (CYT387),100.0,"[98, 154]",N#CCNC(=O)c1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1,test,252
+Momelotinib (CYT387),1000.0,"[144, 130]",N#CCNC(=O)c1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1,test,274
+Momelotinib (CYT387),10000.0,"[76, 72]",N#CCNC(=O)c1ccc(-c2ccnc(Nc3ccc(N4CCOCC4)cc3)n2)cc1,test,148
+Motesanib Diphosphate (AMG-706),10.0,"[105, 123]",CC1(C)CNc2cc(NC(=O)c3cccnc3NCc3ccncc3)ccc21,test,228
+Motesanib Diphosphate (AMG-706),100.0,"[120, 133]",CC1(C)CNc2cc(NC(=O)c3cccnc3NCc3ccncc3)ccc21,test,253
+Motesanib Diphosphate (AMG-706),1000.0,"[118, 112]",CC1(C)CNc2cc(NC(=O)c3cccnc3NCc3ccncc3)ccc21,test,230
+Motesanib Diphosphate (AMG-706),10000.0,"[120, 143]",CC1(C)CNc2cc(NC(=O)c3cccnc3NCc3ccncc3)ccc21,test,263
+NVP-BSK805 2HCl,10.0,"[72, 149]",Fc1cc(-c2cccc3ncc(-c4cnn(C5CCNCC5)c4)nc23)cc(F)c1CN1CCOCC1,train,221
+NVP-BSK805 2HCl,100.0,"[103, 157]",Fc1cc(-c2cccc3ncc(-c4cnn(C5CCNCC5)c4)nc23)cc(F)c1CN1CCOCC1,train,260
+NVP-BSK805 2HCl,1000.0,"[85, 158]",Fc1cc(-c2cccc3ncc(-c4cnn(C5CCNCC5)c4)nc23)cc(F)c1CN1CCOCC1,train,243
+NVP-BSK805 2HCl,10000.0,"[97, 126]",Fc1cc(-c2cccc3ncc(-c4cnn(C5CCNCC5)c4)nc23)cc(F)c1CN1CCOCC1,train,223
+Navitoclax (ABT-263),10.0,"[97, 97]",CC1(C)CCC(c2ccc(Cl)cc2)=C(CN2CCN(c3ccc(C(=O)NS(=O)(=O)c4ccc(N[C@H](CCN5CCOCC5)CSc5ccccc5)c(S(=O)(=O)C(F)(F)F)c4)cc3)CC2)C1,test,194
+Navitoclax (ABT-263),100.0,"[103, 152]",CC1(C)CCC(c2ccc(Cl)cc2)=C(CN2CCN(c3ccc(C(=O)NS(=O)(=O)c4ccc(N[C@H](CCN5CCOCC5)CSc5ccccc5)c(S(=O)(=O)C(F)(F)F)c4)cc3)CC2)C1,test,255
+Navitoclax (ABT-263),1000.0,"[116, 168]",CC1(C)CCC(c2ccc(Cl)cc2)=C(CN2CCN(c3ccc(C(=O)NS(=O)(=O)c4ccc(N[C@H](CCN5CCOCC5)CSc5ccccc5)c(S(=O)(=O)C(F)(F)F)c4)cc3)CC2)C1,test,284
+Navitoclax (ABT-263),10000.0,"[79, 61]",CC1(C)CCC(c2ccc(Cl)cc2)=C(CN2CCN(c3ccc(C(=O)NS(=O)(=O)c4ccc(N[C@H](CCN5CCOCC5)CSc5ccccc5)c(S(=O)(=O)C(F)(F)F)c4)cc3)CC2)C1,test,140
+Nilotinib (AMN-107),10.0,"[117, 110]",Cc1cn(-c2cc(NC(=O)c3ccc(C)c(Nc4nccc(-c5cccnc5)n4)c3)cc(C(F)(F)F)c2)cn1,validation,227
+Nilotinib (AMN-107),100.0,"[104, 115]",Cc1cn(-c2cc(NC(=O)c3ccc(C)c(Nc4nccc(-c5cccnc5)n4)c3)cc(C(F)(F)F)c2)cn1,validation,219
+Nilotinib (AMN-107),1000.0,"[114, 132]",Cc1cn(-c2cc(NC(=O)c3ccc(C)c(Nc4nccc(-c5cccnc5)n4)c3)cc(C(F)(F)F)c2)cn1,validation,246
+Nilotinib (AMN-107),10000.0,"[112, 101]",Cc1cn(-c2cc(NC(=O)c3ccc(C)c(Nc4nccc(-c5cccnc5)n4)c3)cc(C(F)(F)F)c2)cn1,validation,213
+Nintedanib (BIBF 1120),10.0,"[145, 123]",COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1,validation,268
+Nintedanib (BIBF 1120),100.0,"[102, 177]",COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1,validation,279
+Nintedanib (BIBF 1120),1000.0,"[89, 180]",COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1,validation,269
+Nintedanib (BIBF 1120),10000.0,"[112, 79]",COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1,validation,191
+Obatoclax Mesylate (GX15-070),10.0,"[137, 147]",COC1=CC(c2cc3ccccc3[nH]2)=N/C1=C\c1[nH]c(C)cc1C,test,284
+Obatoclax Mesylate (GX15-070),100.0,"[122, 127]",COC1=CC(c2cc3ccccc3[nH]2)=N/C1=C\c1[nH]c(C)cc1C,test,249
+Obatoclax Mesylate (GX15-070),1000.0,"[128, 134]",COC1=CC(c2cc3ccccc3[nH]2)=N/C1=C\c1[nH]c(C)cc1C,test,262
+Obatoclax Mesylate (GX15-070),10000.0,"[121, 77]",COC1=CC(c2cc3ccccc3[nH]2)=N/C1=C\c1[nH]c(C)cc1C,test,198
+Ofloxacin,10.0,"[50, 142]",CC1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23,train,192
+Ofloxacin,100.0,"[75, 170]",CC1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23,train,245
+Ofloxacin,1000.0,"[40, 132]",CC1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23,train,172
+Ofloxacin,10000.0,"[58, 125]",CC1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23,train,183
+PCI-34051,10.0,"[59, 134]",COc1ccc(Cn2ccc3ccc(C(=O)NO)cc32)cc1,train,193
+PCI-34051,100.0,"[61, 148]",COc1ccc(Cn2ccc3ccc(C(=O)NO)cc32)cc1,train,209
+PCI-34051,1000.0,"[69, 118]",COc1ccc(Cn2ccc3ccc(C(=O)NO)cc32)cc1,train,187
+PCI-34051,10000.0,"[52, 92]",COc1ccc(Cn2ccc3ccc(C(=O)NO)cc32)cc1,train,144
+PD173074,10.0,"[101, 135]",CCN(CC)CCCCNc1ncc2cc(-c3cc(OC)cc(OC)c3)c(NC(=O)NC(C)(C)C)nc2n1,train,236
+PD173074,100.0,"[101, 150]",CCN(CC)CCCCNc1ncc2cc(-c3cc(OC)cc(OC)c3)c(NC(=O)NC(C)(C)C)nc2n1,train,251
+PD173074,1000.0,"[109, 115]",CCN(CC)CCCCNc1ncc2cc(-c3cc(OC)cc(OC)c3)c(NC(=O)NC(C)(C)C)nc2n1,train,224
+PD173074,10000.0,"[109, 124]",CCN(CC)CCCCNc1ncc2cc(-c3cc(OC)cc(OC)c3)c(NC(=O)NC(C)(C)C)nc2n1,train,233
+PD98059,10.0,"[122, 113]",COc1cccc(-c2cc(=O)c3ccccc3o2)c1N,train,235
+PD98059,100.0,"[126, 130]",COc1cccc(-c2cc(=O)c3ccccc3o2)c1N,train,256
+PD98059,1000.0,"[125, 91]",COc1cccc(-c2cc(=O)c3ccccc3o2)c1N,train,216
+PD98059,10000.0,"[118, 133]",COc1cccc(-c2cc(=O)c3ccccc3o2)c1N,train,251
+PF-3845,10.0,"[114, 132]",O=C(Nc1cccnc1)N1CCC(Cc2cccc(Oc3ccc(C(F)(F)F)cn3)c2)CC1,test,246
+PF-3845,100.0,"[111, 140]",O=C(Nc1cccnc1)N1CCC(Cc2cccc(Oc3ccc(C(F)(F)F)cn3)c2)CC1,test,251
+PF-3845,1000.0,"[125, 99]",O=C(Nc1cccnc1)N1CCC(Cc2cccc(Oc3ccc(C(F)(F)F)cn3)c2)CC1,test,224
+PF-3845,10000.0,"[102, 129]",O=C(Nc1cccnc1)N1CCC(Cc2cccc(Oc3ccc(C(F)(F)F)cn3)c2)CC1,test,231
+PF-573228,10.0,"[86, 106]",CS(=O)(=O)c1cccc(CNc2nc(Nc3ccc4c(c3)CCC(=O)N4)ncc2C(F)(F)F)c1,train,192
+PF-573228,100.0,"[121, 127]",CS(=O)(=O)c1cccc(CNc2nc(Nc3ccc4c(c3)CCC(=O)N4)ncc2C(F)(F)F)c1,train,248
+PF-573228,1000.0,"[101, 120]",CS(=O)(=O)c1cccc(CNc2nc(Nc3ccc4c(c3)CCC(=O)N4)ncc2C(F)(F)F)c1,train,221
+PF-573228,10000.0,"[109, 64]",CS(=O)(=O)c1cccc(CNc2nc(Nc3ccc4c(c3)CCC(=O)N4)ncc2C(F)(F)F)c1,train,173
+PFI-1 (PF-6405761),10.0,"[66, 148]",COc1ccccc1S(=O)(=O)Nc1ccc2c(c1)CN(C)C(=O)N2,train,214
+PFI-1 (PF-6405761),100.0,"[45, 109]",COc1ccccc1S(=O)(=O)Nc1ccc2c(c1)CN(C)C(=O)N2,train,154
+PFI-1 (PF-6405761),1000.0,"[42, 142]",COc1ccccc1S(=O)(=O)Nc1ccc2c(c1)CN(C)C(=O)N2,train,184
+PFI-1 (PF-6405761),10000.0,"[41, 137]",COc1ccccc1S(=O)(=O)Nc1ccc2c(c1)CN(C)C(=O)N2,train,178
+PHA-680632,10.0,"[45, 137]",CCc1cccc(CC)c1NC(=O)N1Cc2[nH]nc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2C1,train,182
+PHA-680632,100.0,"[62, 135]",CCc1cccc(CC)c1NC(=O)N1Cc2[nH]nc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2C1,train,197
+PHA-680632,1000.0,"[52, 93]",CCc1cccc(CC)c1NC(=O)N1Cc2[nH]nc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2C1,train,145
+PHA-680632,10000.0,"[47, 94]",CCc1cccc(CC)c1NC(=O)N1Cc2[nH]nc(NC(=O)c3ccc(N4CCN(C)CC4)cc3)c2C1,train,141
+PJ34,10.0,"[108, 123]",CN(C)CC(=O)Nc1ccc2[nH]c(=O)c3ccccc3c2c1,train,231
+PJ34,100.0,"[87, 118]",CN(C)CC(=O)Nc1ccc2[nH]c(=O)c3ccccc3c2c1,train,205
+PJ34,1000.0,"[79, 142]",CN(C)CC(=O)Nc1ccc2[nH]c(=O)c3ccccc3c2c1,train,221
+PJ34,10000.0,"[79, 130]",CN(C)CC(=O)Nc1ccc2[nH]c(=O)c3ccccc3c2c1,train,209
+Panobinostat (LBH589),10.0,"[83, 141]",Cc1[nH]c2ccccc2c1CCNCc1ccc(/C=C/C(=O)NO)cc1,train,224
+Panobinostat (LBH589),100.0,"[52, 77]",Cc1[nH]c2ccccc2c1CCNCc1ccc(/C=C/C(=O)NO)cc1,train,129
+Panobinostat (LBH589),1000.0,"[39, 74]",Cc1[nH]c2ccccc2c1CCNCc1ccc(/C=C/C(=O)NO)cc1,train,113
+Panobinostat (LBH589),10000.0,"[48, 88]",Cc1[nH]c2ccccc2c1CCNCc1ccc(/C=C/C(=O)NO)cc1,train,136
+"Patupilone (EPO906, Epothilone B)",10.0,"[33, 53]",C/C(=C\c1csc(C)n1)C1CC2OC2(C)CCCC(C)C(O)C(C)C(=O)C(C)(C)C(O)CC(=O)O1,validation,86
+"Patupilone (EPO906, Epothilone B)",100.0,"[21, 35]",C/C(=C\c1csc(C)n1)C1CC2OC2(C)CCCC(C)C(O)C(C)C(=O)C(C)(C)C(O)CC(=O)O1,validation,56
+"Patupilone (EPO906, Epothilone B)",1000.0,"[104, 77]",C/C(=C\c1csc(C)n1)C1CC2OC2(C)CCCC(C)C(O)C(C)C(=O)C(C)(C)C(O)CC(=O)O1,validation,181
+"Patupilone (EPO906, Epothilone B)",10000.0,"[111, 81]",C/C(=C\c1csc(C)n1)C1CC2OC2(C)CCCC(C)C(O)C(C)C(=O)C(C)(C)C(O)CC(=O)O1,validation,192
+Pelitinib (EKB-569),10.0,"[92, 146]",CCOc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN(C)C,train,238
+Pelitinib (EKB-569),100.0,"[100, 114]",CCOc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN(C)C,train,214
+Pelitinib (EKB-569),1000.0,"[91, 106]",CCOc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN(C)C,train,197
+Pelitinib (EKB-569),10000.0,"[89, 87]",CCOc1cc2ncc(C#N)c(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN(C)C,train,176
+Pirarubicin,10.0,"[105, 123]",COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O[C@@H]2CCCCO2)[C@H](C)O1,validation,228
+Pirarubicin,100.0,"[129, 106]",COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O[C@@H]2CCCCO2)[C@H](C)O1,validation,235
+Pirarubicin,1000.0,"[86, 49]",COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O[C@@H]2CCCCO2)[C@H](C)O1,validation,135
+Pirarubicin,10000.0,"[78, 53]",COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O[C@@H]2CCCCO2)[C@H](C)O1,validation,131
+Pracinostat (SB939),10.0,"[71, 143]",CCCCc1nc2cc(/C=C/C(=O)NO)ccc2n1CCN(CC)CC,test,214
+Pracinostat (SB939),100.0,"[64, 129]",CCCCc1nc2cc(/C=C/C(=O)NO)ccc2n1CCN(CC)CC,test,193
+Pracinostat (SB939),1000.0,"[72, 139]",CCCCc1nc2cc(/C=C/C(=O)NO)ccc2n1CCN(CC)CC,test,211
+Pracinostat (SB939),10000.0,"[33, 99]",CCCCc1nc2cc(/C=C/C(=O)NO)ccc2n1CCN(CC)CC,test,132
+Prednisone ,10.0,"[127, 111]",CC12C=CC(=O)C=C1CCC1C2C(=O)CC2(C)C1CCC2(O)C(=O)CO,test,238
+Prednisone ,100.0,"[121, 120]",CC12C=CC(=O)C=C1CCC1C2C(=O)CC2(C)C1CCC2(O)C(=O)CO,test,241
+Prednisone ,1000.0,"[92, 150]",CC12C=CC(=O)C=C1CCC1C2C(=O)CC2(C)C1CCC2(O)C(=O)CO,test,242
+Prednisone ,10000.0,"[104, 118]",CC12C=CC(=O)C=C1CCC1C2C(=O)CC2(C)C1CCC2(O)C(=O)CO,test,222
+Quercetin,10.0,"[70, 167]",O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,test,237
+Quercetin,100.0,"[98, 155]",O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,test,253
+Quercetin,1000.0,"[112, 111]",O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,test,223
+Quercetin,10000.0,"[123, 124]",O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,test,247
+Quisinostat (JNJ-26481585) 2HCl,10.0,"[68, 116]",Cn1cc(CNCC2CCN(c3ncc(C(=O)NO)cn3)CC2)c2ccccc21,train,184
+Quisinostat (JNJ-26481585) 2HCl,100.0,"[64, 80]",Cn1cc(CNCC2CCN(c3ncc(C(=O)NO)cn3)CC2)c2ccccc21,train,144
+Quisinostat (JNJ-26481585) 2HCl,1000.0,"[31, 73]",Cn1cc(CNCC2CCN(c3ncc(C(=O)NO)cn3)CC2)c2ccccc21,train,104
+Quisinostat (JNJ-26481585) 2HCl,10000.0,"[29, 83]",Cn1cc(CNCC2CCN(c3ncc(C(=O)NO)cn3)CC2)c2ccccc21,train,112
+RG108,10.0,"[99, 134]",O=C(O)[C@H](Cc1c[nH]c2ccccc12)N1C(=O)c2ccccc2C1=O,validation,233
+RG108,100.0,"[104, 134]",O=C(O)[C@H](Cc1c[nH]c2ccccc12)N1C(=O)c2ccccc2C1=O,validation,238
+RG108,1000.0,"[122, 160]",O=C(O)[C@H](Cc1c[nH]c2ccccc12)N1C(=O)c2ccccc2C1=O,validation,282
+RG108,10000.0,"[104, 173]",O=C(O)[C@H](Cc1c[nH]c2ccccc12)N1C(=O)c2ccccc2C1=O,validation,277
+Raltitrexed,10.0,"[100, 133]",Cc1nc2ccc(CN(C)c3ccc(C(=O)NC(CCC(=O)O)C(=O)O)s3)cc2c(=O)[nH]1,train,233
+Raltitrexed,100.0,"[112, 113]",Cc1nc2ccc(CN(C)c3ccc(C(=O)NC(CCC(=O)O)C(=O)O)s3)cc2c(=O)[nH]1,train,225
+Raltitrexed,1000.0,"[94, 50]",Cc1nc2ccc(CN(C)c3ccc(C(=O)NC(CCC(=O)O)C(=O)O)s3)cc2c(=O)[nH]1,train,144
+Raltitrexed,10000.0,"[87, 115]",Cc1nc2ccc(CN(C)c3ccc(C(=O)NC(CCC(=O)O)C(=O)O)s3)cc2c(=O)[nH]1,train,202
+Ramelteon,10.0,"[121, 122]",CCC(=O)NCCC1CCc2ccc3c(c21)CCO3,validation,243
+Ramelteon,100.0,"[116, 198]",CCC(=O)NCCC1CCc2ccc3c(c21)CCO3,validation,314
+Ramelteon,1000.0,"[102, 175]",CCC(=O)NCCC1CCc2ccc3c(c21)CCO3,validation,277
+Ramelteon,10000.0,"[81, 138]",CCC(=O)NCCC1CCc2ccc3c(c21)CCO3,validation,219
+Regorafenib (BAY 73-4506),10.0,"[120, 143]",CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,train,263
+Regorafenib (BAY 73-4506),100.0,"[120, 145]",CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,train,265
+Regorafenib (BAY 73-4506),1000.0,"[125, 108]",CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,train,233
+Regorafenib (BAY 73-4506),10000.0,"[88, 42]",CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,train,130
+Resminostat,10.0,"[84, 133]",CN(C)Cc1ccc(S(=O)(=O)n2ccc(/C=C/C(=O)NO)c2)cc1,train,217
+Resminostat,100.0,"[85, 144]",CN(C)Cc1ccc(S(=O)(=O)n2ccc(/C=C/C(=O)NO)c2)cc1,train,229
+Resminostat,1000.0,"[99, 109]",CN(C)Cc1ccc(S(=O)(=O)n2ccc(/C=C/C(=O)NO)c2)cc1,train,208
+Resminostat,10000.0,"[60, 112]",CN(C)Cc1ccc(S(=O)(=O)n2ccc(/C=C/C(=O)NO)c2)cc1,train,172
+Resveratrol,10.0,"[54, 168]",Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1,train,222
+Resveratrol,100.0,"[39, 147]",Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1,train,186
+Resveratrol,1000.0,"[47, 126]",Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1,train,173
+Resveratrol,10000.0,"[51, 136]",Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1,train,187
+Rigosertib (ON-01910),10.0,"[117, 163]",COc1cc(OC)c(/C=C/S(=O)(=O)Cc2ccc(OC)c(NCC(=O)O)c2)c(OC)c1,train,280
+Rigosertib (ON-01910),100.0,"[116, 108]",COc1cc(OC)c(/C=C/S(=O)(=O)Cc2ccc(OC)c(NCC(=O)O)c2)c(OC)c1,train,224
+Rigosertib (ON-01910),1000.0,"[29, 48]",COc1cc(OC)c(/C=C/S(=O)(=O)Cc2ccc(OC)c(NCC(=O)O)c2)c(OC)c1,train,77
+Rigosertib (ON-01910),10000.0,"[17, 22]",COc1cc(OC)c(/C=C/S(=O)(=O)Cc2ccc(OC)c(NCC(=O)O)c2)c(OC)c1,train,39
+"Roscovitine (Seliciclib,CYC202)",10.0,"[103, 138]",CCC(CO)Nc1nc(NCc2ccccc2)c2ncn(C(C)C)c2n1,train,241
+"Roscovitine (Seliciclib,CYC202)",100.0,"[121, 99]",CCC(CO)Nc1nc(NCc2ccccc2)c2ncn(C(C)C)c2n1,train,220
+"Roscovitine (Seliciclib,CYC202)",1000.0,"[104, 116]",CCC(CO)Nc1nc(NCc2ccccc2)c2ncn(C(C)C)c2n1,train,220
+"Roscovitine (Seliciclib,CYC202)",10000.0,"[101, 114]",CCC(CO)Nc1nc(NCc2ccccc2)c2ncn(C(C)C)c2n1,train,215
+Roxadustat (FG-4592),10.0,"[79, 104]",Cc1nc(C(=O)NCC(=O)O)c(O)c2ccc(Oc3ccccc3)cc12,test,183
+Roxadustat (FG-4592),100.0,"[62, 157]",Cc1nc(C(=O)NCC(=O)O)c(O)c2ccc(Oc3ccccc3)cc12,test,219
+Roxadustat (FG-4592),1000.0,"[52, 167]",Cc1nc(C(=O)NCC(=O)O)c(O)c2ccc(Oc3ccccc3)cc12,test,219
+Roxadustat (FG-4592),10000.0,"[63, 130]",Cc1nc(C(=O)NCC(=O)O)c(O)c2ccc(Oc3ccccc3)cc12,test,193
+"Rucaparib (AG-014699,PF-01367338) phosphate",10.0,"[37, 143]",CNCc1ccc(-c2[nH]c3cc(F)cc4c3c2CCNC4=O)cc1,train,180
+"Rucaparib (AG-014699,PF-01367338) phosphate",100.0,"[55, 102]",CNCc1ccc(-c2[nH]c3cc(F)cc4c3c2CCNC4=O)cc1,train,157
+"Rucaparib (AG-014699,PF-01367338) phosphate",1000.0,"[44, 131]",CNCc1ccc(-c2[nH]c3cc(F)cc4c3c2CCNC4=O)cc1,train,175
+"Rucaparib (AG-014699,PF-01367338) phosphate",10000.0,"[25, 87]",CNCc1ccc(-c2[nH]c3cc(F)cc4c3c2CCNC4=O)cc1,train,112
+Ruxolitinib (INCB018424),10.0,"[73, 145]",N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,train,218
+Ruxolitinib (INCB018424),100.0,"[27, 137]",N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,train,164
+Ruxolitinib (INCB018424),1000.0,"[94, 159]",N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,train,253
+Ruxolitinib (INCB018424),10000.0,"[62, 143]",N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,train,205
+S-Ruxolitinib (INCB018424),10.0,"[116, 142]",N#CC[C@@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,test,258
+S-Ruxolitinib (INCB018424),100.0,"[125, 131]",N#CC[C@@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,test,256
+S-Ruxolitinib (INCB018424),1000.0,"[126, 135]",N#CC[C@@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,test,261
+S-Ruxolitinib (INCB018424),10000.0,"[132, 165]",N#CC[C@@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,test,297
+S3I-201,10.0,"[117, 105]",Cc1ccc(S(=O)(=O)OCC(=O)Nc2ccc(C(=O)O)c(O)c2)cc1,test,222
+S3I-201,100.0,"[108, 120]",Cc1ccc(S(=O)(=O)OCC(=O)Nc2ccc(C(=O)O)c(O)c2)cc1,test,228
+S3I-201,1000.0,"[100, 119]",Cc1ccc(S(=O)(=O)OCC(=O)Nc2ccc(C(=O)O)c(O)c2)cc1,test,219
+S3I-201,10000.0,"[96, 134]",Cc1ccc(S(=O)(=O)OCC(=O)Nc2ccc(C(=O)O)c(O)c2)cc1,test,230
+SB431542,10.0,"[117, 121]",NC(=O)c1ccc(-c2nc(-c3ccc4c(c3)OCO4)c(-c3ccccn3)[nH]2)cc1,train,238
+SB431542,100.0,"[105, 105]",NC(=O)c1ccc(-c2nc(-c3ccc4c(c3)OCO4)c(-c3ccccn3)[nH]2)cc1,train,210
+SB431542,1000.0,"[112, 89]",NC(=O)c1ccc(-c2nc(-c3ccc4c(c3)OCO4)c(-c3ccccn3)[nH]2)cc1,train,201
+SB431542,10000.0,"[121, 139]",NC(=O)c1ccc(-c2nc(-c3ccc4c(c3)OCO4)c(-c3ccccn3)[nH]2)cc1,train,260
+SGI-1776 free base,10.0,"[93, 153]",CN1CCC(CNc2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)CC1,train,246
+SGI-1776 free base,100.0,"[102, 131]",CN1CCC(CNc2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)CC1,train,233
+SGI-1776 free base,1000.0,"[95, 134]",CN1CCC(CNc2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)CC1,train,229
+SGI-1776 free base,10000.0,"[71, 121]",CN1CCC(CNc2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)CC1,train,192
+SL-327,10.0,"[108, 137]",N#C/C(=C(/N)Sc1ccc(N)cc1)c1ccccc1C(F)(F)F,train,245
+SL-327,100.0,"[92, 101]",N#C/C(=C(/N)Sc1ccc(N)cc1)c1ccccc1C(F)(F)F,train,193
+SL-327,1000.0,"[105, 89]",N#C/C(=C(/N)Sc1ccc(N)cc1)c1ccccc1C(F)(F)F,train,194
+SL-327,10000.0,"[93, 119]",N#C/C(=C(/N)Sc1ccc(N)cc1)c1ccccc1C(F)(F)F,train,212
+SNS-314,10.0,"[71, 82]",O=C(Nc1cccc(Cl)c1)Nc1ncc(CCNc2ncnc3ccsc23)s1,train,153
+SNS-314,100.0,"[85, 61]",O=C(Nc1cccc(Cl)c1)Nc1ncc(CCNc2ncnc3ccsc23)s1,train,146
+SNS-314,1000.0,"[61, 62]",O=C(Nc1cccc(Cl)c1)Nc1ncc(CCNc2ncnc3ccsc23)s1,train,123
+SNS-314,10000.0,"[60, 96]",O=C(Nc1cccc(Cl)c1)Nc1ncc(CCNc2ncnc3ccsc23)s1,train,156
+SRT1720 HCl,10.0,"[105, 112]",O=C(Nc1ccccc1-c1cn2c(CN3CCNCC3)csc2n1)c1cnc2ccccc2n1,train,217
+SRT1720 HCl,100.0,"[135, 117]",O=C(Nc1ccccc1-c1cn2c(CN3CCNCC3)csc2n1)c1cnc2ccccc2n1,train,252
+SRT1720 HCl,1000.0,"[112, 124]",O=C(Nc1ccccc1-c1cn2c(CN3CCNCC3)csc2n1)c1cnc2ccccc2n1,train,236
+SRT1720 HCl,10000.0,"[98, 111]",O=C(Nc1ccccc1-c1cn2c(CN3CCNCC3)csc2n1)c1cnc2ccccc2n1,train,209
+SRT2104 (GSK2245840),10.0,"[97, 106]",Cc1nc(-c2cccnc2)sc1C(=O)Nc1ccccc1-c1cn2c(CN3CCOCC3)csc2n1,validation,203
+SRT2104 (GSK2245840),100.0,"[78, 130]",Cc1nc(-c2cccnc2)sc1C(=O)Nc1ccccc1-c1cn2c(CN3CCOCC3)csc2n1,validation,208
+SRT2104 (GSK2245840),1000.0,"[59, 143]",Cc1nc(-c2cccnc2)sc1C(=O)Nc1ccccc1-c1cn2c(CN3CCOCC3)csc2n1,validation,202
+SRT2104 (GSK2245840),10000.0,"[48, 144]",Cc1nc(-c2cccnc2)sc1C(=O)Nc1ccccc1-c1cn2c(CN3CCOCC3)csc2n1,validation,192
+SRT3025 HCl,10.0,"[61, 121]",COCCCc1sc(-c2ccccc2)nc1C(=O)Nc1ccccc1-c1nc2cc(CN3CCCC3)cnc2s1,validation,182
+SRT3025 HCl,100.0,"[49, 150]",COCCCc1sc(-c2ccccc2)nc1C(=O)Nc1ccccc1-c1nc2cc(CN3CCCC3)cnc2s1,validation,199
+SRT3025 HCl,1000.0,"[25, 115]",COCCCc1sc(-c2ccccc2)nc1C(=O)Nc1ccccc1-c1nc2cc(CN3CCCC3)cnc2s1,validation,140
+SRT3025 HCl,10000.0,"[17, 145]",COCCCc1sc(-c2ccccc2)nc1C(=O)Nc1ccccc1-c1nc2cc(CN3CCCC3)cnc2s1,validation,162
+Selisistat (EX 527),10.0,"[79, 138]",NC(=O)C1CCCc2c1[nH]c1ccc(Cl)cc21,train,217
+Selisistat (EX 527),100.0,"[49, 140]",NC(=O)C1CCCc2c1[nH]c1ccc(Cl)cc21,train,189
+Selisistat (EX 527),1000.0,"[75, 156]",NC(=O)C1CCCc2c1[nH]c1ccc(Cl)cc21,train,231
+Selisistat (EX 527),10000.0,"[46, 161]",NC(=O)C1CCCc2c1[nH]c1ccc(Cl)cc21,train,207
+Sirtinol,10.0,"[100, 140]",CC(NC(=O)c1ccccc1/N=C/c1c(O)ccc2ccccc12)c1ccccc1,train,240
+Sirtinol,100.0,"[99, 148]",CC(NC(=O)c1ccccc1/N=C/c1c(O)ccc2ccccc12)c1ccccc1,train,247
+Sirtinol,1000.0,"[84, 135]",CC(NC(=O)c1ccccc1/N=C/c1c(O)ccc2ccccc12)c1ccccc1,train,219
+Sirtinol,10000.0,"[109, 151]",CC(NC(=O)c1ccccc1/N=C/c1c(O)ccc2ccccc12)c1ccccc1,train,260
+Sodium Phenylbutyrate,10.0,"[98, 178]",O=C(O)CCCc1ccccc1,test,276
+Sodium Phenylbutyrate,100.0,"[90, 142]",O=C(O)CCCc1ccccc1,test,232
+Sodium Phenylbutyrate,1000.0,"[105, 153]",O=C(O)CCCc1ccccc1,test,258
+Sodium Phenylbutyrate,10000.0,"[130, 150]",O=C(O)CCCc1ccccc1,test,280
+Sorafenib Tosylate,10.0,"[117, 154]",CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1,train,271
+Sorafenib Tosylate,100.0,"[104, 124]",CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1,train,228
+Sorafenib Tosylate,1000.0,"[110, 105]",CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1,train,215
+Sorafenib Tosylate,10000.0,"[49, 77]",CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1,train,126
+Streptozotocin (STZ),10.0,"[116, 132]",CN(N=O)C(=O)NC1C(O)OC(CO)C(O)C1O,train,248
+Streptozotocin (STZ),100.0,"[104, 117]",CN(N=O)C(=O)NC1C(O)OC(CO)C(O)C1O,train,221
+Streptozotocin (STZ),1000.0,"[116, 131]",CN(N=O)C(=O)NC1C(O)OC(CO)C(O)C1O,train,247
+Streptozotocin (STZ),10000.0,"[88, 113]",CN(N=O)C(=O)NC1C(O)OC(CO)C(O)C1O,train,201
+TAK-901,10.0,"[89, 125]",CCS(=O)(=O)c1cccc(-c2cc(C(=O)NC3CCN(C)CC3)c(C)c3[nH]c4ncc(C)cc4c23)c1,test,214
+TAK-901,100.0,"[87, 77]",CCS(=O)(=O)c1cccc(-c2cc(C(=O)NC3CCN(C)CC3)c(C)c3[nH]c4ncc(C)cc4c23)c1,test,164
+TAK-901,1000.0,"[73, 72]",CCS(=O)(=O)c1cccc(-c2cc(C(=O)NC3CCN(C)CC3)c(C)c3[nH]c4ncc(C)cc4c23)c1,test,145
+TAK-901,10000.0,"[59, 64]",CCS(=O)(=O)c1cccc(-c2cc(C(=O)NC3CCN(C)CC3)c(C)c3[nH]c4ncc(C)cc4c23)c1,test,123
+TG101209,10.0,"[65, 145]",Cc1cnc(Nc2ccc(N3CCN(C)CC3)cc2)nc1Nc1cccc(S(=O)(=O)NC(C)(C)C)c1,test,210
+TG101209,100.0,"[122, 175]",Cc1cnc(Nc2ccc(N3CCN(C)CC3)cc2)nc1Nc1cccc(S(=O)(=O)NC(C)(C)C)c1,test,297
+TG101209,1000.0,"[86, 118]",Cc1cnc(Nc2ccc(N3CCN(C)CC3)cc2)nc1Nc1cccc(S(=O)(=O)NC(C)(C)C)c1,test,204
+TG101209,10000.0,"[48, 91]",Cc1cnc(Nc2ccc(N3CCN(C)CC3)cc2)nc1Nc1cccc(S(=O)(=O)NC(C)(C)C)c1,test,139
+TGX-221,10.0,"[109, 153]",Cc1cc(C(C)Nc2ccccc2)c2nc(N3CCOCC3)cc(=O)n2c1,train,262
+TGX-221,100.0,"[115, 113]",Cc1cc(C(C)Nc2ccccc2)c2nc(N3CCOCC3)cc(=O)n2c1,train,228
+TGX-221,1000.0,"[118, 95]",Cc1cc(C(C)Nc2ccccc2)c2nc(N3CCOCC3)cc(=O)n2c1,train,213
+TGX-221,10000.0,"[103, 125]",Cc1cc(C(C)Nc2ccccc2)c2nc(N3CCOCC3)cc(=O)n2c1,train,228
+TMP195,10.0,"[60, 129]",CC(C)(CNC(=O)c1cccc(-c2noc(C(F)(F)F)n2)c1)c1coc(-c2ccccc2)n1,test,189
+TMP195,100.0,"[33, 120]",CC(C)(CNC(=O)c1cccc(-c2noc(C(F)(F)F)n2)c1)c1coc(-c2ccccc2)n1,test,153
+TMP195,1000.0,"[60, 138]",CC(C)(CNC(=O)c1cccc(-c2noc(C(F)(F)F)n2)c1)c1coc(-c2ccccc2)n1,test,198
+TMP195,10000.0,"[31, 155]",CC(C)(CNC(=O)c1cccc(-c2noc(C(F)(F)F)n2)c1)c1coc(-c2ccccc2)n1,test,186
+Tacedinaline (CI994),10.0,"[96, 140]",CC(=O)Nc1ccc(C(=O)Nc2ccccc2N)cc1,train,236
+Tacedinaline (CI994),100.0,"[97, 154]",CC(=O)Nc1ccc(C(=O)Nc2ccccc2N)cc1,train,251
+Tacedinaline (CI994),1000.0,"[80, 145]",CC(=O)Nc1ccc(C(=O)Nc2ccccc2N)cc1,train,225
+Tacedinaline (CI994),10000.0,"[93, 142]",CC(=O)Nc1ccc(C(=O)Nc2ccccc2N)cc1,train,235
+Tanespimycin (17-AAG),10.0,"[105, 114]",C=CCNC1=C2CC(C)CC(OC)C(O)C(C)/C=C(\C)C(OC(N)=O)C(OC)/C=C\C=C(/C)C(=O)NC(=CC1=O)C2=O,train,219
+Tanespimycin (17-AAG),100.0,"[86, 107]",C=CCNC1=C2CC(C)CC(OC)C(O)C(C)/C=C(\C)C(OC(N)=O)C(OC)/C=C\C=C(/C)C(=O)NC(=CC1=O)C2=O,train,193
+Tanespimycin (17-AAG),1000.0,"[65, 72]",C=CCNC1=C2CC(C)CC(OC)C(O)C(C)/C=C(\C)C(OC(N)=O)C(OC)/C=C\C=C(/C)C(=O)NC(=CC1=O)C2=O,train,137
+Tanespimycin (17-AAG),10000.0,"[49, 54]",C=CCNC1=C2CC(C)CC(OC)C(O)C(C)/C=C(\C)C(OC(N)=O)C(OC)/C=C\C=C(/C)C(=O)NC(=CC1=O)C2=O,train,103
+Tazemetostat (EPZ-6438),10.0,"[79, 131]",CCN(c1cc(-c2ccc(CN3CCOCC3)cc2)cc(C(=O)NCc2c(C)cc(C)[nH]c2=O)c1C)C1CCOCC1,train,210
+Tazemetostat (EPZ-6438),100.0,"[95, 151]",CCN(c1cc(-c2ccc(CN3CCOCC3)cc2)cc(C(=O)NCc2c(C)cc(C)[nH]c2=O)c1C)C1CCOCC1,train,246
+Tazemetostat (EPZ-6438),1000.0,"[51, 137]",CCN(c1cc(-c2ccc(CN3CCOCC3)cc2)cc(C(=O)NCc2c(C)cc(C)[nH]c2=O)c1C)C1CCOCC1,train,188
+Tazemetostat (EPZ-6438),10000.0,"[46, 155]",CCN(c1cc(-c2ccc(CN3CCOCC3)cc2)cc(C(=O)NCc2c(C)cc(C)[nH]c2=O)c1C)C1CCOCC1,train,201
+"Temsirolimus (CCI-779, NSC 683864)",10.0,"[84, 101]",COC1CC2CCC(C)C(O)(O2)C(=O)C(=O)N2CCCCC2C(=O)OC(C(C)CC2CCC(OC(=O)C(C)(CO)CO)C(OC)C2)CC(=O)C(C)/C=C(\C)C(O)C(OC)C(=O)C(C)CC(C)/C=C/C=C/C=C/1C,train,185
+"Temsirolimus (CCI-779, NSC 683864)",100.0,"[73, 57]",COC1CC2CCC(C)C(O)(O2)C(=O)C(=O)N2CCCCC2C(=O)OC(C(C)CC2CCC(OC(=O)C(C)(CO)CO)C(OC)C2)CC(=O)C(C)/C=C(\C)C(O)C(OC)C(=O)C(C)CC(C)/C=C/C=C/C=C/1C,train,130
+"Temsirolimus (CCI-779, NSC 683864)",1000.0,"[117, 85]",COC1CC2CCC(C)C(O)(O2)C(=O)C(=O)N2CCCCC2C(=O)OC(C(C)CC2CCC(OC(=O)C(C)(CO)CO)C(OC)C2)CC(=O)C(C)/C=C(\C)C(O)C(OC)C(=O)C(C)CC(C)/C=C/C=C/C=C/1C,train,202
+"Temsirolimus (CCI-779, NSC 683864)",10000.0,"[81, 93]",COC1CC2CCC(C)C(O)(O2)C(=O)C(=O)N2CCCCC2C(=O)OC(C(C)CC2CCC(OC(=O)C(C)(CO)CO)C(OC)C2)CC(=O)C(C)/C=C(\C)C(O)C(OC)C(=O)C(C)CC(C)/C=C/C=C/C=C/1C,train,174
+Thalidomide,10.0,"[113, 176]",O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1,validation,289
+Thalidomide,100.0,"[114, 102]",O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1,validation,216
+Thalidomide,1000.0,"[64, 127]",O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1,validation,191
+Thalidomide,10000.0,"[60, 153]",O=C1CCC(N2C(=O)c3ccccc3C2=O)C(=O)N1,validation,213
+Thiotepa,10.0,"[116, 153]",S=P(N1CC1)(N1CC1)N1CC1,train,269
+Thiotepa,100.0,"[116, 125]",S=P(N1CC1)(N1CC1)N1CC1,train,241
+Thiotepa,1000.0,"[73, 126]",S=P(N1CC1)(N1CC1)N1CC1,train,199
+Thiotepa,10000.0,"[78, 104]",S=P(N1CC1)(N1CC1)N1CC1,train,182
+Tie2 kinase inhibitor,10.0,"[110, 124]",COc1ccc2cc(-c3[nH]c(-c4ccc([S+](C)[O-])cc4)nc3-c3ccncc3)ccc2c1,train,234
+Tie2 kinase inhibitor,100.0,"[119, 107]",COc1ccc2cc(-c3[nH]c(-c4ccc([S+](C)[O-])cc4)nc3-c3ccncc3)ccc2c1,train,226
+Tie2 kinase inhibitor,1000.0,"[99, 114]",COc1ccc2cc(-c3[nH]c(-c4ccc([S+](C)[O-])cc4)nc3-c3ccncc3)ccc2c1,train,213
+Tie2 kinase inhibitor,10000.0,"[119, 165]",COc1ccc2cc(-c3[nH]c(-c4ccc([S+](C)[O-])cc4)nc3-c3ccncc3)ccc2c1,train,284
+Tofacitinib (CP-690550) Citrate,10.0,"[84, 149]",C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12,test,233
+Tofacitinib (CP-690550) Citrate,100.0,"[103, 101]",C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12,test,204
+Tofacitinib (CP-690550) Citrate,1000.0,"[108, 128]",C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12,test,236
+Tofacitinib (CP-690550) Citrate,10000.0,"[107, 133]",C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12,test,240
+Toremifene Citrate,10.0,"[81, 147]",CN(C)CCOc1ccc(/C(=C(/CCCl)c2ccccc2)c2ccccc2)cc1,train,228
+Toremifene Citrate,100.0,"[122, 103]",CN(C)CCOc1ccc(/C(=C(/CCCl)c2ccccc2)c2ccccc2)cc1,train,225
+Toremifene Citrate,1000.0,"[74, 135]",CN(C)CCOc1ccc(/C(=C(/CCCl)c2ccccc2)c2ccccc2)cc1,train,209
+"Tozasertib (VX-680, MK-0457)",10.0,"[41, 134]",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(Sc3ccc(NC(=O)C4CC4)cc3)n2)n[nH]1,validation,175
+"Tozasertib (VX-680, MK-0457)",100.0,"[37, 63]",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(Sc3ccc(NC(=O)C4CC4)cc3)n2)n[nH]1,validation,100
+"Tozasertib (VX-680, MK-0457)",1000.0,"[64, 96]",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(Sc3ccc(NC(=O)C4CC4)cc3)n2)n[nH]1,validation,160
+"Tozasertib (VX-680, MK-0457)",10000.0,"[67, 90]",Cc1cc(Nc2cc(N3CCN(C)CC3)nc(Sc3ccc(NC(=O)C4CC4)cc3)n2)n[nH]1,validation,157
+Trametinib (GSK1120212),10.0,"[67, 99]",CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,train,166
+Trametinib (GSK1120212),100.0,"[83, 93]",CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,train,176
+Trametinib (GSK1120212),1000.0,"[63, 146]",CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,train,209
+Trametinib (GSK1120212),10000.0,"[59, 110]",CC(=O)Nc1cccc(-n2c(=O)n(C3CC3)c(=O)c3c(Nc4ccc(I)cc4F)n(C)c(=O)c(C)c32)c1,train,169
+Tranylcypromine (2-PCPA) HCl,10.0,"[112, 197]",N[C@@H]1C[C@H]1c1ccccc1,train,309
+Tranylcypromine (2-PCPA) HCl,100.0,"[96, 152]",N[C@@H]1C[C@H]1c1ccccc1,train,248
+Tranylcypromine (2-PCPA) HCl,1000.0,"[76, 141]",N[C@@H]1C[C@H]1c1ccccc1,train,217
+Tranylcypromine (2-PCPA) HCl,10000.0,"[117, 153]",N[C@@H]1C[C@H]1c1ccccc1,train,270
+Triamcinolone Acetonide,10.0,"[109, 120]",CC1(C)OC2CC3C4CCC5=CC(=O)C=CC5(C)C4(F)C(O)CC3(C)C2(C(=O)CO)O1,train,229
+Triamcinolone Acetonide,100.0,"[102, 122]",CC1(C)OC2CC3C4CCC5=CC(=O)C=CC5(C)C4(F)C(O)CC3(C)C2(C(=O)CO)O1,train,224
+Triamcinolone Acetonide,1000.0,"[114, 101]",CC1(C)OC2CC3C4CCC5=CC(=O)C=CC5(C)C4(F)C(O)CC3(C)C2(C(=O)CO)O1,train,215
+Triamcinolone Acetonide,10000.0,"[112, 109]",CC1(C)OC2CC3C4CCC5=CC(=O)C=CC5(C)C4(F)C(O)CC3(C)C2(C(=O)CO)O1,train,221
+Trichostatin A (TSA),10.0,"[103, 161]",CC(/C=C/C(=O)NO)=C\[C@@H](C)C(=O)c1ccc(N(C)C)cc1,train,264
+Trichostatin A (TSA),100.0,"[86, 136]",CC(/C=C/C(=O)NO)=C\[C@@H](C)C(=O)c1ccc(N(C)C)cc1,train,222
+Trichostatin A (TSA),1000.0,"[87, 125]",CC(/C=C/C(=O)NO)=C\[C@@H](C)C(=O)c1ccc(N(C)C)cc1,train,212
+Trichostatin A (TSA),10000.0,"[63, 106]",CC(/C=C/C(=O)NO)=C\[C@@H](C)C(=O)c1ccc(N(C)C)cc1,train,169
+Tubastatin A HCl,10.0,"[101, 160]",CN1CCc2c(c3ccccc3n2Cc2ccc(C(=O)NO)cc2)C1,validation,261
+Tubastatin A HCl,100.0,"[117, 152]",CN1CCc2c(c3ccccc3n2Cc2ccc(C(=O)NO)cc2)C1,validation,269
+Tubastatin A HCl,1000.0,"[94, 147]",CN1CCc2c(c3ccccc3n2Cc2ccc(C(=O)NO)cc2)C1,validation,241
+Tubastatin A HCl,10000.0,"[100, 167]",CN1CCc2c(c3ccccc3n2Cc2ccc(C(=O)NO)cc2)C1,validation,267
+Tucidinostat (Chidamide),10.0,"[63, 145]",Nc1ccc(F)cc1NC(=O)c1ccc(CNC(=O)/C=C/c2cccnc2)cc1,train,208
+Tucidinostat (Chidamide),100.0,"[45, 83]",Nc1ccc(F)cc1NC(=O)c1ccc(CNC(=O)/C=C/c2cccnc2)cc1,train,128
+Tucidinostat (Chidamide),1000.0,"[66, 152]",Nc1ccc(F)cc1NC(=O)c1ccc(CNC(=O)/C=C/c2cccnc2)cc1,train,218
+Tucidinostat (Chidamide),10000.0,"[38, 153]",Nc1ccc(F)cc1NC(=O)c1ccc(CNC(=O)/C=C/c2cccnc2)cc1,train,191
+UNC0379,10.0,"[127, 140]",COc1cc2nc(N3CCCC3)nc(NCCCCCN3CCCC3)c2cc1OC,validation,267
+UNC0379,100.0,"[108, 141]",COc1cc2nc(N3CCCC3)nc(NCCCCCN3CCCC3)c2cc1OC,validation,249
+UNC0379,1000.0,"[121, 143]",COc1cc2nc(N3CCCC3)nc(NCCCCCN3CCCC3)c2cc1OC,validation,264
+UNC0379,10000.0,"[66, 75]",COc1cc2nc(N3CCCC3)nc(NCCCCCN3CCCC3)c2cc1OC,validation,141
+UNC0631,10.0,"[84, 153]",COc1cc2c(NC3CCN(CC4CCCCC4)CC3)nc(N3CCCN(C(C)C)CC3)nc2cc1OCCCN1CCCCC1,train,237
+UNC0631,100.0,"[108, 134]",COc1cc2c(NC3CCN(CC4CCCCC4)CC3)nc(N3CCCN(C(C)C)CC3)nc2cc1OCCCN1CCCCC1,train,242
+UNC0631,1000.0,"[110, 126]",COc1cc2c(NC3CCN(CC4CCCCC4)CC3)nc(N3CCCN(C(C)C)CC3)nc2cc1OCCCN1CCCCC1,train,236
+UNC0631,10000.0,"[101, 129]",COc1cc2c(NC3CCN(CC4CCCCC4)CC3)nc(N3CCCN(C(C)C)CC3)nc2cc1OCCCN1CCCCC1,train,230
+UNC1999,10.0,"[73, 134]",CCCc1cc(C)[nH]c(=O)c1CNC(=O)c1cc(-c2ccc(N3CCN(C(C)C)CC3)nc2)cc2c1cnn2C(C)C,train,207
+UNC1999,100.0,"[38, 130]",CCCc1cc(C)[nH]c(=O)c1CNC(=O)c1cc(-c2ccc(N3CCN(C(C)C)CC3)nc2)cc2c1cnn2C(C)C,train,168
+UNC1999,1000.0,"[84, 142]",CCCc1cc(C)[nH]c(=O)c1CNC(=O)c1cc(-c2ccc(N3CCN(C(C)C)CC3)nc2)cc2c1cnn2C(C)C,train,226
+UNC1999,10000.0,"[51, 140]",CCCc1cc(C)[nH]c(=O)c1CNC(=O)c1cc(-c2ccc(N3CCN(C(C)C)CC3)nc2)cc2c1cnn2C(C)C,train,191
+Valproic acid sodium salt (Sodium valproate),10.0,"[113, 138]",CCCC(CCC)C(=O)O,validation,251
+Valproic acid sodium salt (Sodium valproate),100.0,"[122, 96]",CCCC(CCC)C(=O)O,validation,218
+Valproic acid sodium salt (Sodium valproate),1000.0,"[129, 118]",CCCC(CCC)C(=O)O,validation,247
+Valproic acid sodium salt (Sodium valproate),10000.0,"[134, 148]",CCCC(CCC)C(=O)O,validation,282
+Vandetanib (ZD6474),10.0,"[100, 152]",COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCC1CCN(C)CC1,train,252
+Vandetanib (ZD6474),100.0,"[91, 138]",COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCC1CCN(C)CC1,train,229
+Vandetanib (ZD6474),1000.0,"[135, 113]",COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCC1CCN(C)CC1,train,248
+Vandetanib (ZD6474),10000.0,"[99, 87]",COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OCC1CCN(C)CC1,train,186
+Veliparib (ABT-888),10.0,"[129, 98]",C[C@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1,train,227
+Veliparib (ABT-888),100.0,"[92, 133]",C[C@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1,train,225
+Veliparib (ABT-888),1000.0,"[104, 124]",C[C@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1,train,228
+Veliparib (ABT-888),10000.0,"[112, 133]",C[C@]1(c2nc3c(C(N)=O)cccc3[nH]2)CCCN1,train,245
+WHI-P154,10.0,"[108, 153]",COc1cc2ncnc(Nc3ccc(O)c(Br)c3)c2cc1OC,train,261
+WHI-P154,100.0,"[109, 166]",COc1cc2ncnc(Nc3ccc(O)c(Br)c3)c2cc1OC,train,275
+WHI-P154,1000.0,"[110, 156]",COc1cc2ncnc(Nc3ccc(O)c(Br)c3)c2cc1OC,train,266
+WHI-P154,10000.0,"[103, 126]",COc1cc2ncnc(Nc3ccc(O)c(Br)c3)c2cc1OC,train,229
+WP1066,10.0,"[109, 151]",C[C@H](NC(=O)/C(C#N)=C/c1cccc(Br)n1)c1ccccc1,test,260
+WP1066,100.0,"[122, 161]",C[C@H](NC(=O)/C(C#N)=C/c1cccc(Br)n1)c1ccccc1,test,283
+WP1066,1000.0,"[136, 115]",C[C@H](NC(=O)/C(C#N)=C/c1cccc(Br)n1)c1ccccc1,test,251
+WP1066,10000.0,"[132, 116]",C[C@H](NC(=O)/C(C#N)=C/c1cccc(Br)n1)c1ccccc1,test,248
+XAV-939,10.0,"[91, 138]",Oc1nc(-c2ccc(C(F)(F)F)cc2)nc2c1CSCC2,train,229
+XAV-939,100.0,"[105, 123]",Oc1nc(-c2ccc(C(F)(F)F)cc2)nc2c1CSCC2,train,228
+XAV-939,1000.0,"[111, 161]",Oc1nc(-c2ccc(C(F)(F)F)cc2)nc2c1CSCC2,train,272
+XAV-939,10000.0,"[35, 155]",Oc1nc(-c2ccc(C(F)(F)F)cc2)nc2c1CSCC2,train,190
+YM155 (Sepantronium Bromide),10.0,"[40, 41]",COCCn1c2c([n+](Cc3cnccn3)c1C)C(=O)c1ccccc1C2=O,train,81
+YM155 (Sepantronium Bromide),100.0,"[20, 30]",COCCn1c2c([n+](Cc3cnccn3)c1C)C(=O)c1ccccc1C2=O,train,50
+YM155 (Sepantronium Bromide),1000.0,"[12, 12]",COCCn1c2c([n+](Cc3cnccn3)c1C)C(=O)c1ccccc1C2=O,train,24
+ZM 447439,10.0,"[69, 133]",COc1cc2c(Nc3ccc(NC(=O)c4ccccc4)cc3)ncnc2cc1OCCCN1CCOCC1,train,202
+ZM 447439,100.0,"[83, 150]",COc1cc2c(Nc3ccc(NC(=O)c4ccccc4)cc3)ncnc2cc1OCCCN1CCOCC1,train,233
+ZM 447439,1000.0,"[55, 104]",COc1cc2c(Nc3ccc(NC(=O)c4ccccc4)cc3)ncnc2cc1OCCCN1CCOCC1,train,159
+ZM 447439,10000.0,"[37, 97]",COc1cc2c(Nc3ccc(NC(=O)c4ccccc4)cc3)ncnc2cc1OCCCN1CCOCC1,train,134
+Zileuton,10.0,"[121, 163]",CC(c1cc2ccccc2s1)N(O)C(N)=O,validation,284
+Zileuton,100.0,"[108, 143]",CC(c1cc2ccccc2s1)N(O)C(N)=O,validation,251
+Zileuton,1000.0,"[124, 148]",CC(c1cc2ccccc2s1)N(O)C(N)=O,validation,272
+Zileuton,10000.0,"[78, 135]",CC(c1cc2ccccc2s1)N(O)C(N)=O,validation,213

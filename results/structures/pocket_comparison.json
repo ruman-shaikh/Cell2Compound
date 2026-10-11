@@ -1,0 +1,155 @@
+{
+  "experimental": "data/raw/4LXZ.pdb",
+  "alphafold": "data/raw/HDAC2_alphafold.pdb",
+  "chain": "A",
+  "pdb_minus_uniprot_offset": 4,
+  "mapped_residues": 368,
+  "name_mismatches": [],
+  "global_ca_rmsd_confident": 0.28,
+  "confident_ca_atoms": 368,
+  "pocket_definition": "residues with any atom within 5.0 A of SHH chain A",
+  "pocket_residues": [
+    {
+      "pdb": "GLY32",
+      "uniprot": 28,
+      "plddt": 94.6
+    },
+    {
+      "pdb": "HIS33",
+      "uniprot": 29,
+      "plddt": 97.1
+    },
+    {
+      "pdb": "PRO34",
+      "uniprot": 30,
+      "plddt": 96.7
+    },
+    {
+      "pdb": "GLU103",
+      "uniprot": 99,
+      "plddt": 90.9
+    },
+    {
+      "pdb": "ASP104",
+      "uniprot": 100,
+      "plddt": 93.2
+    },
+    {
+      "pdb": "HIS145",
+      "uniprot": 141,
+      "plddt": 98.6
+    },
+    {
+      "pdb": "HIS146",
+      "uniprot": 142,
+      "plddt": 98.8
+    },
+    {
+      "pdb": "GLY154",
+      "uniprot": 150,
+      "plddt": 96.4
+    },
+    {
+      "pdb": "PHE155",
+      "uniprot": 151,
+      "plddt": 97.7
+    },
+    {
+      "pdb": "ASP181",
+      "uniprot": 177,
+      "plddt": 98.8
+    },
+    {
+      "pdb": "HIS183",
+      "uniprot": 179,
+      "plddt": 98.8
+    },
+    {
+      "pdb": "PHE210",
+      "uniprot": 206,
+      "plddt": 97.9
+    },
+    {
+      "pdb": "GLN265",
+      "uniprot": 261,
+      "plddt": 98.9
+    },
+    {
+      "pdb": "ASP269",
+      "uniprot": 265,
+      "plddt": 98.5
+    },
+    {
+      "pdb": "LEU276",
+      "uniprot": 272,
+      "plddt": 96.9
+    },
+    {
+      "pdb": "GLY306",
+      "uniprot": 302,
+      "plddt": 96.8
+    },
+    {
+      "pdb": "TYR308",
+      "uniprot": 304,
+      "plddt": 98.1
+    }
+  ],
+  "pocket_plddt": {
+    "mean": 96.96,
+    "min": 90.88
+  },
+  "pocket_ca_rmsd_global_frame": 0.316,
+  "pocket_heavy_atom_rmsd_global_frame": 0.959,
+  "pocket_ca_rmsd_local_fit": 0.29,
+  "zinc_coordination": [
+    {
+      "residue": "ASP181",
+      "uniprot": 177,
+      "atom": "OD2",
+      "crystal_distance": 2.0,
+      "alphafold_distance_to_transplanted_zinc": 1.93
+    },
+    {
+      "residue": "HIS183",
+      "uniprot": 179,
+      "atom": "ND1",
+      "crystal_distance": 2.07,
+      "alphafold_distance_to_transplanted_zinc": 1.96
+    },
+    {
+      "residue": "ASP269",
+      "uniprot": 265,
+      "atom": "OD2",
+      "crystal_distance": 1.9,
+      "alphafold_distance_to_transplanted_zinc": 2.02
+    }
+  ],
+  "per_residue_heavy_rmsd": {
+    "GLY32": 0.21,
+    "HIS33": 0.29,
+    "PRO34": 0.22,
+    "GLU103": 2.99,
+    "ASP104": 0.98,
+    "HIS145": 0.18,
+    "HIS146": 0.38,
+    "GLY154": 0.19,
+    "PHE155": 0.29,
+    "ASP181": 1.13,
+    "HIS183": 0.18,
+    "PHE210": 0.38,
+    "GLN265": 0.25,
+    "ASP269": 0.16,
+    "LEU276": 0.23,
+    "GLY306": 0.17,
+    "TYR308": 1.47
+  },
+  "outputs": {
+    "alphafold_receptor": "results/structures/HDAC2_alphafold_zn_crystal_frame.pdb"
+  },
+  "limitations": [
+    "AlphaFold models apo HDAC2 without zinc; the zinc is transplanted, not predicted.",
+    "pLDDT measures local confidence, not ligand-induced conformational accuracy.",
+    "Residues with pLDDT < 50 are excluded from the written receptor."
+  ]
+}

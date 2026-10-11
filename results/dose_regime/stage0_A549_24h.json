@@ -1,0 +1,180 @@
+{
+  "input": "data/pseudobulk_A549_24h.npz",
+  "label": "A549_24h",
+  "genes_used": 5378,
+  "groups": 744,
+  "per_dose": [
+    {
+      "dose_nM": 10.0,
+      "groups": 188,
+      "rms_median": 0.0525,
+      "rms_q25": 0.0494,
+      "rms_q75": 0.0592,
+      "replicate_floor_median": 0.0509,
+      "floor_over_signal": 0.968,
+      "cells_median": 229,
+      "detection_mean": 0.0525
+    },
+    {
+      "dose_nM": 100.0,
+      "groups": 188,
+      "rms_median": 0.0554,
+      "rms_q25": 0.0514,
+      "rms_q75": 0.0658,
+      "replicate_floor_median": 0.0528,
+      "floor_over_signal": 0.952,
+      "cells_median": 222,
+      "detection_mean": 0.0511
+    },
+    {
+      "dose_nM": 1000.0,
+      "groups": 185,
+      "rms_median": 0.06,
+      "rms_q25": 0.0547,
+      "rms_q75": 0.0766,
+      "replicate_floor_median": 0.0549,
+      "floor_over_signal": 0.915,
+      "cells_median": 214,
+      "detection_mean": 0.0519
+    },
+    {
+      "dose_nM": 10000.0,
+      "groups": 183,
+      "rms_median": 0.0837,
+      "rms_q25": 0.0573,
+      "rms_q75": 0.124,
+      "replicate_floor_median": 0.0591,
+      "floor_over_signal": 0.706,
+      "cells_median": 191,
+      "detection_mean": 0.0554
+    }
+  ],
+  "pairwise_magnitude_overlap": [
+    {
+      "dose_a": 10.0,
+      "dose_b": 100.0,
+      "overlap_coefficient": 0.809
+    },
+    {
+      "dose_a": 10.0,
+      "dose_b": 1000.0,
+      "overlap_coefficient": 0.646
+    },
+    {
+      "dose_a": 10.0,
+      "dose_b": 10000.0,
+      "overlap_coefficient": 0.515
+    },
+    {
+      "dose_a": 100.0,
+      "dose_b": 1000.0,
+      "overlap_coefficient": 0.753
+    },
+    {
+      "dose_a": 100.0,
+      "dose_b": 10000.0,
+      "overlap_coefficient": 0.59
+    },
+    {
+      "dose_a": 1000.0,
+      "dose_b": 10000.0,
+      "overlap_coefficient": 0.659
+    }
+  ],
+  "extreme_dose_overlap": 0.515,
+  "magnitude_matched_bins_usable_of_10": 10,
+  "magnitude_matched_groups_available": 705,
+  "bin_occupancy": [
+    {
+      "bin": 0,
+      "per_dose": [
+        42,
+        21,
+        3,
+        9
+      ]
+    },
+    {
+      "bin": 1,
+      "per_dose": [
+        33,
+        21,
+        10,
+        10
+      ]
+    },
+    {
+      "bin": 2,
+      "per_dose": [
+        20,
+        24,
+        20,
+        10
+      ]
+    },
+    {
+      "bin": 3,
+      "per_dose": [
+        22,
+        23,
+        19,
+        11
+      ]
+    },
+    {
+      "bin": 4,
+      "per_dose": [
+        15,
+        23,
+        30,
+        6
+      ]
+    },
+    {
+      "bin": 5,
+      "per_dose": [
+        20,
+        18,
+        23,
+        13
+      ]
+    },
+    {
+      "bin": 6,
+      "per_dose": [
+        15,
+        21,
+        23,
+        16
+      ]
+    },
+    {
+      "bin": 7,
+      "per_dose": [
+        7,
+        13,
+        24,
+        30
+      ]
+    },
+    {
+      "bin": 8,
+      "per_dose": [
+        7,
+        13,
+        17,
+        37
+      ]
+    },
+    {
+      "bin": 9,
+      "per_dose": [
+        7,
+        11,
+        16,
+        41
+      ]
+    }
+  ],
+  "gate": "PASS - magnitude is separable from dose; OQ2 answerable by stratification"
+}

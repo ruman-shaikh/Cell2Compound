@@ -1,0 +1,282 @@
+{
+  "input": "data/pseudobulk_A549_24h.npz",
+  "label": "A549_24h",
+  "genes_used": 5378,
+  "definitions": {
+    "floor": "RMSE(rep1-rep2)/2",
+    "signal": "sqrt(rms^2 - floor^2)",
+    "snr": "signal/floor; <1 means response below its own measurement error"
+  },
+  "per_dose": [
+    {
+      "dose_nM": 10.0,
+      "groups": 188,
+      "floor_median": 0.0509,
+      "signal_median": 0.0131,
+      "snr_median": 0.258,
+      "snr_ci_low": 0.201,
+      "snr_ci_high": 0.299,
+      "frac_groups_snr_above_1": 0.08,
+      "cells_median": 229
+    },
+    {
+      "dose_nM": 100.0,
+      "groups": 188,
+      "floor_median": 0.0528,
+      "signal_median": 0.0174,
+      "snr_median": 0.321,
+      "snr_ci_low": 0.281,
+      "snr_ci_high": 0.365,
+      "frac_groups_snr_above_1": 0.149,
+      "cells_median": 222
+    },
+    {
+      "dose_nM": 1000.0,
+      "groups": 185,
+      "floor_median": 0.0549,
+      "signal_median": 0.021,
+      "snr_median": 0.39,
+      "snr_ci_low": 0.341,
+      "snr_ci_high": 0.465,
+      "frac_groups_snr_above_1": 0.178,
+      "cells_median": 214
+    },
+    {
+      "dose_nM": 10000.0,
+      "groups": 183,
+      "floor_median": 0.0591,
+      "signal_median": 0.0375,
+      "snr_median": 0.698,
+      "snr_ci_low": 0.492,
+      "snr_ci_high": 0.945,
+      "frac_groups_snr_above_1": 0.399,
+      "cells_median": 191
+    }
+  ],
+  "depth_limitation": {
+    "log_floor_on_log_cells_slope": -0.543,
+    "slope_expected_if_pure_counting_noise": -0.5,
+    "r2": 0.633,
+    "r2_adding_log_dose": 0.65,
+    "log_dose_coefficient_after_controlling_cells": 0.0226
+  },
+  "per_class": [
+    {
+      "mechanism_class": "Epigenetic Reader Domain",
+      "groups": 12,
+      "snr_10nM": 0.061,
+      "snr_100nM": 0.203,
+      "snr_1000nM": 0.385,
+      "snr_10000nM": 0.436,
+      "snr_all": 0.264
+    },
+    {
+      "mechanism_class": "HIF",
+      "groups": 12,
+      "snr_10nM": 0.0,
+      "snr_100nM": 0.383,
+      "snr_1000nM": 0.394,
+      "snr_10000nM": 0.0,
+      "snr_all": 0.0
+    },
+    {
+      "mechanism_class": "Histone Methyltransferase",
+      "groups": 28,
+      "snr_10nM": 0.0,
+      "snr_100nM": 0.345,
+      "snr_1000nM": 0.283,
+      "snr_10000nM": 0.508,
+      "snr_all": 0.277
+    },
+    {
+      "mechanism_class": "Bcl-2",
+      "groups": 12,
+      "snr_10nM": 0.278,
+      "snr_100nM": 0.256,
+      "snr_1000nM": 0.323,
+      "snr_10000nM": 0.994,
+      "snr_all": 0.3
+    },
+    {
+      "mechanism_class": "EGFR,HER2",
+      "groups": 8,
+      "snr_10nM": 0.295,
+      "snr_100nM": 0.409,
+      "snr_1000nM": 0.601,
+      "snr_10000nM": 1.255,
+      "snr_all": 0.46
+    },
+    {
+      "mechanism_class": "PARP",
+      "groups": 28,
+      "snr_10nM": 0.095,
+      "snr_100nM": 0.221,
+      "snr_1000nM": 0.328,
+      "snr_10000nM": 0.476,
+      "snr_all": 0.308
+    },
+    {
+      "mechanism_class": "EGFR",
+      "groups": 8,
+      "snr_10nM": 0.134,
+      "snr_100nM": 0.383,
+      "snr_1000nM": 0.711,
+      "snr_10000nM": 0.69,
+      "snr_all": 0.383
+    },
+    {
+      "mechanism_class": "Aurora Kinase",
+      "groups": 52,
+      "snr_10nM": 0.467,
+      "snr_100nM": 1.153,
+      "snr_1000nM": 1.205,
+      "snr_10000nM": 1.422,
+      "snr_all": 1.143
+    },
+    {
+      "mechanism_class": "HDAC",
+      "groups": 92,
+      "snr_10nM": 0.361,
+      "snr_100nM": 0.416,
+      "snr_1000nM": 1.159,
+      "snr_10000nM": 3.177,
+      "snr_all": 0.672
+    },
+    {
+      "mechanism_class": "JAK",
+      "groups": 64,
+      "snr_10nM": 0.154,
+      "snr_100nM": 0.102,
+      "snr_1000nM": 0.491,
+      "snr_10000nM": 0.948,
+      "snr_all": 0.357
+    },
+    {
+      "mechanism_class": "Others",
+      "groups": 12,
+      "snr_10nM": 0.106,
+      "snr_100nM": 0.22,
+      "snr_1000nM": 0.096,
+      "snr_10000nM": 1.187,
+      "snr_all": 0.208
+    },
+    {
+      "mechanism_class": "DNA alkylator",
+      "groups": 12,
+      "snr_10nM": 0.352,
+      "snr_100nM": 0.289,
+      "snr_1000nM": 0.0,
+      "snr_10000nM": 0.0,
+      "snr_all": 0.059
+    },
+    {
+      "mechanism_class": "HSP (e.g. HSP90)",
+      "groups": 12,
+      "snr_10nM": 0.413,
+      "snr_100nM": 1.127,
+      "snr_1000nM": 1.681,
+      "snr_10000nM": 1.692,
+      "snr_all": 1.068
+    },
+    {
+      "mechanism_class": "Beta Amyloid,Gamma-secretase",
+      "groups": 8,
+      "snr_10nM": 0.147,
+      "snr_100nM": 0.106,
+      "snr_1000nM": 0.301,
+      "snr_10000nM": 0.555,
+      "snr_all": 0.277
+    },
+    {
+      "mechanism_class": "DNA Methyltransferase",
+      "groups": 12,
+      "snr_10nM": 0.0,
+      "snr_100nM": 0.306,
+      "snr_1000nM": 0.437,
+      "snr_10000nM": 0.279,
+      "snr_all": 0.292
+    },
+    {
+      "mechanism_class": "CDK",
+      "groups": 10,
+      "snr_10nM": 0.299,
+      "snr_100nM": 0.646,
+      "snr_1000nM": 0.42,
+      "snr_10000nM": 1.249,
+      "snr_all": 0.655
+    },
+    {
+      "mechanism_class": "DNA/RNA Synthesis",
+      "groups": 32,
+      "snr_10nM": 0.285,
+      "snr_100nM": 0.441,
+      "snr_1000nM": 0.487,
+      "snr_10000nM": 1.657,
+      "snr_all": 0.458
+    },
+    {
+      "mechanism_class": "VEGFR",
+      "groups": 8,
+      "snr_10nM": 0.261,
+      "snr_100nM": 0.342,
+      "snr_1000nM": 0.156,
+      "snr_10000nM": 0.87,
+      "snr_all": 0.318
+    },
+    {
+      "mechanism_class": "Aurora Kinase,FLT3,VEGFR",
+      "groups": 8,
+      "snr_10nM": 0.495,
+      "snr_100nM": 0.5,
+      "snr_1000nM": 0.922,
+      "snr_10000nM": 1.617,
+      "snr_all": 0.756
+    },
+    {
+      "mechanism_class": "Topoisomerase",
+      "groups": 12,
+      "snr_10nM": 0.304,
+      "snr_100nM": 0.474,
+      "snr_1000nM": 0.253,
+      "snr_10000nM": 0.363,
+      "snr_all": 0.315
+    },
+    {
+      "mechanism_class": "Histone Demethylase",
+      "groups": 8,
+      "snr_10nM": 0.283,
+      "snr_100nM": 0.185,
+      "snr_1000nM": 0.356,
+      "snr_10000nM": 0.389,
+      "snr_all": 0.356
+    },
+    {
+      "mechanism_class": "Glucocorticoid Receptor",
+      "groups": 8,
+      "snr_10nM": 1.431,
+      "snr_100nM": 1.41,
+      "snr_1000nM": 1.354,
+      "snr_10000nM": 1.596,
+      "snr_all": 1.532
+    },
+    {
+      "mechanism_class": "MEK",
+      "groups": 12,
+      "snr_10nM": 0.434,
+      "snr_100nM": 0.429,
+      "snr_1000nM": 0.754,
+      "snr_10000nM": 1.264,
+      "snr_all": 0.594
+    },
+    {
+      "mechanism_class": "Sirtuin",
+      "groups": 20,
+      "snr_10nM": 0.0,
+      "snr_100nM": 0.141,
+      "snr_1000nM": 0.208,
+      "snr_10000nM": 0.147,
+      "snr_all": 0.144
+    }
+  ],
+  "finding": "SNR rises from 0.258 at 10 nM to 0.698 at 10000 nM; the ceiling is dose-dependent in the OPPOSITE direction to the hypothesis (low dose is the unmeasurable regime, not high dose)."
+}

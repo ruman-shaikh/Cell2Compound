@@ -1,0 +1,186 @@
+{
+  "chembl_release": "ChEMBL_37",
+  "release_date": "2026-05-01",
+  "parents": 186,
+  "match": {
+    "exact_inchikey": 169,
+    "connectivity_only": 15,
+    "not_found": 2
+  },
+  "name_check": {
+    "agree": 149,
+    "no_chembl_name": 33,
+    "disagree": 4
+  },
+  "name_disagreements": [
+    {
+      "observed_names": "Streptozotocin (STZ)",
+      "named_record": "STREPTOZOSIN",
+      "chembl_id": "CHEMBL163484"
+    },
+    {
+      "observed_names": "(+)-JQ1",
+      "named_record": null,
+      "chembl_id": "CHEMBL1957266"
+    },
+    {
+      "observed_names": "Cyclocytidine HCl",
+      "named_record": "ANCITABINE",
+      "chembl_id": "CHEMBL1616063"
+    },
+    {
+      "observed_names": "Sodium Phenylbutyrate",
+      "named_record": "PHENYLBUTANOIC ACID",
+      "chembl_id": "CHEMBL1469"
+    }
+  ],
+  "not_found": [
+    "SRT3025 HCl",
+    "Curcumin"
+  ],
+  "parents_with_mechanism": 88,
+  "parents_with_mechanism_exact_only": 69,
+  "top_single_protein_targets": [
+    {
+      "target_chembl_id": "CHEMBL2971",
+      "target_name": "Tyrosine-protein kinase JAK2",
+      "uniprot": "O60674",
+      "compounds": 8
+    },
+    {
+      "target_chembl_id": "CHEMBL4722",
+      "target_name": "Aurora kinase A",
+      "uniprot": "O14965",
+      "compounds": 6
+    },
+    {
+      "target_chembl_id": "CHEMBL1862",
+      "target_name": "Tyrosine-protein kinase ABL1",
+      "uniprot": "P00519",
+      "compounds": 5
+    },
+    {
+      "target_chembl_id": "CHEMBL1936",
+      "target_name": "Mast/stem cell growth factor receptor Kit",
+      "uniprot": "P10721",
+      "compounds": 5
+    },
+    {
+      "target_chembl_id": "CHEMBL1974",
+      "target_name": "Receptor-type tyrosine-protein kinase FLT3",
+      "uniprot": "P36888",
+      "compounds": 5
+    },
+    {
+      "target_chembl_id": "CHEMBL2185",
+      "target_name": "Aurora kinase B",
+      "uniprot": "Q96GD4",
+      "compounds": 5
+    },
+    {
+      "target_chembl_id": "CHEMBL2835",
+      "target_name": "Tyrosine-protein kinase JAK1",
+      "uniprot": "P23458",
+      "compounds": 4
+    },
+    {
+      "target_chembl_id": "CHEMBL2041",
+      "target_name": "Proto-oncogene tyrosine-protein kinase receptor Ret",
+      "uniprot": "P07949",
+      "compounds": 3
+    },
+    {
+      "target_chembl_id": "CHEMBL1952",
+      "target_name": "Thymidylate synthase",
+      "uniprot": "P04818",
+      "compounds": 3
+    },
+    {
+      "target_chembl_id": "CHEMBL2034",
+      "target_name": "Glucocorticoid receptor",
+      "uniprot": "P04150",
+      "compounds": 3
+    },
+    {
+      "target_chembl_id": "CHEMBL203",
+      "target_name": "Epidermal growth factor receptor",
+      "uniprot": "P00533",
+      "compounds": 3
+    },
+    {
+      "target_chembl_id": "CHEMBL2148",
+      "target_name": "Tyrosine-protein kinase JAK3",
+      "uniprot": "P52333",
+      "compounds": 3
+    },
+    {
+      "target_chembl_id": "CHEMBL4128",
+      "target_name": "Angiopoietin-1 receptor",
+      "uniprot": "Q02763",
+      "compounds": 3
+    },
+    {
+      "target_chembl_id": "CHEMBL3116",
+      "target_name": "Cyclin-dependent kinase 9",
+      "uniprot": "P50750",
+      "compounds": 2
+    },
+    {
+      "target_chembl_id": "CHEMBL308",
+      "target_name": "Cyclin-dependent kinase 1",
+      "uniprot": "P06493",
+      "compounds": 2
+    }
+  ],
+  "top_family_or_complex_targets": [
+    {
+      "target_chembl_id": "CHEMBL2311221",
+      "target_name": "DNA",
+      "target_type": "NUCLEIC-ACID",
+      "compounds": 8
+    },
+    {
+      "target_chembl_id": "CHEMBL2093865",
+      "target_name": "Histone deacetylase",
+      "target_type": "PROTEIN FAMILY",
+      "compounds": 7
+    },
+    {
+      "target_chembl_id": "CHEMBL2095227",
+      "target_name": "Vascular endothelial growth factor receptor",
+      "target_type": "PROTEIN FAMILY",
+      "compounds": 6
+    },
+    {
+      "target_chembl_id": "CHEMBL3430911",
+      "target_name": "Serine/threonine-protein kinase Aurora",
+      "target_type": "PROTEIN FAMILY",
+      "compounds": 5
+    },
+    {
+      "target_chembl_id": "CHEMBL2095189",
+      "target_name": "Platelet-derived growth factor receptor",
+      "target_type": "PROTEIN COMPLEX",
+      "compounds": 4
+    },
+    {
+      "target_chembl_id": "CHEMBL2095165",
+      "target_name": "Heat shock protein HSP90",
+      "target_type": "PROTEIN FAMILY",
+      "compounds": 3
+    },
+    {
+      "target_chembl_id": "CHEMBL2311222",
+      "target_name": "RNA",
+      "target_type": "NUCLEIC-ACID",
+      "compounds": 3
+    },
+    {
+      "target_chembl_id": "CHEMBL3390820",
+      "target_name": "PARP 1, 2 and 3",
+      "target_type": "PROTEIN FAMILY",
+      "compounds": 2
+    }
+  ],
+  "note": "ChEMBL mechanisms are curated drug-target annotations; they do not show binding in A549 at the sci-Plex doses."
+}

@@ -1,0 +1,316 @@
+{
+  "reference_receptor": "4LXZ",
+  "box_angstrom": 22.0,
+  "exhaustiveness": 16,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "structures": [
+    {
+      "pdb": "4LXZ",
+      "ligand": "SHH",
+      "chain": "A",
+      "chemotype": "hydroxamate",
+      "ligand_zinc_distance": "1.96",
+      "heavy_atoms": 19,
+      "rotatable_bonds": 8,
+      "ca_rmsd_to_reference": 0.0,
+      "ca_atoms": 368,
+      "numbering_offset_to_reference": 0,
+      "resname_identity": 1.0,
+      "receptor_residues_removed": [],
+      "crystal_zinc_contacts": 3
+    },
+    {
+      "pdb": "6G3O",
+      "ligand": "EL8",
+      "chain": "C",
+      "chemotype": "hydroxamate",
+      "ligand_zinc_distance": "1.89",
+      "heavy_atoms": 29,
+      "rotatable_bonds": 10,
+      "ca_rmsd_to_reference": 0.391,
+      "ca_atoms": 366,
+      "numbering_offset_to_reference": 0,
+      "resname_identity": 1.0,
+      "receptor_residues_removed": [
+        "C:14",
+        "C:54",
+        "C:68",
+        "C:94",
+        "C:244"
+      ],
+      "crystal_zinc_contacts": 2
+    },
+    {
+      "pdb": "4LY1",
+      "ligand": "20Y",
+      "chain": "A",
+      "chemotype": "benzamide",
+      "ligand_zinc_distance": "1.91",
+      "heavy_atoms": 25,
+      "rotatable_bonds": 4,
+      "ca_rmsd_to_reference": 0.146,
+      "ca_atoms": 368,
+      "numbering_offset_to_reference": 0,
+      "resname_identity": 1.0,
+      "receptor_residues_removed": [],
+      "crystal_zinc_contacts": 2
+    },
+    {
+      "pdb": "5IWG",
+      "ligand": "IWX",
+      "chain": "A",
+      "chemotype": "benzamide",
+      "ligand_zinc_distance": "2.15",
+      "heavy_atoms": 23,
+      "rotatable_bonds": 3,
+      "ca_rmsd_to_reference": 0.207,
+      "ca_atoms": 368,
+      "numbering_offset_to_reference": 0,
+      "resname_identity": 1.0,
+      "receptor_residues_removed": [],
+      "crystal_zinc_contacts": 2
+    },
+    {
+      "pdb": "3MAX",
+      "ligand": "LLX",
+      "chain": "B",
+      "chemotype": "benzamide",
+      "ligand_zinc_distance": "2.08",
+      "heavy_atoms": 22,
+      "rotatable_bonds": 3,
+      "ca_rmsd_to_reference": 0.252,
+      "ca_atoms": 364,
+      "numbering_offset_to_reference": 0,
+      "resname_identity": 1.0,
+      "receptor_residues_removed": [],
+      "crystal_zinc_contacts": 2
+    },
+    {
+      "pdb": "9NTB",
+      "ligand": "A1B1V",
+      "chain": "A",
+      "chemotype": "benzamide",
+      "ligand_zinc_distance": "2.04",
+      "heavy_atoms": 27,
+      "rotatable_bonds": 4,
+      "ca_rmsd_to_reference": 0.214,
+      "ca_atoms": 368,
+      "numbering_offset_to_reference": 4,
+      "resname_identity": 1.0,
+      "receptor_residues_removed": [],
+      "crystal_zinc_contacts": 2
+    }
+  ],
+  "selection_rule": "Scoring function for candidate docking = best crossdock top-1 success (RMSD <= threshold); zinc engagement breaks ties.",
+  "scoring_selected": "vina",
+  "success_rates_rmsd_le_2A": {
+    "alphafold/vina": {
+      "top1_success": 0.0,
+      "top3_success": 0.0,
+      "sampled": 0.0,
+      "top1_zinc_engaged": 0.0
+    },
+    "alphafold/vinardo": {
+      "top1_success": 0.0,
+      "top3_success": 0.0,
+      "sampled": 0.0,
+      "top1_zinc_engaged": 0.0
+    },
+    "crossdock/vina": {
+      "top1_success": 0.0,
+      "top3_success": 0.0,
+      "sampled": 0.16,
+      "top1_zinc_engaged": 0.4
+    },
+    "crossdock/vinardo": {
+      "top1_success": 0.0,
+      "top3_success": 0.0,
+      "sampled": 0.0,
+      "top1_zinc_engaged": 0.32
+    },
+    "redock/vina": {
+      "top1_success": 0.633,
+      "top3_success": 0.667,
+      "sampled": 0.867,
+      "top1_zinc_engaged": 0.967
+    },
+    "redock/vinardo": {
+      "top1_success": 0.533,
+      "top3_success": 0.7,
+      "sampled": 0.833,
+      "top1_zinc_engaged": 0.9
+    }
+  },
+  "success_rates_by_chemotype": {
+    "benzamide/alphafold/vina": {
+      "top1_success": 0.0,
+      "top3_success": 0.0,
+      "sampled": 0.0,
+      "top1_zinc_engaged": 0.0
+    },
+    "benzamide/alphafold/vinardo": {
+      "top1_success": 0.0,
+      "top3_success": 0.0,
+      "sampled": 0.0,
+      "top1_zinc_engaged": 0.0
+    },
+    "benzamide/crossdock/vina": {
+      "top1_success": 0.0,
+      "top3_success": 0.0,
+      "sampled": 0.0,
+      "top1_zinc_engaged": 0.25
+    },
+    "benzamide/crossdock/vinardo": {
+      "top1_success": 0.0,
+      "top3_success": 0.0,
+      "sampled": 0.0,
+      "top1_zinc_engaged": 0.25
+    },
+    "benzamide/redock/vina": {
+      "top1_success": 0.95,
+      "top3_success": 0.95,
+      "sampled": 0.95,
+      "top1_zinc_engaged": 0.95
+    },
+    "benzamide/redock/vinardo": {
+      "top1_success": 0.75,
+      "top3_success": 0.85,
+      "sampled": 0.9,
+      "top1_zinc_engaged": 0.85
+    },
+    "hydroxamate/alphafold/vina": {
+      "top1_success": 0.0,
+      "top3_success": 0.0,
+      "sampled": 0.0,
+      "top1_zinc_engaged": 0.0
+    },
+    "hydroxamate/alphafold/vinardo": {
+      "top1_success": 0.0,
+      "top3_success": 0.0,
+      "sampled": 0.0,
+      "top1_zinc_engaged": 0.0
+    },
+    "hydroxamate/crossdock/vina": {
+      "top1_success": 0.0,
+      "top3_success": 0.0,
+      "sampled": 0.8,
+      "top1_zinc_engaged": 1.0
+    },
+    "hydroxamate/crossdock/vinardo": {
+      "top1_success": 0.0,
+      "top3_success": 0.0,
+      "sampled": 0.0,
+      "top1_zinc_engaged": 0.6
+    },
+    "hydroxamate/redock/vina": {
+      "top1_success": 0.0,
+      "top3_success": 0.1,
+      "sampled": 0.7,
+      "top1_zinc_engaged": 1.0
+    },
+    "hydroxamate/redock/vinardo": {
+      "top1_success": 0.1,
+      "top3_success": 0.4,
+      "sampled": 0.7,
+      "top1_zinc_engaged": 1.0
+    }
+  },
+  "median_top1_rmsd_by_chemotype": {
+    "benzamide/alphafold/vina": 10.95,
+    "benzamide/alphafold/vinardo": 11.05,
+    "benzamide/crossdock/vina": 10.65,
+    "benzamide/crossdock/vinardo": 11.03,
+    "benzamide/redock/vina": 0.8,
+    "benzamide/redock/vinardo": 0.83,
+    "hydroxamate/alphafold/vina": 6.72,
+    "hydroxamate/alphafold/vinardo": 8.7,
+    "hydroxamate/crossdock/vina": 3.37,
+    "hydroxamate/crossdock/vinardo": 3.62,
+    "hydroxamate/redock/vina": 3.4,
+    "hydroxamate/redock/vinardo": 5.17
+  },
+  "median_top1_rmsd": {
+    "3MAX/alphafold": {
+      "vina": 12.04,
+      "vinardo": 12.0
+    },
+    "3MAX/crossdock": {
+      "vina": 11.83,
+      "vinardo": 11.88
+    },
+    "3MAX/redock": {
+      "vina": 0.32,
+      "vinardo": 0.34
+    },
+    "4LXZ/alphafold": {
+      "vina": 6.64,
+      "vinardo": 8.75
+    },
+    "4LXZ/redock": {
+      "vina": 4.71,
+      "vinardo": 5.22
+    },
+    "4LY1/alphafold": {
+      "vina": 10.89,
+      "vinardo": 10.99
+    },
+    "4LY1/crossdock": {
+      "vina": 11.07,
+      "vinardo": 11.08
+    },
+    "4LY1/redock": {
+      "vina": 1.29,
+      "vinardo": 1.31
+    },
+    "5IWG/alphafold": {
+      "vina": 10.6,
+      "vinardo": 10.88
+    },
+    "5IWG/crossdock": {
+      "vina": 10.34,
+      "vinardo": 10.67
+    },
+    "5IWG/redock": {
+      "vina": 0.76,
+      "vinardo": 9.63
+    },
+    "6G3O/alphafold": {
+      "vina": 9.27,
+      "vinardo": 8.64
+    },
+    "6G3O/crossdock": {
+      "vina": 3.37,
+      "vinardo": 3.62
+    },
+    "6G3O/redock": {
+      "vina": 3.37,
+      "vinardo": 3.51
+    },
+    "9NTB/alphafold": {
+      "vina": 11.13,
+      "vinardo": 11.07
+    },
+    "9NTB/crossdock": {
+      "vina": 10.38,
+      "vinardo": 10.8
+    },
+    "9NTB/redock": {
+      "vina": 0.84,
+      "vinardo": 0.82
+    }
+  },
+  "protocol": "Chain with active-site ligand + catalytic Zn; Meeko templates (altloc A, template hydrogens); box centred on crystal ligand; ligand from SMILES via ETKDG/MMFF (crystal pose never used as input); heavy-atom symmetry-aware RMSD without refitting.",
+  "limitations": [
+    "Box centred on the known ligand: tests pose ranking, not pocket finding.",
+    "Vina/Vinardo do not model zinc chelation explicitly (AutoDock4Zn needs autogrid4, unavailable).",
+    "Six complexes; success rates are descriptive, not a benchmark.",
+    "Zinc engagement = any ligand N/O within 2.8 A of Zn; it does not check chelation geometry.",
+    "Success rates differ by chemotype; the pooled rate should not be quoted alone."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+ "dataset": "MCF7_24h",
+ "groups_scored": 1492,
+ "model": "tanimoto_kernel_ridge",
+ "snr_quartile_edges": [
+  0.0,
+  0.0,
+  0.0,
+  0.8001133029095193,
+  6.813332695883056
+ ],
+ "full": {
+  "dose_coefficient_marginal": 0.004902228290518545,
+  "dose_marginal_ci95": [
+   0.003149844665900983,
+   0.0068312319592520755
+  ],
+  "dose_coefficient_given_snr": 0.00014110359123018293,
+  "dose_given_snr_ci95": [
+   -0.0013755338734768822,
+   0.001594633373701773
+  ],
+  "attenuation": 0.9712164381444469,
+  "snr_coefficient_given_dose": 0.015498119519063663,
+  "r2_dose_only": 0.04674046787710784,
+  "r2_snr_only": 0.3556437535923015,
+  "r2_both": 0.35567764159958815
+ },
+ "class_onehot": {
+  "dose_coefficient_marginal": 0.00600823877225372,
+  "dose_marginal_ci95": [
+   0.003166370052299662,
+   0.009010233503447611
+  ],
+  "dose_coefficient_given_snr": 0.00048537338215811406,
+  "dose_given_snr_ci95": [
+   -0.002466406724779757,
+   0.003177197672973831
+  ],
+  "attenuation": 0.9192153640099013,
+  "snr_coefficient_given_dose": 0.01797769084187093,
+  "r2_dose_only": 0.02792828022881888,
+  "r2_snr_only": 0.1931262441824706,
+  "r2_both": 0.1932857460029691
+ }
+}
